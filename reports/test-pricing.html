@@ -3,7 +3,48 @@
       <head>
         <meta charset="UTF-8" />
         <title>test Pricing Summary</title>
-        <style></style>
+        
+
+        <style>
+          :root {
+            --bg: #ffffff;
+            --text: #0f172a;
+            --muted: #64748b;
+            --line: #e2e8f0;
+            --head: #f1f5f9;
+            --zebra: #f8fafc;
+            --hover: #f1f5f9;
+            --blue-bg: #eff6ff;    /* blue-50 */
+            --blue-br: #3b82f6;    /* blue-500 */
+            --green-bg: #ecfdf5;   /* emerald-50 */
+            --green-br: #10b981;   /* emerald-500 */
+            --orange-bg: #ffedd5;  /* orange-100 */
+            --orange-br: #f97316;  /* orange-500 */
+          }
+          body { font-family: Segoe UI, Arial, sans-serif; color: var(--text); background: #f1f5f9; margin: 0; padding: 16px; }
+          .wrap { max-width: 1100px; margin: 0 auto; }
+          h1 { margin: 8px 0 12px; font-size: 22px; }
+          .metrics { margin: 10px 0 14px; color: #334155; }
+          .legend { margin: 10px 0 14px; color: var(--muted); font-size: 13px; }
+          table { border-collapse: collapse; width: 100%; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+          thead th { position: sticky; top: 0; background: var(--head); border-bottom: 1px solid var(--line); cursor: pointer; user-select: none; }
+          th, td { border-right: 1px solid var(--line); padding: 10px 12px; text-align: left; font-size: 14px; }
+          th:last-child, td:last-child { border-right: none; }
+          tbody tr:nth-child(even) { background: var(--zebra); }
+          tbody tr:hover { background: var(--hover); }
+          .hl-blue { background: var(--blue-bg) !important; box-shadow: inset 3px 0 0 0 var(--blue-br); }
+          .hl-green { background: var(--green-bg) !important; box-shadow: inset 3px 0 0 0 var(--green-br); }
+          .hl-orange { background: var(--orange-bg) !important; box-shadow: inset 3px 0 0 0 var(--orange-br); }
+          .cell-money, .cell-int, .cell-disc { text-align: right; }
+          .cell-link a { color: #2563eb; text-decoration: none; }
+          .cell-link a:hover { text-decoration: underline; }
+          th.sortable::after { content: '\00a0\25B4\25BE'; color: #94a3b8; font-size: 11px; }
+          th[aria-sort="ascending"].sortable::after { content: '\00a0\25B2'; color: #475569; }
+          th[aria-sort="descending"].sortable::after { content: '\00a0\25BC'; color: #475569; }
+        </style>
+    
+
+
       </head>
       <body>
         <div class="wrap">
