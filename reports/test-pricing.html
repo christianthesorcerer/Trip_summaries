@@ -3,42 +3,120 @@
       <head>
         <meta charset="UTF-8" />
         <title>test Pricing Summary</title>
-        <style>
-          body { font-family: Segoe UI, Arial, sans-serif; color: #0f172a; }
-          table { border-collapse: collapse; width: 100%; }
-          th, td { border: 1px solid #e2e8f0; padding: 8px 10px; text-align: left; }
-          th { background: #f1f5f9; }
-          caption { text-align: left; font-size: 20px; font-weight: 600; padding: 8px 0; }
-          .metrics { margin: 12px 0 18px; color: #334155; }
-        </style>
+        <style></style>
       </head>
       <body>
+        <div class="wrap">
         <h1>test — Pricing Summary</h1>
         <div class="metrics">
           <div>Estimated spend: $1067.35</div>
-          <div>Estimated sales (MSRP): $1407.56</div>
-          <div>Highlight rule: rows where Walmart and Amazon are both ≥ 40% off.</div>
+          <div>Estimated sales (MSRP): $1441.66</div>
+          <div>Highlights: see legend below — rows where Walmart and Amazon are both ≥ 40% off.</div>
         </div>
-        <table>
+        <table id="pricingTable">
           <thead>
             <tr>
-              <th>UPC</th>
-              <th>Deal Price</th>
-              <th>Walmart % Off</th>
-              <th>Amazon Price</th>
-              <th>Amazon % Off</th>
-              <th>MSRP</th>
-              <th>Units</th>
-              <th>Est. Spend</th>
-              <th>Est. Sales</th>
-              <th>Keepa</th>
-              <th>Walmart</th>
+              <th class="sortable" data-type="text" data-col="0" data-default-sort="none" title="Sort by Store">Store</th>
+              <th class="sortable" data-type="text" data-col="1" data-default-sort="none" title="Sort by UPC">UPC</th>
+              <th class="sortable" data-type="money" data-col="2" data-default-sort="none" title="Sort by Deal Price">Deal Price</th>
+              <th class="sortable" data-type="percent" data-col="3" data-default-sort="desc" title="Sort by Walmart % Off">Walmart % Off</th>
+              <th class="sortable" data-type="money" data-col="4" data-default-sort="none" title="Sort by Amazon Price">Amazon Price</th>
+              <th class="sortable" data-type="percent" data-col="5" data-default-sort="none" title="Sort by Amazon % Off">Amazon % Off</th>
+              <th class="sortable" data-type="money" data-col="6" data-default-sort="none" title="Sort by MSRP">MSRP</th>
+              <th class="sortable" data-type="int" data-col="7" data-default-sort="none" title="Sort by Units">Units</th>
+              <th class="sortable" data-type="money" data-col="8" data-default-sort="none" title="Sort by Est. Spend">Est. Spend</th>
+              <th class="sortable" data-type="money" data-col="9" data-default-sort="none" title="Sort by Est. Sales">Est. Sales</th>
+              <th data-type="link" data-col="10" title="Keepa link">Keepa</th>
+              <th data-type="link" data-col="11" title="Walmart link">Walmart</th>
             </tr>
           </thead>
           <tbody>
-            <tr><td>840147413734</td><td>$49.00</td><td>37.89%</td><td>N/A</td><td>N/A</td><td>$78.89</td><td>3</td><td>$147.00</td><td>$236.67</td><td></td><td><a href="https://www.walmart.com/ip/2365769373" target="_blank">Walmart</a></td></tr><tr><td>840147413734</td><td>$49.00</td><td>37.89%</td><td>N/A</td><td>N/A</td><td>$78.89</td><td>5</td><td>$245.00</td><td>$394.45</td><td></td><td><a href="https://www.walmart.com/ip/2365769373" target="_blank">Walmart</a></td></tr><tr><td>840147413734</td><td>$49.00</td><td>37.89%</td><td>N/A</td><td>N/A</td><td>$78.89</td><td>3</td><td>$147.00</td><td>$236.67</td><td></td><td><a href="https://www.walmart.com/ip/2365769373" target="_blank">Walmart</a></td></tr><tr><td>068060468239</td><td>$1.99</td><td>74.16%</td><td>$7.51</td><td>2.47%</td><td>$7.70</td><td>2</td><td>$3.98</td><td>$15.40</td><td><a href="https://keepa.com/#!product/1-B0DJBZFL7P" target="_blank">Keepa</a></td><td><a href="https://www.walmart.com/ip/257442609" target="_blank">Walmart</a></td></tr><tr><td>191726485629</td><td>$24.97</td><td>0%</td><td>$59.99</td><td>-140.25%</td><td>$24.97</td><td>7</td><td>$174.79</td><td>$174.79</td><td><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td>191726485629</td><td>$24.97</td><td>0%</td><td>$59.99</td><td>-140.25%</td><td>$24.97</td><td>2</td><td>$49.94</td><td>$49.94</td><td><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td>191726485629</td><td>$24.97</td><td>0%</td><td>$59.99</td><td>-140.25%</td><td>$24.97</td><td>3</td><td>$74.91</td><td>$74.91</td><td><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td>191726485629</td><td>$24.97</td><td>0%</td><td>$59.99</td><td>-140.25%</td><td>$24.97</td><td>2</td><td>$49.94</td><td>$49.94</td><td><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td>191726485629</td><td>$24.97</td><td>0%</td><td>$59.99</td><td>-140.25%</td><td>$24.97</td><td>1</td><td>$24.97</td><td>$24.97</td><td><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td>191726485629</td><td>$24.97</td><td>0%</td><td>$59.99</td><td>-140.25%</td><td>$24.97</td><td>2</td><td>$49.94</td><td>$49.94</td><td><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td>191726485629</td><td>$24.97</td><td>0%</td><td>$59.99</td><td>-140.25%</td><td>$24.97</td><td>4</td><td>$99.88</td><td>$99.88</td><td><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr>
+            <tr class="hl-blue"><td class="cell-store"><div style="font-weight:600;">#2763 - Donna (10.8 mi)</div><div style="color:#64748b;font-size:12px;">900 N Salinas Boulevard, 78537</div></td><td class="cell-upc">840147413734</td><td class="cell-money">$49.00</td><td class="cell-disc">40.24%</td><td class="cell-money">N/A</td><td class="cell-disc">N/A</td><td class="cell-money">$81.99</td><td class="cell-int">3</td><td class="cell-money">$147.00</td><td class="cell-money">$245.97</td><td class="cell-link"></td><td class="cell-link"><a href="https://www.walmart.com/ip/2365769373" target="_blank">Walmart</a></td></tr><tr class="hl-blue"><td class="cell-store"><div style="font-weight:600;">#5808 - Elsa (16.5 mi)</div><div style="color:#64748b;font-size:12px;">411 South Broadway Street, 78543</div></td><td class="cell-upc">840147413734</td><td class="cell-money">$49.00</td><td class="cell-disc">40.24%</td><td class="cell-money">N/A</td><td class="cell-disc">N/A</td><td class="cell-money">$81.99</td><td class="cell-int">5</td><td class="cell-money">$245.00</td><td class="cell-money">$409.95</td><td class="cell-link"></td><td class="cell-link"><a href="https://www.walmart.com/ip/2365769373" target="_blank">Walmart</a></td></tr><tr class="hl-blue"><td class="cell-store"><div style="font-weight:600;">#1000 - Brownsville (48.1 mi)</div><div style="color:#64748b;font-size:12px;">2721 Boca Chica Blvd, 78521</div></td><td class="cell-upc">840147413734</td><td class="cell-money">$49.00</td><td class="cell-disc">40.24%</td><td class="cell-money">N/A</td><td class="cell-disc">N/A</td><td class="cell-money">$81.99</td><td class="cell-int">3</td><td class="cell-money">$147.00</td><td class="cell-money">$245.97</td><td class="cell-link"></td><td class="cell-link"><a href="https://www.walmart.com/ip/2365769373" target="_blank">Walmart</a></td></tr><tr class="hl-blue"><td class="cell-store"><div style="font-weight:600;">#4112 - Brownsville (47.3 mi)</div><div style="color:#64748b;font-size:12px;">2205 Ruben Torres Sr Blvd, 78526</div></td><td class="cell-upc">068060468239</td><td class="cell-money">$1.99</td><td class="cell-disc">74.16%</td><td class="cell-money">$8.09</td><td class="cell-disc">-5.06%</td><td class="cell-money">$7.70</td><td class="cell-int">2</td><td class="cell-money">$3.98</td><td class="cell-money">$15.40</td><td class="cell-link"><a href="https://keepa.com/#!product/1-B0DJBZFL7P" target="_blank">Keepa</a></td><td class="cell-link"><a href="https://www.walmart.com/ip/257442609" target="_blank">Walmart</a></td></tr><tr><td class="cell-store"><div style="font-weight:600;">#3886 - Edinburg (8.0 mi)</div><div style="color:#64748b;font-size:12px;">4101 S Mccoll Rd, 78539</div></td><td class="cell-upc">191726485629</td><td class="cell-money">$24.97</td><td class="cell-disc">0%</td><td class="cell-money">$59.99</td><td class="cell-disc">-140.25%</td><td class="cell-money">$24.97</td><td class="cell-int">2</td><td class="cell-money">$49.94</td><td class="cell-money">$49.94</td><td class="cell-link"><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td class="cell-link"><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td class="cell-store"><div style="font-weight:600;">#429 - Edinburg (10.4 mi)</div><div style="color:#64748b;font-size:12px;">1724 W University Dr, 78539</div></td><td class="cell-upc">191726485629</td><td class="cell-money">$24.97</td><td class="cell-disc">0%</td><td class="cell-money">$59.99</td><td class="cell-disc">-140.25%</td><td class="cell-money">$24.97</td><td class="cell-int">7</td><td class="cell-money">$174.79</td><td class="cell-money">$174.79</td><td class="cell-link"><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td class="cell-link"><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td class="cell-store"><div style="font-weight:600;">#3567 - Hidalgo (2.0 mi)</div><div style="color:#64748b;font-size:12px;">3000 S Jackson Rd, 78557</div></td><td class="cell-upc">191726485629</td><td class="cell-money">$24.97</td><td class="cell-disc">0%</td><td class="cell-money">$59.99</td><td class="cell-disc">-140.25%</td><td class="cell-money">$24.97</td><td class="cell-int">3</td><td class="cell-money">$74.91</td><td class="cell-money">$74.91</td><td class="cell-link"><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td class="cell-link"><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td class="cell-store"><div style="font-weight:600;">#5808 - Elsa (16.5 mi)</div><div style="color:#64748b;font-size:12px;">411 South Broadway Street, 78543</div></td><td class="cell-upc">191726485629</td><td class="cell-money">$24.97</td><td class="cell-disc">0%</td><td class="cell-money">$59.99</td><td class="cell-disc">-140.25%</td><td class="cell-money">$24.97</td><td class="cell-int">2</td><td class="cell-money">$49.94</td><td class="cell-money">$49.94</td><td class="cell-link"><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td class="cell-link"><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td class="cell-store"><div style="font-weight:600;">#452 - Mcallen (6.7 mi)</div><div style="color:#64748b;font-size:12px;">2800 W Nolana Ave, 78504</div></td><td class="cell-upc">191726485629</td><td class="cell-money">$24.97</td><td class="cell-disc">0%</td><td class="cell-money">$59.99</td><td class="cell-disc">-140.25%</td><td class="cell-money">$24.97</td><td class="cell-int">1</td><td class="cell-money">$24.97</td><td class="cell-money">$24.97</td><td class="cell-link"><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td class="cell-link"><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td class="cell-store"><div style="font-weight:600;">#395 - Mission (5.6 mi)</div><div style="color:#64748b;font-size:12px;">2410 E Expressway 83, 78572</div></td><td class="cell-upc">191726485629</td><td class="cell-money">$24.97</td><td class="cell-disc">0%</td><td class="cell-money">$59.99</td><td class="cell-disc">-140.25%</td><td class="cell-money">$24.97</td><td class="cell-int">2</td><td class="cell-money">$49.94</td><td class="cell-money">$49.94</td><td class="cell-link"><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td class="cell-link"><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr><tr><td class="cell-store"><div style="font-weight:600;">#1296 - San Benito (35.7 mi)</div><div style="color:#64748b;font-size:12px;">1126 W Us Highway 77, 78586</div></td><td class="cell-upc">191726485629</td><td class="cell-money">$24.97</td><td class="cell-disc">0%</td><td class="cell-money">$59.99</td><td class="cell-disc">-140.25%</td><td class="cell-money">$24.97</td><td class="cell-int">4</td><td class="cell-money">$99.88</td><td class="cell-money">$99.88</td><td class="cell-link"><a href="https://keepa.com/#!product/1-B0F4GXG47M" target="_blank">Keepa</a></td><td class="cell-link"><a href="https://www.walmart.com/ip/5337847187" target="_blank">Walmart</a></td></tr>
           </tbody>
         </table>
+        <div class="legend">
+          <div><strong>Highlights</strong>: <span style="color:var(--blue-br)">Blue</span> = Walmart ≥ 40% off; <span style="color:var(--green-br)">Green</span> = both Walmart and Amazon ≥ 40% off; <span style="color:var(--orange-br)">Orange</span> = Amazon ≥ 40% off.</div>
+        </div>
+        </div>
+        <script>
+        (function(){
+          function parseCell(type, text){
+            if (text == null) return null;
+            text = String(text).trim();
+            if (text === '' || text === 'N/A') return null;
+            if (type === 'money'){
+              var v = parseFloat(text.replace(/[$,\s]/g,'').replace(/[^0-9.\-]/g,''));
+              return isFinite(v) ? v : null;
+            }
+            if (type === 'percent'){
+              var v = parseFloat(text.replace(/[%\s]/g,''));
+              return isFinite(v) ? v : null;
+            }
+            if (type === 'int'){
+              var v = parseInt(text, 10);
+              return isFinite(v) ? v : null;
+            }
+            return text.toLowerCase();
+          }
+
+          function compareValues(a, b, dir){
+            var mul = dir === 'desc' ? -1 : 1;
+            if (a == null && b == null) return 0;
+            if (a == null) return 1 * mul;
+            if (b == null) return -1 * mul;
+            if (a < b) return -1 * mul;
+            if (a > b) return 1 * mul;
+            return 0;
+          }
+
+          function sortTable(table, colIndex, type, direction){
+            var tbody = table.tBodies[0];
+            var rows = Array.prototype.slice.call(tbody.rows);
+            rows.sort(function(r1, r2){
+              var t1 = r1.cells[colIndex] ? r1.cells[colIndex].textContent : '';
+              var t2 = r2.cells[colIndex] ? r2.cells[colIndex].textContent : '';
+              var v1 = parseCell(type, t1);
+              var v2 = parseCell(type, t2);
+              return compareValues(v1, v2, direction);
+            });
+            var frag = document.createDocumentFragment();
+            rows.forEach(function(r){ frag.appendChild(r); });
+            tbody.appendChild(frag);
+          }
+
+          function initSorting(){
+            var table = document.getElementById('pricingTable');
+            if (!table) return;
+            var headers = table.tHead ? Array.prototype.slice.call(table.tHead.rows[0].cells) : [];
+            headers.forEach(function(th){
+              var type = th.getAttribute('data-type') || 'text';
+              var idx = parseInt(th.getAttribute('data-col') || '-1', 10);
+              if (idx < 0) return;
+              th.classList.add('sortable');
+              var current = 'none';
+              th.addEventListener('click', function(){
+                var next = current === 'asc' ? 'desc' : 'asc';
+                headers.forEach(function(other){ if (other !== th) other.removeAttribute('aria-sort'); });
+                th.setAttribute('aria-sort', next === 'asc' ? 'ascending' : 'descending');
+                sortTable(table, idx, type, next);
+                current = next;
+              });
+              var d = th.getAttribute('data-default-sort') || 'none';
+              if (d === 'asc' || d === 'desc'){
+                th.setAttribute('aria-sort', d === 'asc' ? 'ascending' : 'descending');
+                sortTable(table, idx, type, d);
+                current = d;
+              }
+            });
+          }
+
+          if (document.readyState === 'loading'){
+            document.addEventListener('DOMContentLoaded', initSorting);
+          } else {
+            initSorting();
+          }
+        })();
+        </script>
       </body>
     </html>
     
