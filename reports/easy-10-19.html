@@ -1,0 +1,187 @@
+<html><head><meta charset="UTF-8" />
+        <style></style>
+    </head><body><div class="email-wrapper"><div class="email-container"><div class="email-header"><h1>Easy 10/19</h1><p>1 item • 1 unit</p></div><div class="summary-metrics"><div class="metric-card"><span>Estimated Spend</span><strong>$0.00</strong></div><div class="metric-card"><span>Estimated Sales</span><strong>N/A</strong></div><div class="metric-card"><span>Total Stores</span><strong>1</strong></div></div><div class="note">Note: Estimated spend and sales only include items with available aisle information.</div><div class="filters" role="region" aria-label="Store filters"><div class="filter-group"><label for="storeFilter">Store</label><select id="storeFilter" name="storeFilter"><option value="">All stores</option></select></div><div class="filter-group"><label for="storeSearch">Search</label><input type="search" id="storeSearch" name="storeSearch" placeholder="Search stores, addresses, or item details" /></div><div class="filter-group"><label for="discountFilter">Min discount (%)</label><input type="number" id="discountFilter" name="discountFilter" min="0" max="100" step="1" placeholder="Any" /></div><div class="filter-actions"><label class="filter-toggle" for="aisleFilter"><input type="checkbox" id="aisleFilter" name="aisleFilter" /> <span>Only items with aisle info</span></label><label class="filter-toggle" for="noAisleFilter"><input type="checkbox" id="noAisleFilter" name="noAisleFilter" /> <span>Only items with no aisle info</span></label><div class="filter-buttons"><button type="button" class="secondary" id="resetFilters">Reset filters</button></div><div class="filter-results" id="filterResults" role="status" aria-live="polite"></div></div></div><div class="stores"><details class="store-card" data-store-id="1" data-store-name="Rio Grande City (39.2 mi)" data-store-address="4534 E Us Highway 83, 78582" data-total-items="1" data-total-units="1" data-total-spend="79.00"><summary class="store-header"><div class="store-title"><h2>Rio Grande City (39.2 mi)</h2><div class="store-address">4534 E Us Highway 83, 78582</div></div><div class="store-summary"><span>1 item</span><strong>1 unit</strong><div>$79.00</div></div></summary><div class="store-content"><div class="store-content-inner"><div class="item-card no-aisle" data-item-id="https://www.walmart.com/ip/5166665703" data-upc="622356636704" data-total-stock="1" data-floor="1" data-back="0" data-aisle="N/A" data-has-aisle="false" data-discount="71.78470659666417" data-price="79.00" data-msrp="279.99" data-amazon="Unknown" data-amount="79.00" data-timestamp="2025-10-22 07:00:13"><div class="item-header"><div class="item-id">https://www.walmart.com/ip/5166665703</div><div class="item-total">$79.00</div></div><div class="item-meta"><span class="badge price">$79.00 × 1 units</span><span class="badge no-aisle">No aisle info</span><span class="badge pickup-unavailable">Pickup unavailable</span><span class="badge">Floor 1</span><span class="badge">Back 0</span><span class="badge">Discount 71.78%</span><span class="badge">MSRP $279.99</span></div><div class="item-footer">Logged at 2025-10-22 07:00:13</div></div></div></div></details></div><script>
+    (function () {
+        function initFilters() {
+            var storeFilter = document.getElementById('storeFilter');
+            var searchInput = document.getElementById('storeSearch');
+            var discountInput = document.getElementById('discountFilter');
+            var aisleToggle = document.getElementById('aisleFilter');
+            var noAisleToggle = document.getElementById('noAisleFilter');
+            var resetButton = document.getElementById('resetFilters');
+            var resultLabel = document.getElementById('filterResults');
+            var stores = Array.prototype.slice.call(document.querySelectorAll('.store-card'));
+
+            if (!storeFilter || !searchInput || !discountInput || !aisleToggle || !noAisleToggle || !resetButton || stores.length === 0) {
+                return;
+            }
+
+            var uniqueStores = stores
+                .map(function (store) {
+                    return {
+                        id: store.dataset.storeId || '',
+                        name: store.dataset.storeName || 'Store',
+                        address: store.dataset.storeAddress || ''
+                    };
+                })
+                .filter(function (store) {
+                    return store.id;
+                });
+
+            uniqueStores.sort(function (a, b) {
+                return a.name.localeCompare(b.name);
+            });
+
+            var seen = {};
+            uniqueStores.forEach(function (store) {
+                if (seen[store.id]) {
+                    return;
+                }
+                seen[store.id] = true;
+
+                var option = document.createElement('option');
+                option.value = store.id;
+                option.textContent = store.address
+                    ? store.name + ' — ' + store.address
+                    : store.name;
+                storeFilter.appendChild(option);
+            });
+
+            function parseDiscount(value) {
+                if (value === null || value === undefined || value === '') {
+                    return null;
+                }
+                var numeric = parseFloat(value);
+                return isFinite(numeric) ? numeric : null;
+            }
+
+            function applyFilters() {
+                var searchValue = searchInput.value.trim().toLowerCase();
+                var selectedStore = storeFilter.value;
+                var minDiscount = parseDiscount(discountInput.value.trim());
+                var requireAisle = aisleToggle.checked;
+                var requireNoAisle = noAisleToggle.checked;
+
+                var visibleStores = 0;
+                var visibleItems = 0;
+
+                stores.forEach(function (store) {
+                    var storeName = (store.dataset.storeName || '').toLowerCase();
+                    var storeAddress = (store.dataset.storeAddress || '').toLowerCase();
+                    var matchesStoreSelection = !selectedStore || store.dataset.storeId === selectedStore;
+                    var storeTotals = [
+                        (store.dataset.totalItems || '').toLowerCase(),
+                        (store.dataset.totalUnits || '').toLowerCase(),
+                        (store.dataset.totalSpend || '').toLowerCase()
+                    ];
+
+                    var storeVisibleItems = 0;
+                    var items = Array.prototype.slice.call(store.querySelectorAll('.item-card'));
+
+                    items.forEach(function (item) {
+                        var itemId = (item.dataset.itemId || '').toLowerCase();
+                        var hasAisle = item.dataset.hasAisle === 'true';
+                        var discount = parseDiscount(item.dataset.discount);
+                        var aisle = (item.dataset.aisle || '').toLowerCase();
+                        var floor = (item.dataset.floor || '').toLowerCase();
+                        var back = (item.dataset.back || '').toLowerCase();
+                        var totalStock = (item.dataset.totalStock || '').toLowerCase();
+                        var amount = (item.dataset.amount || '').toLowerCase();
+                        var priceValue = (item.dataset.price || '').toLowerCase();
+                        var msrpValue = (item.dataset.msrp || '').toLowerCase();
+                        var timestampValue = (item.dataset.timestamp || '').toLowerCase();
+                        var discountText = (item.dataset.discount || '').toLowerCase();
+
+                        var matchesDiscount = minDiscount === null || (discount !== null && discount >= minDiscount);
+                        var matchesAisle = (!requireAisle || hasAisle) && (!requireNoAisle || !hasAisle);
+                        var matchesSearch = !searchValue || [
+                            storeName,
+                            storeAddress,
+                            itemId,
+                            aisle,
+                            floor,
+                            back,
+                            totalStock,
+                            amount,
+                            priceValue,
+                            msrpValue,
+                            timestampValue,
+                            discountText
+                        ].concat(storeTotals).some(function (value) {
+                            return value && value.indexOf(searchValue) !== -1;
+                        });
+
+                        var shouldShow = matchesDiscount && matchesAisle && matchesSearch;
+
+                        item.style.display = shouldShow ? '' : 'none';
+
+                        if (shouldShow) {
+                            storeVisibleItems += 1;
+                        }
+                    });
+
+                    var shouldDisplayStore = matchesStoreSelection && storeVisibleItems > 0;
+
+                    store.style.display = shouldDisplayStore ? '' : 'none';
+
+                    if (shouldDisplayStore) {
+                        visibleStores += 1;
+                        visibleItems += storeVisibleItems;
+                    }
+                });
+
+                var activeFilters = Boolean(searchValue || selectedStore || minDiscount !== null || requireAisle || requireNoAisle);
+
+                if (resultLabel) {
+                    if (visibleStores === 0) {
+                        resultLabel.textContent = 'No matching stores. Adjust your filters and try again.';
+                    } else {
+                        var storeWord = visibleStores === 1 ? 'store' : 'stores';
+                        var itemWord = visibleItems === 1 ? 'item' : 'items';
+                        var prefix = activeFilters ? 'Showing' : 'All';
+                        var suffix = activeFilters ? '' : ' (showing all results)';
+                        resultLabel.textContent = prefix + ' ' + visibleStores + ' ' + storeWord + ' • ' + visibleItems + ' ' + itemWord + suffix;
+                    }
+                }
+            }
+
+            function handleAisleToggleChange(event) {
+                if (!event || !event.target) {
+                    return;
+                }
+
+                if (event.target === aisleToggle && aisleToggle.checked) {
+                    noAisleToggle.checked = false;
+                } else if (event.target === noAisleToggle && noAisleToggle.checked) {
+                    aisleToggle.checked = false;
+                }
+                applyFilters();
+            }
+
+            aisleToggle.addEventListener('change', handleAisleToggleChange);
+            noAisleToggle.addEventListener('change', handleAisleToggleChange);
+
+            storeFilter.addEventListener('change', applyFilters);
+            searchInput.addEventListener('input', applyFilters);
+            discountInput.addEventListener('input', applyFilters);
+
+            resetButton.addEventListener('click', function () {
+                storeFilter.value = '';
+                searchInput.value = '';
+                discountInput.value = '';
+                aisleToggle.checked = false;
+                noAisleToggle.checked = false;
+                applyFilters();
+            });
+
+            applyFilters();
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initFilters);
+        } else {
+            initFilters();
+        }
+    })();
+    </script>
+    </div></div></body></html>
