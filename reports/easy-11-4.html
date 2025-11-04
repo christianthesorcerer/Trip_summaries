@@ -1,0 +1,305 @@
+<html><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" />
+        <style>
+          :root{
+            --bg:#0b1220;--card:#0f192e;--glass:rgba(255,255,255,.06);--muted:#93a4c3;--text:#e6efff;
+            --accent:#7c3aed;--accent2:#22d3ee;--good:#10b981;--warn:#f59e0b;--bad:#ef4444;
+            --ring:0 0 0 2px rgba(124,58,237,.35),0 10px 25px rgba(16,185,129,.15)
+          }
+          html,body{background:linear-gradient(180deg,#0b1220,#0a0f1a);color:var(--text);font-family:Segoe UI,Inter,system-ui,Arial,sans-serif;margin:0}
+          .email-wrapper{padding:24px}
+          .email-container{max-width:860px;margin:0 auto}
+          .email-header{background:linear-gradient(135deg,rgba(124,58,237,.9),rgba(34,211,238,.88));
+            padding:20px 24px;border-radius:16px 16px 0 0;color:#fff;position:relative;overflow:hidden}
+          .email-header:after{content:"";position:absolute;inset:auto -40% -60% -40%;height:200px;background:radial-gradient(ellipse at top,rgba(255,255,255,.25),transparent 60%)}
+          .summary-metrics{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
+          .metric-card{background:var(--glass);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.08);
+            border-radius:12px;padding:14px 16px;display:inline-flex;flex-direction:column;gap:6px;color:#d8e6ff}
+          .metric-card strong{font-size:20px;color:#fff}
+          .note{color:var(--muted);margin:10px 0}
+          .badge{display:inline-block;border-radius:999px;padding:6px 10px;font-size:12px;margin-right:6px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.05)}
+          .badge.price{background:rgba(124,58,237,.14);border-color:rgba(124,58,237,.35)}
+          .badge.aisle{background:rgba(34,211,238,.12);border-color:rgba(34,211,238,.38)}
+          .badge.no-aisle{background:rgba(148,163,184,.12);border-color:rgba(148,163,184,.3)}
+          .badge.pickup-available{background:rgba(16,185,129,.14);border-color:rgba(16,185,129,.45);color:#c3f7e8}
+          .badge.pickup-unavailable{background:rgba(239,68,68,.14);border-color:rgba(239,68,68,.45);color:#ffd6d6}
+          .badge.pickup-unknown{background:rgba(245,158,11,.14);border-color:rgba(245,158,11,.45);color:#ffe7c2}
+          .store-card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:14px;margin:14px 0;box-shadow:0 10px 30px rgba(2,6,23,.35)}
+          .store-header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 18px;border-bottom:1px solid rgba(255,255,255,.06)}
+          .store-title h2{margin:0;font-size:18px;color:#fff}
+          .store-summary{display:flex;gap:12px;align-items:center;color:var(--muted)}
+          .receipt-controls{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;margin-top:10px}
+          .receipt-controls label{font-size:12px;color:#cbd5e1;display:flex;align-items:center;gap:6px}
+          .receipt-controls input[type=number]{width:84px;padding:4px 6px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.04);color:#e6efff}
+          .receipt-controls input[type=text]{width:240px;max-width:50vw;padding:4px 6px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.04);color:#e6efff}
+          .receipt-controls select{padding:4px 6px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.04);color:#e6efff}
+          .save-status{font-size:12px;color:#93c5fd}
+          .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin:12px 0 6px}
+          .cta-btn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(120deg,#f59e0b,#ef4444,#8b5cf6);color:#fff;text-decoration:none;font-weight:600;padding:10px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.25);box-shadow:0 10px 30px rgba(139,92,246,.35);text-transform:uppercase;letter-spacing:.6px}
+          .cta-btn:hover{transform:translateY(-1px);box-shadow:0 14px 32px rgba(139,92,246,.5)}
+          .store-content-inner{padding:14px 18px}
+          .item-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:14px 16px;margin:12px 0}
+          .item-card .item-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+          .item-card .item-id{font-weight:600;color:#dbe7ff}
+          .item-card .item-total{color:#fff;font-weight:700}
+          .item-card .item-meta{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;color:#d0dcff}
+          .item-footer{margin-top:8px;color:var(--muted);font-size:12px}
+          details.store-card summary{cursor:pointer;list-style:none}
+          details.store-card[open]{box-shadow:var(--ring)}
+          .filter-toggle{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);padding:6px 10px;border-radius:999px;color:#dbe7ff}
+          .filters{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px 14px;margin:12px 0}
+          a{color:#a5e1ff}
+        </style>
+    </head><body class="email-wrapper" data-trip-slug="easy-11-4"><div class="email-wrapper"><div class="email-container"><div class="email-header"><h1>easy 11/4</h1><p>1 item • 1 unit</p></div><div class="summary-metrics"><div class="metric-card"><span>Estimated Spend</span><strong>$0.00</strong></div><div class="metric-card"><span>Estimated Sales</span><strong>N/A</strong></div><div class="metric-card"><span>Total Stores</span><strong>1</strong></div></div><div class="cta-row"><a class="cta-btn" href="./easy-11-4-receipt.html" target="_blank" rel="noopener">⚡ Advanced Receipt</a></div><div class="note">Note: Estimated spend and sales only include items with available aisle information.</div><div class="filters" role="region" aria-label="Store filters"><div class="filter-group"><label for="storeFilter">Store</label><select id="storeFilter" name="storeFilter"><option value="">All stores</option></select></div><div class="filter-group"><label for="storeSearch">Search</label><input type="search" id="storeSearch" name="storeSearch" placeholder="Search stores, addresses, or item details" /></div><div class="filter-group"><label for="discountFilter">Min discount (%)</label><input type="number" id="discountFilter" name="discountFilter" min="0" max="100" step="1" placeholder="Any" /></div><div class="filter-actions"><label class="filter-toggle" for="aisleFilter"><input type="checkbox" id="aisleFilter" name="aisleFilter" /> <span>Only items with aisle info</span></label><label class="filter-toggle" for="noAisleFilter"><input type="checkbox" id="noAisleFilter" name="noAisleFilter" /> <span>Only items with no aisle info</span></label><label class="filter-toggle" for="pickupUnavailableFilter"><input type="checkbox" id="pickupUnavailableFilter" name="pickupUnavailableFilter" /> <span>Only pickup unavailable</span></label><label class="filter-toggle" for="pickupAvailableFilter"><input type="checkbox" id="pickupAvailableFilter" name="pickupAvailableFilter" /> <span>Only pickup available</span></label><div class="filter-buttons"><button type="button" class="secondary" id="resetFilters">Reset filters</button></div><div class="filter-results" id="filterResults" role="status" aria-live="polite"></div></div></div><div class="stores"><details class="store-card" data-store-id="1" data-store-name="Rio Grande City (39.2 mi)" data-store-address="4534 E Us Highway 83, 78582" data-total-items="1" data-total-units="1" data-total-spend="100.00"><summary class="store-header"><div class="store-title"><h2>Rio Grande City (39.2 mi)</h2><div class="store-address">4534 E Us Highway 83, 78582</div></div><div class="store-summary"><span>1 item</span><strong>1 unit</strong><div>$100.00</div></div></summary><div class="store-content"><div class="store-content-inner"><div class="item-card no-aisle" data-item-id="https://www.walmart.com/ip/Hyperice-Hypervolt-2-Full-Body-Massage-Gun-HSA-FSA-Eligible-Gunmetal-Gray/110983858" data-upc="810050280495" data-total-stock="1" data-floor="1" data-back="0" data-aisle="N/A" data-has-aisle="false" data-discount="48.717948717948715" data-price="100.00" data-msrp="195.00" data-amazon="Unknown" data-amount="100.00" data-timestamp="2025-11-03 20:24:40" data-pickup="unavailable"><div class="item-header"><div class="item-id">https://www.walmart.com/ip/Hyperice-Hypervolt-2-Full-Body-Massage-Gun-HSA-FSA-Eligible-Gunmetal-Gray/110983858</div><div class="item-total">$100.00</div></div><div class="item-meta"><span class="badge price">$100.00 × 1 units</span><span class="badge no-aisle">No aisle info</span><a class="badge" href="https://www.walmart.com/ip/Hyperice-Hypervolt-2-Full-Body-Massage-Gun-HSA-FSA-Eligible-Gunmetal-Gray/110983858" target="_blank">Walmart</a><span class="badge pickup-unavailable">Pickup unavailable</span><span class="badge">Floor 1</span><span class="badge">Back 0</span><span class="badge">Discount 48.72%</span><span class="badge">MSRP $195.00</span></div><div class="receipt-controls" role="group" aria-label="Receipt controls"><label>Qty Bought <input class="qty-input" type="number" min="0" step="1" inputmode="numeric" /></label><label>Platform <select class="platform-select"><option value="">—</option><option value="amazon">Amazon</option><option value="walmart">Walmart</option></select></label><label>Notes <input class="notes-input" type="text" placeholder="Optional" /></label><span class="save-status" aria-live="polite"></span></div><div class="item-footer">Logged at 2025-11-03 20:24:40</div></div></div></div></details></div><script>
+    (function () {
+        function initFilters() {
+            var storeFilter = document.getElementById('storeFilter');
+            var searchInput = document.getElementById('storeSearch');
+            var discountInput = document.getElementById('discountFilter');
+            var aisleToggle = document.getElementById('aisleFilter');
+            var noAisleToggle = document.getElementById('noAisleFilter');
+            var puToggle = document.getElementById('pickupUnavailableFilter');
+            var puAvailToggle = document.getElementById('pickupAvailableFilter');
+            var resetButton = document.getElementById('resetFilters');
+            var resultLabel = document.getElementById('filterResults');
+            var stores = Array.prototype.slice.call(document.querySelectorAll('.store-card'));
+
+            if (!storeFilter || !searchInput || !discountInput || !aisleToggle || !noAisleToggle || !puToggle || !puAvailToggle || !resetButton || stores.length === 0) {
+                return;
+            }
+
+            var uniqueStores = stores
+                .map(function (store) {
+                    return {
+                        id: store.dataset.storeId || '',
+                        name: store.dataset.storeName || 'Store',
+                        address: store.dataset.storeAddress || ''
+                    };
+                })
+                .filter(function (store) {
+                    return store.id;
+                });
+
+            uniqueStores.sort(function (a, b) {
+                return a.name.localeCompare(b.name);
+            });
+
+            var seen = {};
+            uniqueStores.forEach(function (store) {
+                if (seen[store.id]) {
+                    return;
+                }
+                seen[store.id] = true;
+
+                var option = document.createElement('option');
+                option.value = store.id;
+                option.textContent = store.address
+                    ? store.name + ' — ' + store.address
+                    : store.name;
+                storeFilter.appendChild(option);
+            });
+
+            function parseDiscount(value) {
+                if (value === null || value === undefined || value === '') {
+                    return null;
+                }
+                var numeric = parseFloat(value);
+                return isFinite(numeric) ? numeric : null;
+            }
+
+            function applyFilters() {
+                var searchValue = searchInput.value.trim().toLowerCase();
+                var selectedStore = storeFilter.value;
+                var minDiscount = parseDiscount(discountInput.value.trim());
+                var requireAisle = aisleToggle.checked;
+                var requireNoAisle = noAisleToggle.checked;
+                var requirePU = puToggle.checked;              // pickup unavailable
+                var requirePUAvail = puAvailToggle.checked;     // pickup available
+
+                var visibleStores = 0;
+                var visibleItems = 0;
+
+                stores.forEach(function (store) {
+                    var storeName = (store.dataset.storeName || '').toLowerCase();
+                    var storeAddress = (store.dataset.storeAddress || '').toLowerCase();
+                    var matchesStoreSelection = !selectedStore || store.dataset.storeId === selectedStore;
+                    var storeTotals = [
+                        (store.dataset.totalItems || '').toLowerCase(),
+                        (store.dataset.totalUnits || '').toLowerCase(),
+                        (store.dataset.totalSpend || '').toLowerCase()
+                    ];
+
+                    var storeVisibleItems = 0;
+                    var items = Array.prototype.slice.call(store.querySelectorAll('.item-card'));
+
+                    items.forEach(function (item) {
+                        var itemId = (item.dataset.itemId || '').toLowerCase();
+                        var hasAisle = item.dataset.hasAisle === 'true';
+                        var discount = parseDiscount(item.dataset.discount);
+                        var aisle = (item.dataset.aisle || '').toLowerCase();
+                        var floor = (item.dataset.floor || '').toLowerCase();
+                        var back = (item.dataset.back || '').toLowerCase();
+                        var totalStock = (item.dataset.totalStock || '').toLowerCase();
+                        var amount = (item.dataset.amount || '').toLowerCase();
+                        var priceValue = (item.dataset.price || '').toLowerCase();
+                        var msrpValue = (item.dataset.msrp || '').toLowerCase();
+                        var timestampValue = (item.dataset.timestamp || '').toLowerCase();
+                        var discountText = (item.dataset.discount || '').toLowerCase();
+                        var pickupValue = (item.dataset.pickup || '').toLowerCase();
+
+                        var matchesDiscount = minDiscount === null || (discount !== null && discount >= minDiscount);
+                        var matchesAisle = (!requireAisle || hasAisle) && (!requireNoAisle || !hasAisle);
+                        var matchesPickup = (!requirePU || pickupValue === 'unavailable') && (!requirePUAvail || pickupValue === 'available');
+                        var matchesSearch = !searchValue || [
+                            storeName,
+                            storeAddress,
+                            itemId,
+                            aisle,
+                            floor,
+                            back,
+                            totalStock,
+                            amount,
+                            priceValue,
+                            msrpValue,
+                            timestampValue,
+                            discountText
+                        ].concat(storeTotals).some(function (value) {
+                            return value && value.indexOf(searchValue) !== -1;
+                        });
+
+                        var shouldShow = matchesDiscount && matchesAisle && matchesPickup && matchesSearch;
+
+                        item.style.display = shouldShow ? '' : 'none';
+
+                        if (shouldShow) {
+                            storeVisibleItems += 1;
+                        }
+                    });
+
+                    var shouldDisplayStore = matchesStoreSelection && storeVisibleItems > 0;
+
+                    store.style.display = shouldDisplayStore ? '' : 'none';
+
+                    if (shouldDisplayStore) {
+                        visibleStores += 1;
+                        visibleItems += storeVisibleItems;
+                    }
+                });
+
+                var activeFilters = Boolean(searchValue || selectedStore || minDiscount !== null || requireAisle || requireNoAisle);
+
+                if (resultLabel) {
+                    if (visibleStores === 0) {
+                        resultLabel.textContent = 'No matching stores. Adjust your filters and try again.';
+                    } else {
+                        var storeWord = visibleStores === 1 ? 'store' : 'stores';
+                        var itemWord = visibleItems === 1 ? 'item' : 'items';
+                        var prefix = activeFilters ? 'Showing' : 'All';
+                        var suffix = activeFilters ? '' : ' (showing all results)';
+                        resultLabel.textContent = prefix + ' ' + visibleStores + ' ' + storeWord + ' • ' + visibleItems + ' ' + itemWord + suffix;
+                    }
+                }
+            }
+
+            function handleAisleToggleChange(event) {
+                if (!event || !event.target) {
+                    return;
+                }
+
+                if (event.target === aisleToggle && aisleToggle.checked) {
+                    noAisleToggle.checked = false;
+                } else if (event.target === noAisleToggle && noAisleToggle.checked) {
+                    aisleToggle.checked = false;
+                }
+                applyFilters();
+            }
+
+            aisleToggle.addEventListener('change', handleAisleToggleChange);
+            noAisleToggle.addEventListener('change', handleAisleToggleChange);
+
+            function handlePickupToggleChange(event){
+                if (!event || !event.target) return;
+                if (event.target === puToggle && puToggle.checked) {
+                    puAvailToggle.checked = false;
+                } else if (event.target === puAvailToggle && puAvailToggle.checked) {
+                    puToggle.checked = false;
+                }
+                applyFilters();
+            }
+
+            puToggle.addEventListener('change', handlePickupToggleChange);
+            puAvailToggle.addEventListener('change', handlePickupToggleChange);
+
+            storeFilter.addEventListener('change', applyFilters);
+            searchInput.addEventListener('input', applyFilters);
+            discountInput.addEventListener('input', applyFilters);
+
+            resetButton.addEventListener('click', function () {
+                storeFilter.value = '';
+                searchInput.value = '';
+                discountInput.value = '';
+                aisleToggle.checked = false;
+                noAisleToggle.checked = false;
+                puToggle.checked = false;
+                puAvailToggle.checked = false;
+                applyFilters();
+            });
+
+            applyFilters();
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initFilters);
+        } else {
+            initFilters();
+        }
+    })();
+    </script>
+    
+        <script>
+          (function(){
+            var tripSlug = document.body.getAttribute('data-trip-slug') || 'easy-11-4';
+            var STORAGE_KEY = 'receipt-' + tripSlug;
+            var saveTimer = null;
+            function loadState(){
+              try { var raw = localStorage.getItem(STORAGE_KEY); return raw ? JSON.parse(raw) : {}; } catch(e){ return {}; }
+            }
+            function saveStateDebounced(state, statusEl){
+              if (saveTimer) window.clearTimeout(saveTimer);
+              saveTimer = window.setTimeout(function(){
+                try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); if (statusEl){ statusEl.textContent='Saved ✓'; setTimeout(function(){ statusEl.textContent=''; }, 1200); } }
+                catch(e){ if (statusEl) statusEl.textContent='Retry…'; }
+              }, 400);
+            }
+            function initReceiptControls(){
+              var state = loadState();
+              var cards = Array.prototype.slice.call(document.querySelectorAll('.item-card'));
+              cards.forEach(function(card){
+                var id = card.getAttribute('data-item-id') || '';
+                var qtyInput = card.querySelector('.qty-input');
+                var notesInput = card.querySelector('.notes-input');
+                var platformSel = card.querySelector('.platform-select');
+                var statusEl = card.querySelector('.save-status');
+                var existing = state[id] || {};
+                if (typeof existing.qty === 'number') qtyInput.value = String(existing.qty);
+                if (existing.notes) notesInput.value = existing.notes;
+                if (existing.platform) platformSel.value = existing.platform;
+                function write(){
+                  var next = loadState();
+                  var rec = next[id] || {};
+                  var qv = qtyInput.value.trim();
+                  var qn = qv === '' ? null : Math.max(0, parseInt(qv, 10) || 0);
+                  rec.qty = qn;
+                  rec.notes = notesInput.value || '';
+                  rec.platform = platformSel.value || '';
+                  next[id] = rec;
+                  saveStateDebounced(next, statusEl);
+                }
+                qtyInput.addEventListener('input', write);
+                notesInput.addEventListener('input', write);
+                platformSel.addEventListener('change', write);
+              });
+            }
+            if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initReceiptControls); } else { initReceiptControls(); }
+          })();
+        </script>
+        </div></div></body></html>

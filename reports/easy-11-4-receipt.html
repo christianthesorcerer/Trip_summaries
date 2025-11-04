@@ -1,0 +1,129 @@
+
+    <html>
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>easy 11/4 — Advanced Receipt</title>
+        <style>
+          body{font-family:Segoe UI,Inter,system-ui,Arial,sans-serif;margin:0;background:#0b1220;color:#e6efff}
+          .wrap{max-width:980px;margin:0 auto;padding:20px}
+          h1{margin:0 0 8px;font-size:22px}
+          .controls{display:flex;gap:8px;align-items:center;margin:8px 0 16px}
+          .btn{background:#1f2a44;color:#dbe7ff;border:1px solid rgba(255,255,255,.14);padding:8px 12px;border-radius:8px;cursor:pointer;text-decoration:none}
+          .btn:hover{background:#233053}
+          table{width:100%;border-collapse:collapse;background:#0f192e;border:1px solid rgba(255,255,255,.1);border-radius:10px;overflow:hidden}
+          th,td{padding:10px;border-bottom:1px solid rgba(255,255,255,.06);text-align:left}
+          th{background:#101b31;color:#cdd9ff}
+          tr:hover td{background:rgba(255,255,255,.02)}
+          .num{text-align:right;white-space:nowrap}
+          tfoot td{font-weight:700;color:#fff;border-top:2px solid rgba(255,255,255,.2)}
+          .muted{color:#93a4c3}
+        </style>
+      </head>
+      <body data-trip-slug="easy-11-4">
+        <div class="wrap">
+          <h1>Advanced Receipt  easy 11/4</h1>
+          <div class="controls">
+            <a class="btn" href="./easy-11-4.html">Back to Summary</a>
+            <button id="btnCsv" class="btn" type="button">Download CSV</button>
+            <span id="updated" class="muted"></span>
+          </div>
+          <table id="rtable">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>UPC</th>
+                <th class="num">Deal Price</th>
+                <th class="num">Qty Bought</th>
+                <th class="num">Line Cost</th>
+                <th>Platform</th>
+                <th class="num">Sell Price</th>
+                <th class="num">Line Revenue</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-item-id="https://www.walmart.com/ip/Hyperice-Hypervolt-2-Full-Body-Massage-Gun-HSA-FSA-Eligible-Gunmetal-Gray/110983858" data-deal="100.0" data-amazon="" data-msrp="195.0"><td>https://www.walmart.com/ip/Hyperice-Hypervolt-2-Full-Body-Massage-Gun-HSA-FSA-Eligible-Gunmetal-Gray/110983858</td><td>810050280495</td><td class="num">$100.00</td><td class="num qty-cell">0</td><td class="num cost-cell">$0.00</td><td class="platform-cell"></td><td class="num sell-cell">$0.00</td><td class="num revenue-cell">$0.00</td><td class="notes-cell"></td></tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">Totals</td>
+                <td id="totCost" class="num">$0.00</td>
+                <td></td>
+                <td></td>
+                <td id="totRev" class="num">$0.00</td>
+                <td id="ts" class="muted"></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <script>
+          (function(){
+            var tripSlug = document.body.getAttribute('data-trip-slug') || 'trip';
+            var STORAGE_KEY = 'receipt-' + tripSlug;
+            var items = [{"id": "https://www.walmart.com/ip/Hyperice-Hypervolt-2-Full-Body-Massage-Gun-HSA-FSA-Eligible-Gunmetal-Gray/110983858", "upc": "810050280495", "deal": 100.0, "amazon": null, "msrp": 195.0, "keepa": "", "walmart": "https://www.walmart.com/ip/Hyperice-Hypervolt-2-Full-Body-Massage-Gun-HSA-FSA-Eligible-Gunmetal-Gray/110983858", "store": "#1958 - Rio Grande City (39.2 mi)"}];
+            var itemsById = {};
+            items.forEach(function(it){ itemsById[it.id || ''] = it; });
+            function loadState(){
+              try { var raw = localStorage.getItem(STORAGE_KEY); return raw ? JSON.parse(raw) : {}; } catch(e) { return {}; }
+            }
+            function fmt(v){ return (typeof v === 'number' && isFinite(v)) ? ('$' + v.toFixed(2)) : '$0.00'; }
+            function render(){
+              var st = loadState();
+              var rows = Array.prototype.slice.call(document.querySelectorAll('#rtable tbody tr'));
+              var totCost=0, totRev=0; var now = new Date();
+              rows.forEach(function(tr){
+                var id = tr.getAttribute('data-item-id') || '';
+                var meta = itemsById[id] || {};
+                var rec = st[id] || {};
+                var q = (typeof rec.qty === 'number') ? rec.qty : 0;
+                var platform = rec.platform || '';
+                var sell = 0;
+                if (platform === 'amazon' && typeof meta.amazon === 'number') sell = meta.amazon;
+                else if (platform === 'walmart' && typeof meta.msrp === 'number') sell = meta.msrp;
+                var lineCost = (meta.deal||0)*q; var lineRev = sell*q;
+                totCost += lineCost; totRev += lineRev;
+                var qtyCell = tr.querySelector('.qty-cell');
+                if (qtyCell) qtyCell.textContent = q;
+                var costCell = tr.querySelector('.cost-cell');
+                if (costCell) costCell.textContent = fmt(lineCost);
+                var platformCell = tr.querySelector('.platform-cell');
+                if (platformCell) platformCell.textContent = platform ? platform.toUpperCase() : '';
+                var sellCell = tr.querySelector('.sell-cell');
+                if (sellCell) sellCell.textContent = sell ? fmt(sell) : '$0.00';
+                var revCell = tr.querySelector('.revenue-cell');
+                if (revCell) revCell.textContent = fmt(lineRev);
+                var notesCell = tr.querySelector('.notes-cell');
+                if (notesCell) notesCell.textContent = rec.notes || '';
+              });
+              document.getElementById('totCost').textContent = fmt(totCost);
+              document.getElementById('totRev').textContent = fmt(totRev);
+              document.getElementById('ts').textContent = 'Last updated ' + now.toLocaleString();
+              var up = document.getElementById('updated');
+              if (up) up.textContent = 'Listening for changes…';
+            }
+            function toCsv(){
+              var st = loadState();
+              var rows = [['Item ID','UPC','Deal Price','Qty Bought','Line Cost','Platform','Sell Price','Line Revenue','Notes']];
+              items.forEach(function(it){
+                var rec = st[it.id] || {}; var q = (typeof rec.qty==='number')?rec.qty:0; var plat = rec.platform||'';
+                var sell = 0;
+                if (plat==='amazon' && typeof it.amazon==='number') sell = it.amazon;
+                else if (plat==='walmart' && typeof it.msrp==='number') sell = it.msrp;
+                var lineCost = (it.deal||0)*q; var lineRev = sell*q;
+                rows.push([it.id||'', it.upc||'', (it.deal||0).toFixed(2), q, lineCost.toFixed(2), plat, (sell||0).toFixed(2), lineRev.toFixed(2), (rec.notes||'').replace(/?
+/g,' ') ]);
+              });
+              var csv = rows.map(r => r.map(x => "${String(x).replace(/"/g,'""')}").join(',')).join('
+');
+              var blob = new Blob([csv], {type:'text/csv;charset=utf-8;'});
+              var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'easy-11-4-receipt.csv'; a.click();
+            }
+            window.addEventListener('storage', function(ev){ if (ev && ev.key===STORAGE_KEY) render(); });
+            document.getElementById('btnCsv').addEventListener('click', toCsv);
+            render();
+          })();
+        </script>
+      </body>
+    </html>
+    
