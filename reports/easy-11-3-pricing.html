@@ -1,0 +1,163 @@
+
+    <html>
+      <head>
+        <meta charset="UTF-8" />
+        <title>easy 11/3 Pricing Summary</title>
+        
+
+        <style>
+          :root {
+            --bg: #ffffff;
+            --text: #0f172a;
+            --muted: #64748b;
+            --line: #e2e8f0;
+            --head: #f1f5f9;
+            --zebra: #f8fafc;
+            --hover: #f1f5f9;
+            --blue-bg: #eff6ff;    /* blue-50 */
+            --blue-br: #3b82f6;    /* blue-500 */
+            --green-bg: #ecfdf5;   /* emerald-50 */
+            --green-br: #10b981;   /* emerald-500 */
+            --orange-bg: #ffedd5;  /* orange-100 */
+            --orange-br: #f97316;  /* orange-500 */
+          }
+          body { font-family: Segoe UI, Arial, sans-serif; color: var(--text); background: #f1f5f9; margin: 0; padding: 16px; }
+          .wrap { max-width: 1100px; margin: 0 auto; }
+          h1 { margin: 8px 0 12px; font-size: 22px; }
+          .metrics { margin: 10px 0 14px; color: #334155; }
+          .legend { margin: 10px 0 14px; color: var(--muted); font-size: 13px; }
+          table { border-collapse: collapse; width: 100%; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+          thead th { position: sticky; top: 0; background: var(--head); border-bottom: 1px solid var(--line); cursor: pointer; user-select: none; }
+          th, td { border-right: 1px solid var(--line); padding: 10px 12px; text-align: left; font-size: 14px; }
+          th:last-child, td:last-child { border-right: none; }
+          tbody tr:nth-child(even) { background: var(--zebra); }
+          tbody tr:hover { background: var(--hover); }
+          .hl-blue { background: var(--blue-bg) !important; box-shadow: inset 3px 0 0 0 var(--blue-br); }
+          .hl-green { background: var(--green-bg) !important; box-shadow: inset 3px 0 0 0 var(--green-br); }
+          .hl-orange { background: var(--orange-bg) !important; box-shadow: inset 3px 0 0 0 var(--orange-br); }
+          .cell-money, .cell-int, .cell-disc { text-align: right; }
+          .cell-link a { color: #2563eb; text-decoration: none; }
+          .cell-link a:hover { text-decoration: underline; }
+          th.sortable::after { content: '\00a0\25B4\25BE'; color: #94a3b8; font-size: 11px; }
+          th[aria-sort="ascending"].sortable::after { content: '\00a0\25B2'; color: #475569; }
+          th[aria-sort="descending"].sortable::after { content: '\00a0\25BC'; color: #475569; }
+        </style>
+    
+
+
+      </head>
+      <body>
+        <div class="wrap">
+        <h1>easy 11/3 — Pricing Summary</h1>
+        <div class="metrics">
+          <div>Estimated spend: $3.98</div>
+          <div>Estimated sales (MSRP): $15.94</div>
+          <div>Highlights: see legend below - rows where Walmart and Amazon are both ≥ 40% off.</div>
+        </div>
+        <table id="pricingTable">
+          <thead>
+            <tr>
+              <th class="sortable" data-type="text" data-col="0" data-default-sort="none" title="Sort by Store">Store</th>
+              <th class="sortable" data-type="text" data-col="1" data-default-sort="none" title="Sort by UPC">UPC</th>
+              <th class="sortable" data-type="money" data-col="2" data-default-sort="none" title="Sort by Deal Price">Deal Price</th>
+              <th class="sortable" data-type="percent" data-col="3" data-default-sort="desc" title="Sort by Walmart % Off">Walmart % Off</th>
+              <th class="sortable" data-type="money" data-col="4" data-default-sort="none" title="Sort by Amazon Price">Amazon Price</th>
+              <th class="sortable" data-type="percent" data-col="5" data-default-sort="none" title="Sort by Amazon % Off">Amazon % Off</th>
+              <th class="sortable" data-type="money" data-col="6" data-default-sort="none" title="Sort by MSRP">MSRP</th>
+              <th class="sortable" data-type="int" data-col="7" data-default-sort="none" title="Sort by Units">Units</th>
+              <th class="sortable" data-type="money" data-col="8" data-default-sort="none" title="Sort by Est. Spend">Est. Spend</th>
+              <th class="sortable" data-type="money" data-col="9" data-default-sort="none" title="Sort by Est. Sales">Est. Sales</th>
+              <th data-type="link" data-col="10" title="Keepa link">Keepa</th>
+              <th data-type="link" data-col="11" title="Walmart link">Walmart</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hl-green"><td class="cell-store"><div style="font-weight:600;">#4112 - Brownsville (47.3 mi)</div><div style="color:#64748b;font-size:12px;">2205 Ruben Torres Sr Blvd, 78526</div></td><td class="cell-upc">068060468239</td><td class="cell-money">$1.99</td><td class="cell-disc">75.03%</td><td class="cell-money">$8.11</td><td class="cell-disc">75.46%</td><td class="cell-money">$7.97</td><td class="cell-int">2</td><td class="cell-money">$3.98</td><td class="cell-money">$15.94</td><td class="cell-link"><a href="https://keepa.com/#!product/1-B0DJBZFL7P" target="_blank">Keepa</a></td><td class="cell-link"><a href="https://www.walmart.com/ip/257442609" target="_blank">Walmart</a></td></tr>
+          </tbody>
+        </table>
+        <div class="legend">
+          <div><strong>Highlights</strong>: <span style="color:var(--blue-br)">Blue</span> = Walmart ≥ 40% off; <span style="color:var(--green-br)">Green</span> = both Walmart and Amazon ≥ 40% off; <span style="color:var(--orange-br)">Orange</span> = Amazon ≥ 40% off.</div>
+        </div>
+        </div>
+        <script>
+        (function(){
+          function parseCell(type, text){
+            if (text == null) return null;
+            text = String(text).trim();
+            if (text === '' || text === 'N/A') return null;
+            if (type === 'money'){
+              var v = parseFloat(text.replace(/[$,\s]/g,'').replace(/[^0-9.\-]/g,''));
+              return isFinite(v) ? v : null;
+            }
+            if (type === 'percent'){
+              var v = parseFloat(text.replace(/[%\s]/g,''));
+              return isFinite(v) ? v : null;
+            }
+            if (type === 'int'){
+              var v = parseInt(text, 10);
+              return isFinite(v) ? v : null;
+            }
+            return text.toLowerCase();
+          }
+
+          function compareValues(a, b, dir){
+            var mul = dir === 'desc' ? -1 : 1;
+            if (a == null && b == null) return 0;
+            if (a == null) return 1 * mul;
+            if (b == null) return -1 * mul;
+            if (a < b) return -1 * mul;
+            if (a > b) return 1 * mul;
+            return 0;
+          }
+
+          function sortTable(table, colIndex, type, direction){
+            var tbody = table.tBodies[0];
+            var rows = Array.prototype.slice.call(tbody.rows);
+            rows.sort(function(r1, r2){
+              var t1 = r1.cells[colIndex] ? r1.cells[colIndex].textContent : '';
+              var t2 = r2.cells[colIndex] ? r2.cells[colIndex].textContent : '';
+              var v1 = parseCell(type, t1);
+              var v2 = parseCell(type, t2);
+              return compareValues(v1, v2, direction);
+            });
+            var frag = document.createDocumentFragment();
+            rows.forEach(function(r){ frag.appendChild(r); });
+            tbody.appendChild(frag);
+          }
+
+          function initSorting(){
+            var table = document.getElementById('pricingTable');
+            if (!table) return;
+            var headers = table.tHead ? Array.prototype.slice.call(table.tHead.rows[0].cells) : [];
+            headers.forEach(function(th){
+              var type = th.getAttribute('data-type') || 'text';
+              var idx = parseInt(th.getAttribute('data-col') || '-1', 10);
+              if (idx < 0) return;
+              th.classList.add('sortable');
+              var current = 'none';
+              th.addEventListener('click', function(){
+                var next = current === 'asc' ? 'desc' : 'asc';
+                headers.forEach(function(other){ if (other !== th) other.removeAttribute('aria-sort'); });
+                th.setAttribute('aria-sort', next === 'asc' ? 'ascending' : 'descending');
+                sortTable(table, idx, type, next);
+                current = next;
+              });
+              var d = th.getAttribute('data-default-sort') || 'none';
+              if (d === 'asc' || d === 'desc'){
+                th.setAttribute('aria-sort', d === 'asc' ? 'ascending' : 'descending');
+                sortTable(table, idx, type, d);
+                current = d;
+              }
+            });
+          }
+
+          if (document.readyState === 'loading'){
+            document.addEventListener('DOMContentLoaded', initSorting);
+          } else {
+            initSorting();
+          }
+        })();
+        </script>
+      </body>
+    </html>
+    
