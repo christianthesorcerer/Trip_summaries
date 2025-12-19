@@ -1720,6 +1720,56 @@
         "delivery": true,
         "checked_at": "2025-12-19T21:55:45.740Z"
       }
+    },
+    {
+      "price": 13.5,
+      "floor": 2,
+      "back": 0,
+      "aisles": "G28-4, G28-6",
+      "storeLine": "#5808 - Elsa (16.5 mi)",
+      "address": "411 South Broadway Street, 78543",
+      "raw": "Close\nKlean Kanteen 12 fl oz Stainless Steel Insulated Water Bottle Twist Cap Surfer\nSort by:\nPrice (Low to High)\n$13.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$13.50\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$13.50\nFloor:\n2\nBack:\n0\nAisles: G28-4, G28-6\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$16.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$19.50\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: L2-6\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$26.50\nFloor:\n3\nBack:\n0\nAisles: L30-6\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$26.50\nFloor:\n5\nBack:\n0\nAisles: L35-8\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$26.50\nFloor:\n8\nBack:\n0\nAisles: L23-10\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\nOut of Stock\n\n$10.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: I11-5\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$13.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$16.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$18.00\nFloor:\n0\nBack:\n0\nAisles: I11-2\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$26.50\nFloor:\n0\nBack:\n0\nAisles: I22-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "5808",
+      "itemId": "1599638884",
+      "sourceLink": "https://www.walmart.com/ip/Klean-Kanteen-12-fl-oz-Stainless-Steel-Insulated-Water-Bottle-Twist-Cap-Surfer/1599638884",
+      "marterPrice": 24.8,
+      "discountPct": 45.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B0BRQXWQ4Q",
+        "title": "Klean Kanteen TKWide Insulated Bottle – Twist Cap, Steel Straw – Sports & Office – Surfer, 12 oz",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "50+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0BRQXWQ4Q"
+      },
+      "upc": "763332073486",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "5808",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2025-12-19T21:56:54.097Z"
+      }
     }
   ],
   "lowNAGambles": [
@@ -2407,6 +2457,260 @@
       "fulfillment": {
         "status": "NOT_CHECKED",
         "store_id": "397",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 54,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#397 - Mcallen (2.5 mi)",
+      "address": "1200 E Jackson Ave, 78503",
+      "raw": "Close\nBlackstone Signature XL Stainless Steel Basting Cover for Steaming & Melting\nSort by:\nPrice (Low to High)\n$54.00\nFloor:\n4\nBack:\n0\nAisles: Y8-6\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$54.00\nFloor:\n10\nBack:\n0\nAisles: Y8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$54.00\nFloor:\n1\nBack:\n0\nAisles: Y5-9\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$54.00\nFloor:\n3\nBack:\n0\nAisles: I9-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$54.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$54.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$54.00\nFloor:\n4\nBack:\n0\nAisles: Y4-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$54.00\nFloor:\n8\nBack:\n0\nAisles: G34-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$54.00\nFloor:\n7\nBack:\n0\nAisles: Y1-7\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\nOut of Stock\n\n$22.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$29.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$59.00\nFloor:\n0\nBack:\n0\nAisles: Y6-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$99.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$99.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$99.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$99.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "397",
+      "itemId": "320313229",
+      "sourceLink": "https://www.walmart.com/ip/Blackstone-Signature-XL-Stainless-Steel-Basting-Cover-for-Steaming-Melting/320313229",
+      "marterPrice": 54,
+      "discountPct": 0,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": "717604052082",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "397",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 54,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#395 - Mission (5.6 mi)",
+      "address": "2410 E Expressway 83, 78572",
+      "raw": "Close\nBlackstone Signature XL Stainless Steel Basting Cover for Steaming & Melting\nSort by:\nPrice (Low to High)\n$54.00\nFloor:\n4\nBack:\n0\nAisles: Y8-6\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$54.00\nFloor:\n10\nBack:\n0\nAisles: Y8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$54.00\nFloor:\n1\nBack:\n0\nAisles: Y5-9\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$54.00\nFloor:\n3\nBack:\n0\nAisles: I9-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$54.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$54.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$54.00\nFloor:\n4\nBack:\n0\nAisles: Y4-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$54.00\nFloor:\n8\nBack:\n0\nAisles: G34-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$54.00\nFloor:\n7\nBack:\n0\nAisles: Y1-7\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\nOut of Stock\n\n$22.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$29.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$54.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$59.00\nFloor:\n0\nBack:\n0\nAisles: Y6-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$99.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$99.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$99.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$99.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "395",
+      "itemId": "320313229",
+      "sourceLink": "https://www.walmart.com/ip/Blackstone-Signature-XL-Stainless-Steel-Basting-Cover-for-Steaming-Melting/320313229",
+      "marterPrice": 54,
+      "discountPct": 0,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": "717604052082",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "395",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 13,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#1041 - Weslaco (13.9 mi)",
+      "address": "1310 N Texas Blvd, 78599",
+      "raw": "Close\nKlean Kanteen 12 fl oz Stainless Steel Insulated Water Bottle Twist Cap Surfer\nSort by:\nPrice (Low to High)\n$13.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$13.50\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$13.50\nFloor:\n2\nBack:\n0\nAisles: G28-4, G28-6\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$16.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$19.50\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: L2-6\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$26.50\nFloor:\n3\nBack:\n0\nAisles: L30-6\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$26.50\nFloor:\n5\nBack:\n0\nAisles: L35-8\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$26.50\nFloor:\n8\nBack:\n0\nAisles: L23-10\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\nOut of Stock\n\n$10.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: I11-5\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$13.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$16.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$18.00\nFloor:\n0\nBack:\n0\nAisles: I11-2\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$26.50\nFloor:\n0\nBack:\n0\nAisles: I22-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1041",
+      "itemId": "1599638884",
+      "sourceLink": "https://www.walmart.com/ip/Klean-Kanteen-12-fl-oz-Stainless-Steel-Insulated-Water-Bottle-Twist-Cap-Surfer/1599638884",
+      "marterPrice": 24.8,
+      "discountPct": 47.58,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": true,
+        "asin": "B0BRQXWQ4Q",
+        "title": "Klean Kanteen TKWide Insulated Bottle – Twist Cap, Steel Straw – Sports & Office – Surfer, 12 oz",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "50+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0BRQXWQ4Q"
+      },
+      "upc": "763332073486",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "1041",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 13.5,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#2763 - Donna (10.8 mi)",
+      "address": "900 N Salinas Boulevard, 78537",
+      "raw": "Close\nKlean Kanteen 12 fl oz Stainless Steel Insulated Water Bottle Twist Cap Surfer\nSort by:\nPrice (Low to High)\n$13.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$13.50\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$13.50\nFloor:\n2\nBack:\n0\nAisles: G28-4, G28-6\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$16.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$19.50\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: L2-6\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$26.50\nFloor:\n3\nBack:\n0\nAisles: L30-6\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$26.50\nFloor:\n5\nBack:\n0\nAisles: L35-8\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$26.50\nFloor:\n8\nBack:\n0\nAisles: L23-10\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\nOut of Stock\n\n$10.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: I11-5\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$13.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$16.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$18.00\nFloor:\n0\nBack:\n0\nAisles: I11-2\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$26.50\nFloor:\n0\nBack:\n0\nAisles: I22-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2763",
+      "itemId": "1599638884",
+      "sourceLink": "https://www.walmart.com/ip/Klean-Kanteen-12-fl-oz-Stainless-Steel-Insulated-Water-Bottle-Twist-Cap-Surfer/1599638884",
+      "marterPrice": 24.8,
+      "discountPct": 45.56,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": true,
+        "asin": "B0BRQXWQ4Q",
+        "title": "Klean Kanteen TKWide Insulated Bottle – Twist Cap, Steel Straw – Sports & Office – Surfer, 12 oz",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "50+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0BRQXWQ4Q"
+      },
+      "upc": "763332073486",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "2763",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 16,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#4112 - Brownsville (47.3 mi)",
+      "address": "2205 Ruben Torres Sr Blvd, 78526",
+      "raw": "Close\nKlean Kanteen 12 fl oz Stainless Steel Insulated Water Bottle Twist Cap Surfer\nSort by:\nPrice (Low to High)\n$13.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$13.50\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$13.50\nFloor:\n2\nBack:\n0\nAisles: G28-4, G28-6\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$16.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$19.50\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: L2-6\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$26.50\nFloor:\n3\nBack:\n0\nAisles: L30-6\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$26.50\nFloor:\n5\nBack:\n0\nAisles: L35-8\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$26.50\nFloor:\n8\nBack:\n0\nAisles: L23-10\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\nOut of Stock\n\n$10.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: I11-5\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$13.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$16.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$18.00\nFloor:\n0\nBack:\n0\nAisles: I11-2\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$26.50\nFloor:\n0\nBack:\n0\nAisles: I22-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "4112",
+      "itemId": "1599638884",
+      "sourceLink": "https://www.walmart.com/ip/Klean-Kanteen-12-fl-oz-Stainless-Steel-Insulated-Water-Bottle-Twist-Cap-Surfer/1599638884",
+      "marterPrice": 24.8,
+      "discountPct": 35.48,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": true,
+        "asin": "B0BRQXWQ4Q",
+        "title": "Klean Kanteen TKWide Insulated Bottle – Twist Cap, Steel Straw – Sports & Office – Surfer, 12 oz",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "50+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0BRQXWQ4Q"
+      },
+      "upc": "763332073486",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "4112",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 19.5,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#2765 - Los Fresnos (44.9 mi)",
+      "address": "1004 W Ocean Boulevard, 78566",
+      "raw": "Close\nKlean Kanteen 12 fl oz Stainless Steel Insulated Water Bottle Twist Cap Surfer\nSort by:\nPrice (Low to High)\n$13.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$13.50\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$13.50\nFloor:\n2\nBack:\n0\nAisles: G28-4, G28-6\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$16.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$19.50\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: L2-6\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$26.50\nFloor:\n3\nBack:\n0\nAisles: L30-6\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$26.50\nFloor:\n5\nBack:\n0\nAisles: L35-8\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$26.50\nFloor:\n8\nBack:\n0\nAisles: L23-10\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\nOut of Stock\n\n$10.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: I11-5\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$13.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$16.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$18.00\nFloor:\n0\nBack:\n0\nAisles: I11-2\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$26.50\nFloor:\n0\nBack:\n0\nAisles: I22-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$29.95\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2765",
+      "itemId": "1599638884",
+      "sourceLink": "https://www.walmart.com/ip/Klean-Kanteen-12-fl-oz-Stainless-Steel-Insulated-Water-Bottle-Twist-Cap-Surfer/1599638884",
+      "marterPrice": 24.8,
+      "discountPct": 21.37,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": true,
+        "asin": "B0BRQXWQ4Q",
+        "title": "Klean Kanteen TKWide Insulated Bottle – Twist Cap, Steel Straw – Sports & Office – Surfer, 12 oz",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "50+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0BRQXWQ4Q"
+      },
+      "upc": "763332073486",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "2765",
         "pickup": null,
         "delivery": null,
         "checked_at": null
