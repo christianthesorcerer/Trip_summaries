@@ -1408,6 +1408,56 @@
         "delivery": null,
         "checked_at": "2025-12-19T21:50:43.864Z"
       }
+    },
+    {
+      "price": 12,
+      "floor": 3,
+      "back": 0,
+      "aisles": "M10-12",
+      "storeLine": "#4508 - Penitas (15.9 mi)",
+      "address": "1705 Expressway 83, 78576",
+      "raw": "Close\nLEGO Technic Monster Jam ThunderROARus Pull-Back Monster Truck Toy - Building Toy for Kids, Boys and Girls, Ages 7+ - Creative Gift Idea for Lovers of Monster Trucks - 42200\nSort by:\nPrice (Low to High)\n$12.00\nFloor:\n3\nBack:\n0\nAisles: M10-12\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$27.97\nFloor:\n7\nBack:\n2\nAisles: L9-9\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$27.97\nFloor:\n4\nBack:\n4\nAisles: L11-6\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$27.97\nFloor:\n3\nBack:\n0\nAisles: L12-6\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$27.97\nFloor:\n4\nBack:\n0\nAisles: L10-12\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$27.97\nFloor:\n7\nBack:\n0\nAisles: I8-11\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$27.97\nFloor:\n12\nBack:\n0\nAisles: I8-11\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$27.97\nFloor:\n2\nBack:\n0\nAisles: H12-7\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$27.97\nFloor:\n6\nBack:\n0\nAisles: I11-6\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$27.97\nFloor:\n4\nBack:\n0\nAisles: L9-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$27.97\nFloor:\n5\nBack:\n0\nAisles: L15-2\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$27.97\nFloor:\n3\nBack:\n0\nAisles: L11-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$27.97\nFloor:\n6\nBack:\n0\nAisles: L13-11\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$27.97\nFloor:\n4\nBack:\n0\nAisles: I9-11\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$27.97\nFloor:\n6\nBack:\n0\nAisles: L13-9\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$27.97\nFloor:\n4\nBack:\n0\nAisles: L12-9\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$27.97\nFloor:\n3\nBack:\n0\nAisles: L9-12\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$27.97\nFloor:\n1\nBack:\n0\nAisles: I11-9\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$27.97\nFloor:\n2\nBack:\n0\nAisles: L8-8\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$27.97\nFloor:\n0\nBack:\n0\nAisles: I10-11\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$27.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$27.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$27.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$27.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "4508",
+      "itemId": "6924164794",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Technic-tbd-42200/6924164794",
+      "marterPrice": 22.49,
+      "discountPct": 46.64,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B0DJ1C3JFH",
+        "title": "LEGO Technic Monster Jam ThunderROARus Pull-Back Monster Truck Toy - Building Toy for Kids, Boys and Girls, Ages 7+ - Creative Gift Idea for Lovers of Trucks - 42200",
+        "price": 22.49,
+        "data": {
+          "buyBox": 22.49,
+          "amazon": 22.49,
+          "newPrice": 22.49,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 3,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 6
+          },
+          "newOfferCount": 8,
+          "salesRankCurrent": 3,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "9000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0DJ1C3JFH"
+      },
+      "upc": "673419405454",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "4508",
+        "pickup": true,
+        "delivery": true,
+        "checked_at": "2025-12-19T21:52:26.641Z"
+      }
     }
   ],
   "lowNAGambles": [
