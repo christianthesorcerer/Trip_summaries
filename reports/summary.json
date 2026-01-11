@@ -2164,6 +2164,492 @@
         "delivery": null,
         "checked_at": "2026-01-11T07:22:20.731Z"
       }
+    },
+    {
+      "price": 21.68,
+      "floor": 3,
+      "back": 0,
+      "aisles": "I34-3",
+      "storeLine": "#1958 - Rio Grande City (39.2 mi)",
+      "address": "4534 E Us Highway 83, 78582",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "1958",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "1958",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:23:59.812Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 5,
+      "back": 0,
+      "aisles": "I23-8",
+      "storeLine": "#429 - Edinburg (10.4 mi)",
+      "address": "1724 W University Dr, 78539",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "429",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "429",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:03.616Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 3,
+      "back": 0,
+      "aisles": "L37-1",
+      "storeLine": "#3886 - Edinburg (8.0 mi)",
+      "address": "4101 S Mccoll Rd, 78539",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "3886",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "3886",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:07.501Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 3,
+      "back": 0,
+      "aisles": "X1-1",
+      "storeLine": "#2763 - Donna (10.8 mi)",
+      "address": "900 N Salinas Boulevard, 78537",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "2763",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "2763",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:11.475Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 5,
+      "back": 0,
+      "aisles": "I25-1",
+      "storeLine": "#456 - Brownsville (44.5 mi)",
+      "address": "3500 W Alton Gloor Blvd, 78520",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "456",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "UNKNOWN",
+        "store_id": "456",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-11T07:24:15.237Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 4,
+      "back": 0,
+      "aisles": "X1-1",
+      "storeLine": "#3567 - Hidalgo (2.0 mi)",
+      "address": "3000 S Jackson Rd, 78557",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "3567",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "3567",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:15.237Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 2,
+      "back": 0,
+      "aisles": "L30-1",
+      "storeLine": "#5809 - Edinburg (9.0 mi)",
+      "address": "2812 S Expressway 281, 78542",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "5809",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "5809",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:19.058Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 2,
+      "back": 0,
+      "aisles": "X1-2",
+      "storeLine": "#5808 - Elsa (16.5 mi)",
+      "address": "411 South Broadway Street, 78543",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "5808",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "5808",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:23.073Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 2,
+      "back": 0,
+      "aisles": "I27-5",
+      "storeLine": "#397 - Mcallen (2.5 mi)",
+      "address": "1200 E Jackson Ave, 78503",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "397",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "397",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:27.420Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 2,
+      "back": 0,
+      "aisles": "X2-2",
+      "storeLine": "#4508 - Penitas (15.9 mi)",
+      "address": "1705 Expressway 83, 78576",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "4508",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "4508",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:31.427Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 6,
+      "back": 0,
+      "aisles": "L35-11",
+      "storeLine": "#452 - Mcallen (6.7 mi)",
+      "address": "2800 W Nolana Ave, 78504",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "452",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "452",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:35.184Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 3,
+      "back": 0,
+      "aisles": "I26-8",
+      "storeLine": "#595 - Harlingen (30.6 mi)",
+      "address": "1801 W Lincoln St, 78552",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "595",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "595",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:39.177Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 5,
+      "back": 0,
+      "aisles": "L24-1",
+      "storeLine": "#1041 - Weslaco (13.9 mi)",
+      "address": "1310 N Texas Blvd, 78599",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "1041",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "1041",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:43.484Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 3,
+      "back": 0,
+      "aisles": "X2-3",
+      "storeLine": "#1296 - San Benito (35.7 mi)",
+      "address": "1126 W Us Highway 77, 78586",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "1296",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "1296",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:47.191Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 4,
+      "back": 0,
+      "aisles": "I30-200",
+      "storeLine": "#3320 - Palmhurst (10.0 mi)",
+      "address": "215 E Mile 3 Rd, 78573",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "3320",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "3320",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:50.826Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 3,
+      "back": 0,
+      "aisles": "L38-8",
+      "storeLine": "#1000 - Brownsville (48.1 mi)",
+      "address": "2721 Boca Chica Blvd, 78521",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "1000",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "UNKNOWN",
+        "store_id": "1000",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-11T07:24:54.743Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 2,
+      "back": 0,
+      "aisles": "L30-1",
+      "storeLine": "#4112 - Brownsville (47.3 mi)",
+      "address": "2205 Ruben Torres Sr Blvd, 78526",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "4112",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "UNKNOWN",
+        "store_id": "4112",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-11T07:24:54.743Z"
+      }
+    },
+    {
+      "price": 21.68,
+      "floor": 3,
+      "back": 0,
+      "aisles": "I31-6",
+      "storeLine": "#5165 - Alamo (5.5 mi)",
+      "address": "1421 Frontage Rd, 78516",
+      "raw": "Close\nStanley BM1S 1 Amp Automatic Battery Maintainer, New\nSort by:\nPrice (Low to High)\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I34-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I23-8\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L37-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X1-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: I25-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: X1-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X1-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: H20-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: I27-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: X2-2\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$21.68\nFloor:\n6\nBack:\n0\nAisles: L35-11\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I26-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$21.68\nFloor:\n1\nBack:\n0\nAisles: L40-1\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$21.68\nFloor:\n5\nBack:\n0\nAisles: L24-1\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: X2-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$21.68\nFloor:\n4\nBack:\n0\nAisles: I30-200\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: L38-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.68\nFloor:\n2\nBack:\n0\nAisles: L30-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$21.68\nFloor:\n3\nBack:\n0\nAisles: I31-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$19.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "5165",
+      "itemId": "453321945",
+      "sourceLink": "https://www.walmart.com/ip/453321945",
+      "marterPrice": 43.09,
+      "discountPct": 49.69,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "814632012962",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "5165",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:24:54.743Z"
+      }
     }
   ],
   "lowNAGambles": [
