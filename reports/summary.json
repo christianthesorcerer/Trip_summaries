@@ -7660,6 +7660,33 @@
         "delivery": true,
         "checked_at": "2026-01-11T14:50:07.587Z"
       }
+    },
+    {
+      "price": 99,
+      "floor": 9,
+      "back": 1,
+      "aisles": "H30-6",
+      "storeLine": "#1958 - Rio Grande City (39.2 mi)",
+      "address": "4534 E Us Highway 83, 78582",
+      "raw": "Close\nBartesian Duet Cocktail Machine, 2 Glass Spirit Bottles, with LCD Display, 0.68 amps/watts\nSort by:\nPrice (Low to High)\n$99.00\nFloor:\n9\nBack:\n1\nAisles: H30-6\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$300.00\nFloor:\n2\nBack:\n0\nAisles: H22-12\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$300.00\nFloor:\n2\nBack:\n0\nAisles: H24-20\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$300.00\nFloor:\n2\nBack:\n0\nAisles: H22-18\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$300.00\nFloor:\n2\nBack:\n0\nAisles: H22-9\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$300.00\nFloor:\n2\nBack:\n0\nAisles: H22-18\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$300.00\nFloor:\n2\nBack:\n0\nAisles: H22-9\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$300.00\nFloor:\n2\nBack:\n0\nAisles: H23-20\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$300.00\nFloor:\n2\nBack:\n1\nAisles: H27-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$300.00\nFloor:\n2\nBack:\n0\nAisles: H24-18\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$300.00\nFloor:\n2\nBack:\n0\nAisles: H24-16\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$99.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$99.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$125.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$142.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$148.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$148.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$148.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$148.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$154.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$154.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$155.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$155.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$171.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\nStore Locations Map\nGo Back",
+      "storeId": "1958",
+      "itemId": "163291067",
+      "sourceLink": "https://www.walmart.com/ip/Bartesian-Duet-Premium-Cocktail-Machine-for-the-Home-Bar-2-Glass-Spirit-Bottles/163291067",
+      "marterPrice": 299,
+      "discountPct": 66.89,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "040094553105",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "1958",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T14:50:32.933Z"
+      }
     }
   ],
   "lowNAGambles": [
