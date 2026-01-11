@@ -10549,6 +10549,33 @@
         "delivery": true,
         "checked_at": "2026-01-11T15:27:07.013Z"
       }
+    },
+    {
+      "price": 3.18,
+      "floor": 6,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#397 - Mcallen (2.5 mi)",
+      "address": "1200 E Jackson Ave, 78503",
+      "raw": "Close\nDeMet's Turtles, Milk Chocolate Caramel Pecan Clusters Holiday Bag, 17.5oz\nSort by:\nPrice (Low to High)\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$3.18\nFloor:\n6\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\nOut of Stock\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: A21-13, F8-5\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: H31-8\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "397",
+      "itemId": "502092055",
+      "sourceLink": "https://www.walmart.com/ip/502092055",
+      "marterPrice": 11.32,
+      "discountPct": 71.91,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "872181001394",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "397",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T15:28:07.046Z"
+      }
     }
   ],
   "lowNAGambles": [
@@ -22510,6 +22537,249 @@
       "fulfillment": {
         "status": "NOT_CHECKED",
         "store_id": "397",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 2.46,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#2763 - Donna (10.8 mi)",
+      "address": "900 N Salinas Boulevard, 78537",
+      "raw": "Close\nHealth Touch Fidget Cube Spinner, Fidget Spinner, Anti-Anxiety Focusing Fidget Block Toy, Office Desk Gadget Gift, Christmas Stocking Stuffers\nSort by:\nPrice (Low to High)\n$2.46\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$2.46\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$2.46\nFloor:\n1\nBack:\n0\nAisles: F7-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$2.46\nFloor:\n3\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$2.46\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\nOut of Stock\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F5-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F10-4\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: G48-4\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: G23-20\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F9-5\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F2-1\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2763",
+      "itemId": "16991610459",
+      "sourceLink": "https://www.walmart.com/ip/16991610459",
+      "marterPrice": null,
+      "discountPct": null,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": null,
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "2763",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 2.46,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#456 - Brownsville (44.5 mi)",
+      "address": "3500 W Alton Gloor Blvd, 78520",
+      "raw": "Close\nHealth Touch Fidget Cube Spinner, Fidget Spinner, Anti-Anxiety Focusing Fidget Block Toy, Office Desk Gadget Gift, Christmas Stocking Stuffers\nSort by:\nPrice (Low to High)\n$2.46\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$2.46\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$2.46\nFloor:\n1\nBack:\n0\nAisles: F7-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$2.46\nFloor:\n3\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$2.46\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\nOut of Stock\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F5-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F10-4\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: G48-4\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: G23-20\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F9-5\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F2-1\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "456",
+      "itemId": "16991610459",
+      "sourceLink": "https://www.walmart.com/ip/16991610459",
+      "marterPrice": null,
+      "discountPct": null,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": null,
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "456",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 2.46,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#3320 - Palmhurst (10.0 mi)",
+      "address": "215 E Mile 3 Rd, 78573",
+      "raw": "Close\nHealth Touch Fidget Cube Spinner, Fidget Spinner, Anti-Anxiety Focusing Fidget Block Toy, Office Desk Gadget Gift, Christmas Stocking Stuffers\nSort by:\nPrice (Low to High)\n$2.46\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$2.46\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$2.46\nFloor:\n1\nBack:\n0\nAisles: F7-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$2.46\nFloor:\n3\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$2.46\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\nOut of Stock\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F5-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F10-4\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: G48-4\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: G23-20\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F9-5\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: F2-1\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$2.46\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$9.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3320",
+      "itemId": "16991610459",
+      "sourceLink": "https://www.walmart.com/ip/16991610459",
+      "marterPrice": null,
+      "discountPct": null,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": null,
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "3320",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 2.48,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#4508 - Penitas (15.9 mi)",
+      "address": "1705 Expressway 83, 78576",
+      "raw": "Close\nCreate-a-Treat E-Z Build™ Snowflake Gingerbread House Cookie Kit, 1 Count, 34 Ounces, Regular Size Box (Baked, Shelf Stable)\nSort by:\nPrice (Low to High)\n$2.48\nFloor:\n7\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$2.48\nFloor:\n49\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$2.48\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$2.48\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$2.48\nFloor:\n34\nBack:\n0\nAisles: Z8-2, C2-1\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$2.48\nFloor:\n2\nBack:\n0\nAisles: A27-4\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$2.48\nFloor:\n5\nBack:\n0\nAisles: F7-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$2.48\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nOut of Stock\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: Z3-100, F2-9\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: G17-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: F7-9\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: F5-1\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: FT7-1\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "4508",
+      "itemId": "16553564989",
+      "sourceLink": "https://www.walmart.com/ip/16553564989",
+      "marterPrice": null,
+      "discountPct": null,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": null,
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "4508",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 2.48,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#1041 - Weslaco (13.9 mi)",
+      "address": "1310 N Texas Blvd, 78599",
+      "raw": "Close\nCreate-a-Treat E-Z Build™ Snowflake Gingerbread House Cookie Kit, 1 Count, 34 Ounces, Regular Size Box (Baked, Shelf Stable)\nSort by:\nPrice (Low to High)\n$2.48\nFloor:\n7\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$2.48\nFloor:\n49\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$2.48\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$2.48\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$2.48\nFloor:\n34\nBack:\n0\nAisles: Z8-2, C2-1\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$2.48\nFloor:\n2\nBack:\n0\nAisles: A27-4\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$2.48\nFloor:\n5\nBack:\n0\nAisles: F7-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$2.48\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nOut of Stock\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: Z3-100, F2-9\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: G17-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: F7-9\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: F5-1\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: FT7-1\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "1041",
+      "itemId": "16553564989",
+      "sourceLink": "https://www.walmart.com/ip/16553564989",
+      "marterPrice": null,
+      "discountPct": null,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": null,
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "1041",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 2.48,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#6098 - Mcallen (5.8 mi)",
+      "address": "800 East Nolana Ave, 78501",
+      "raw": "Close\nCreate-a-Treat E-Z Build™ Snowflake Gingerbread House Cookie Kit, 1 Count, 34 Ounces, Regular Size Box (Baked, Shelf Stable)\nSort by:\nPrice (Low to High)\n$2.48\nFloor:\n7\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$2.48\nFloor:\n49\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$2.48\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$2.48\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$2.48\nFloor:\n34\nBack:\n0\nAisles: Z8-2, C2-1\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$2.48\nFloor:\n2\nBack:\n0\nAisles: A27-4\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$2.48\nFloor:\n5\nBack:\n0\nAisles: F7-6\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$2.48\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nOut of Stock\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: Z3-100, F2-9\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: G17-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: F7-9\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: F5-1\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$2.48\nFloor:\n0\nBack:\n0\nAisles: FT7-1\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "6098",
+      "itemId": "16553564989",
+      "sourceLink": "https://www.walmart.com/ip/16553564989",
+      "marterPrice": null,
+      "discountPct": null,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": null,
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "6098",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 3.18,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#1958 - Rio Grande City (39.2 mi)",
+      "address": "4534 E Us Highway 83, 78582",
+      "raw": "Close\nDeMet's Turtles, Milk Chocolate Caramel Pecan Clusters Holiday Bag, 17.5oz\nSort by:\nPrice (Low to High)\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$3.18\nFloor:\n6\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\nOut of Stock\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: A21-13, F8-5\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: H31-8\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1958",
+      "itemId": "502092055",
+      "sourceLink": "https://www.walmart.com/ip/502092055",
+      "marterPrice": 11.32,
+      "discountPct": 71.91,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": "872181001394",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "1958",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 3.18,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#5809 - Edinburg (9.0 mi)",
+      "address": "2812 S Expressway 281, 78542",
+      "raw": "Close\nDeMet's Turtles, Milk Chocolate Caramel Pecan Clusters Holiday Bag, 17.5oz\nSort by:\nPrice (Low to High)\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$3.18\nFloor:\n6\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\nOut of Stock\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: A21-13, F8-5\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: H31-8\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "5809",
+      "itemId": "502092055",
+      "sourceLink": "https://www.walmart.com/ip/502092055",
+      "marterPrice": 11.32,
+      "discountPct": 71.91,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": "872181001394",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "5809",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 3.18,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#2765 - Los Fresnos (44.9 mi)",
+      "address": "1004 W Ocean Boulevard, 78566",
+      "raw": "Close\nDeMet's Turtles, Milk Chocolate Caramel Pecan Clusters Holiday Bag, 17.5oz\nSort by:\nPrice (Low to High)\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$3.18\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$3.18\nFloor:\n6\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\nOut of Stock\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: A21-13, F8-5\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: H31-8\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$3.18\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$12.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2765",
+      "itemId": "502092055",
+      "sourceLink": "https://www.walmart.com/ip/502092055",
+      "marterPrice": 11.32,
+      "discountPct": 71.91,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": "872181001394",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "2765",
         "pickup": null,
         "delivery": null,
         "checked_at": null
