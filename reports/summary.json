@@ -10070,6 +10070,33 @@
         "delivery": null,
         "checked_at": null
       }
+    },
+    {
+      "price": 25,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#429 - Edinburg (10.4 mi)",
+      "address": "1724 W University Dr, 78539",
+      "raw": "Close\nFull Size Wireless Combo\nSort by:\nPrice (Low to High)\n$25.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$25.50\nFloor:\n2\nBack:\n0\nAisles: J4-300\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$38.36\nFloor:\n0\nBack:\n3\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$38.36\nFloor:\n2\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\nOut of Stock\n\n$25.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$26.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$27.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$30.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$32.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$34.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$34.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$34.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$38.36\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$38.36\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$38.36\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$38.36\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$38.36\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$38.36\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$38.36\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$38.36\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$38.36\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$39.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$39.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$39.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "429",
+      "itemId": "228504719",
+      "sourceLink": "https://www.walmart.com/ip/228504719",
+      "marterPrice": 38.36,
+      "discountPct": 34.83,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": "097855166753",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "429",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
     }
   ]
 }
