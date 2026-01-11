@@ -7174,6 +7174,33 @@
         "delivery": null,
         "checked_at": "2026-01-11T14:29:29.750Z"
       }
+    },
+    {
+      "price": 10,
+      "floor": 2,
+      "back": 0,
+      "aisles": "J19-1",
+      "storeLine": "#2765 - Los Fresnos (44.9 mi)",
+      "address": "1004 W Ocean Boulevard, 78566",
+      "raw": "Close\nVivitar Aqua Snap Underwater Digital Camera with HD Video Recording, New Waterproof Action Camera, Blue\nSort by:\nPrice (Low to High)\n$10.00\nFloor:\n2\nBack:\n0\nAisles: J19-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K4-8\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K5-8\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K6-4\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K13-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$39.86\nFloor:\n3\nBack:\n0\nAisles: K3-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$39.86\nFloor:\n3\nBack:\n0\nAisles: K19-4\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$39.86\nFloor:\n3\nBack:\n0\nAisles: K2-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K21-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K5-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: O21-8\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$39.86\nFloor:\n6\nBack:\n0\nAisles: K17-9\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K20-8\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K4-9\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$39.86\nFloor:\n8\nBack:\n0\nAisles: K17-9\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$39.86\nFloor:\n3\nBack:\n0\nAisles: N4-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K5-8\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$39.86\nFloor:\n3\nBack:\n0\nAisles: K8-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$39.86\nFloor:\n2\nBack:\n0\nAisles: K17-9\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$39.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$39.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$39.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$39.86\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2765",
+      "itemId": "5666649442",
+      "sourceLink": "https://www.walmart.com/ip/5666649442",
+      "marterPrice": 39.86,
+      "discountPct": 74.91,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "681066116678",
+      "fulfillment": {
+        "status": "UNKNOWN",
+        "store_id": "2765",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-11T14:31:00.360Z"
+      }
     }
   ],
   "lowNAGambles": [
@@ -15598,6 +15625,33 @@
       "fulfillment": {
         "status": "NOT_CHECKED",
         "store_id": "1000",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 29.74,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#2763 - Donna (10.8 mi)",
+      "address": "900 N Salinas Boulevard, 78537",
+      "raw": "Close\nVivitar Audio Mixer, Multiple Sound Pads & Effects for Vlogging, Black\nSort by:\nPrice (Low to High)\n$29.74\nFloor:\n5\nBack:\n0\nAisles: K6-8\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$29.74\nFloor:\n2\nBack:\n0\nAisles: K12-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$29.74\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$29.74\nFloor:\n2\nBack:\n0\nAisles: K19-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$29.74\nFloor:\n3\nBack:\n0\nAisles: O21-9\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$29.74\nFloor:\n1\nBack:\n0\nAisles: K17-10\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$29.74\nFloor:\n3\nBack:\n0\nAisles: K20-9\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$29.74\nFloor:\n3\nBack:\n0\nAisles: K4-10\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$29.74\nFloor:\n2\nBack:\n0\nAisles: K17-10\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$29.74\nFloor:\n1\nBack:\n0\nAisles: K7-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\nOut of Stock\n\n$5.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.43\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$12.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$21.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$26.50\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$29.74\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$29.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$29.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$29.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back",
+      "storeId": "2763",
+      "itemId": "1262219749",
+      "sourceLink": "https://www.walmart.com/ip/1262219749",
+      "marterPrice": 29.74,
+      "discountPct": 0,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": false
+      },
+      "upc": "681066074664",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "2763",
         "pickup": null,
         "delivery": null,
         "checked_at": null
