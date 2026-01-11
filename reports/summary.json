@@ -2850,6 +2850,856 @@
         "delivery": false,
         "checked_at": "2026-01-11T07:41:23.698Z"
       }
+    },
+    {
+      "price": 15.97,
+      "floor": 6,
+      "back": 0,
+      "aisles": "F32-1",
+      "storeLine": "#1958 - Rio Grande City (39.2 mi)",
+      "address": "4534 E Us Highway 83, 78582",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1958",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "1958",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:42:25.402Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 6,
+      "back": 4,
+      "aisles": "F23-2",
+      "storeLine": "#3886 - Edinburg (8.0 mi)",
+      "address": "4101 S Mccoll Rd, 78539",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3886",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "3886",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:42:29.308Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 9,
+      "back": 4,
+      "aisles": "J13-7",
+      "storeLine": "#429 - Edinburg (10.4 mi)",
+      "address": "1724 W University Dr, 78539",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "429",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "429",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:42:32.950Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 11,
+      "back": 0,
+      "aisles": "J16-10",
+      "storeLine": "#456 - Brownsville (44.5 mi)",
+      "address": "3500 W Alton Gloor Blvd, 78520",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "456",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "UNKNOWN",
+        "store_id": "456",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-11T07:42:37.233Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 13,
+      "back": 0,
+      "aisles": "F24-1",
+      "storeLine": "#2763 - Donna (10.8 mi)",
+      "address": "900 N Salinas Boulevard, 78537",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2763",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "2763",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:42:37.233Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 5,
+      "back": 0,
+      "aisles": "F26-3",
+      "storeLine": "#3567 - Hidalgo (2.0 mi)",
+      "address": "3000 S Jackson Rd, 78557",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3567",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "3567",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:42:41.097Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 9,
+      "back": 0,
+      "aisles": "J13-7",
+      "storeLine": "#5809 - Edinburg (9.0 mi)",
+      "address": "2812 S Expressway 281, 78542",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "5809",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "5809",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:42:45.053Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 5,
+      "back": 0,
+      "aisles": "I12-9",
+      "storeLine": "#2765 - Los Fresnos (44.9 mi)",
+      "address": "1004 W Ocean Boulevard, 78566",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2765",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "UNKNOWN",
+        "store_id": "2765",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-11T07:42:49.032Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 6,
+      "back": 0,
+      "aisles": "F24-8",
+      "storeLine": "#595 - Harlingen (30.6 mi)",
+      "address": "1801 W Lincoln St, 78552",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "595",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "595",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:42:49.032Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 4,
+      "back": 0,
+      "aisles": "F26-6",
+      "storeLine": "#397 - Mcallen (2.5 mi)",
+      "address": "1200 E Jackson Ave, 78503",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "397",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "397",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:42:53.029Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 5,
+      "back": 0,
+      "aisles": "N29-10",
+      "storeLine": "#4508 - Penitas (15.9 mi)",
+      "address": "1705 Expressway 83, 78576",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "4508",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "4508",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:42:56.830Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 7,
+      "back": 0,
+      "aisles": "L41-2",
+      "storeLine": "#395 - Mission (5.6 mi)",
+      "address": "2410 E Expressway 83, 78572",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "395",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "395",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:43:00.723Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 9,
+      "back": 0,
+      "aisles": "F24-2",
+      "storeLine": "#1041 - Weslaco (13.9 mi)",
+      "address": "1310 N Texas Blvd, 78599",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1041",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "1041",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:43:04.768Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 7,
+      "back": 0,
+      "aisles": "F34-1",
+      "storeLine": "#3320 - Palmhurst (10.0 mi)",
+      "address": "215 E Mile 3 Rd, 78573",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3320",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "3320",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:43:08.791Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 5,
+      "back": 11,
+      "aisles": "F28-8",
+      "storeLine": "#1296 - San Benito (35.7 mi)",
+      "address": "1126 W Us Highway 77, 78586",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1296",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "1296",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:43:12.471Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 3,
+      "back": 8,
+      "aisles": "J20-11",
+      "storeLine": "#1000 - Brownsville (48.1 mi)",
+      "address": "2721 Boca Chica Blvd, 78521",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1000",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "UNKNOWN",
+        "store_id": "1000",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-11T07:43:16.328Z"
+      }
+    },
+    {
+      "price": 15.97,
+      "floor": 3,
+      "back": 8,
+      "aisles": "F25-1",
+      "storeLine": "#5165 - Alamo (5.5 mi)",
+      "address": "1421 Frontage Rd, 78516",
+      "raw": "Close\nU Brands, 18 x 24 in., Cork Bulletin Board, Black MDF Frame\nSort by:\nPrice (Low to High)\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F32-1\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$15.97\nFloor:\n6\nBack:\n4\nAisles: F23-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$15.97\nFloor:\n9\nBack:\n4\nAisles: J13-7\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.97\nFloor:\n11\nBack:\n0\nAisles: J16-10\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$15.97\nFloor:\n13\nBack:\n0\nAisles: F24-1\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: F26-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: J13-7\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: I12-9\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$15.97\nFloor:\n6\nBack:\n0\nAisles: F24-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$15.97\nFloor:\n4\nBack:\n0\nAisles: F26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$15.97\nFloor:\n5\nBack:\n0\nAisles: N29-10\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: L41-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.97\nFloor:\n9\nBack:\n0\nAisles: F24-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$15.97\nFloor:\n7\nBack:\n0\nAisles: F34-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$15.97\nFloor:\n5\nBack:\n11\nAisles: F28-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: J20-11\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$15.97\nFloor:\n1\nBack:\n0\nAisles: F24-1\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$15.97\nFloor:\n3\nBack:\n8\nAisles: F25-1\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$8.98\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: J19-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$15.97\nFloor:\n0\nBack:\n0\nAisles: F39-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$33.16\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "5165",
+      "itemId": "153309303",
+      "sourceLink": "https://www.walmart.com/ip/153309303",
+      "marterPrice": 42.47,
+      "discountPct": 62.4,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B011N66F2G",
+        "title": "U Brands Cork Bulletin Board, 17\" x 23\", Black Wood Frame",
+        "price": null,
+        "data": {
+          "buyBox": null,
+          "amazon": null,
+          "newPrice": null,
+          "newAvg90": null,
+          "newFbaAvg90": null,
+          "newFbmCurrent": null,
+          "buyBoxOos90": null,
+          "amazonOos90": null,
+          "newOos90": null,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": null,
+          "salesRankAvg30": null,
+          "boughtInPastMonth": "1000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B011N66F2G"
+      },
+      "upc": "812296020262",
+      "fulfillment": {
+        "status": "OK",
+        "store_id": "5165",
+        "pickup": false,
+        "delivery": false,
+        "checked_at": "2026-01-11T07:43:16.328Z"
+      }
     }
   ],
   "lowNAGambles": [
