@@ -806,6 +806,206 @@
         "delivery": null,
         "checked_at": null
       }
+    },
+    {
+      "price": 20,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#456 - Brownsville (44.5 mi)",
+      "address": "3500 W Alton Gloor Blvd, 78520",
+      "raw": "Close\nDiablo IV: Cross-Gen Bundle - PlayStation 4\nSort by:\nPrice (Low to High)\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$20.00\nFloor:\n7\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\nOut of Stock\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "456",
+      "itemId": "2791285927",
+      "sourceLink": "https://www.walmart.com/ip/Diablo-IV-Cross-Gen-Bundle-PlayStation-4/2791285927",
+      "marterPrice": 35,
+      "discountPct": 42.86,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": true,
+        "asin": "B0BPPQWQW2",
+        "title": "Diablo IV - PlayStation 4",
+        "price": 30.99,
+        "data": {
+          "buyBox": 36.94,
+          "amazon": 70.82,
+          "newPrice": 30.99,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 93,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 3,
+            "fbm": 12
+          },
+          "newOfferCount": 15,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "50+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0BPPQWQW2"
+      },
+      "upc": "047875103924",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "456",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 20,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#3567 - Hidalgo (2.0 mi)",
+      "address": "3000 S Jackson Rd, 78557",
+      "raw": "Close\nDiablo IV: Cross-Gen Bundle - PlayStation 4\nSort by:\nPrice (Low to High)\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$20.00\nFloor:\n7\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\nOut of Stock\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3567",
+      "itemId": "2791285927",
+      "sourceLink": "https://www.walmart.com/ip/Diablo-IV-Cross-Gen-Bundle-PlayStation-4/2791285927",
+      "marterPrice": 35,
+      "discountPct": 42.86,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": true,
+        "asin": "B0BPPQWQW2",
+        "title": "Diablo IV - PlayStation 4",
+        "price": 30.99,
+        "data": {
+          "buyBox": 36.94,
+          "amazon": 70.82,
+          "newPrice": 30.99,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 93,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 3,
+            "fbm": 12
+          },
+          "newOfferCount": 15,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "50+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0BPPQWQW2"
+      },
+      "upc": "047875103924",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "3567",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 20,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#2765 - Los Fresnos (44.9 mi)",
+      "address": "1004 W Ocean Boulevard, 78566",
+      "raw": "Close\nDiablo IV: Cross-Gen Bundle - PlayStation 4\nSort by:\nPrice (Low to High)\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$20.00\nFloor:\n7\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\nOut of Stock\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2765",
+      "itemId": "2791285927",
+      "sourceLink": "https://www.walmart.com/ip/Diablo-IV-Cross-Gen-Bundle-PlayStation-4/2791285927",
+      "marterPrice": 35,
+      "discountPct": 42.86,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": true,
+        "asin": "B0BPPQWQW2",
+        "title": "Diablo IV - PlayStation 4",
+        "price": 30.99,
+        "data": {
+          "buyBox": 36.94,
+          "amazon": 70.82,
+          "newPrice": 30.99,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 93,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 3,
+            "fbm": 12
+          },
+          "newOfferCount": 15,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "50+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0BPPQWQW2"
+      },
+      "upc": "047875103924",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "2765",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
+    },
+    {
+      "price": 20,
+      "floor": 1,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#1000 - Brownsville (48.1 mi)",
+      "address": "2721 Boca Chica Blvd, 78521",
+      "raw": "Close\nDiablo IV: Cross-Gen Bundle - PlayStation 4\nSort by:\nPrice (Low to High)\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$20.00\nFloor:\n7\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\nOut of Stock\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$69.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1000",
+      "itemId": "2791285927",
+      "sourceLink": "https://www.walmart.com/ip/Diablo-IV-Cross-Gen-Bundle-PlayStation-4/2791285927",
+      "marterPrice": 35,
+      "discountPct": 42.86,
+      "pass": false,
+      "lowNAGamble": true,
+      "keepa": {
+        "found": true,
+        "asin": "B0BPPQWQW2",
+        "title": "Diablo IV - PlayStation 4",
+        "price": 30.99,
+        "data": {
+          "buyBox": 36.94,
+          "amazon": 70.82,
+          "newPrice": 30.99,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 93,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 3,
+            "fbm": 12
+          },
+          "newOfferCount": 15,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "50+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0BPPQWQW2"
+      },
+      "upc": "047875103924",
+      "fulfillment": {
+        "status": "NOT_CHECKED",
+        "store_id": "1000",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": null
+      }
     }
   ]
 }
