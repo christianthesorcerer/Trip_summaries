@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trip Summary</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --accent: #22c55e;
+      --fail: #ef4444;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+    }
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: radial-gradient(circle at 20% 20%, #1f2937, #0b1221), radial-gradient(circle at 80% 0%, #111827, #0b1221); color: var(--text); }
+    header { padding: 20px 24px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1f2937; }
+    h1 { margin: 0; font-size: 20px; }
+    .meta { color: var(--muted); font-size: 13px; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; padding: 16px 24px; }
+    .stat { background: var(--card); border-radius: 10px; padding: 14px; border: 1px solid #1f2937; }
+    .stat h3 { margin: 0 0 4px; font-size: 13px; color: var(--muted); }
+    .stat .value { font-size: 22px; font-weight: 700; }
+    .warning { color: var(--fail); }
+    .passes { color: var(--accent); }
+    .layout { display: grid; grid-template-columns: 280px 1fr; gap: 16px; padding: 10px 24px 24px; }
+    @media(max-width: 900px){ .layout { grid-template-columns: 1fr; } }
+    .sidebar { background: var(--card); border:1px solid #1f2937; border-radius:12px; padding:14px; }
+    .sidebar h3 { margin: 0 0 10px; font-size: 15px; color: var(--muted); }
+    .control { margin-bottom: 10px; }
+    .control label { display:block; font-size:12px; color: var(--muted); margin-bottom:4px; }
+    .control select, .control input { width:100%; padding:8px; border-radius:8px; border:1px solid #1f2937; background:#0f172a; color:var(--text); }
+    .list { display: flex; flex-direction: column; gap: 6px; }
+    .card { background: var(--card); border-radius: 10px; padding: 10px 12px; border: 1px solid #1f2937; box-shadow: 0 6px 18px rgba(0,0,0,0.25); display:flex; flex-direction:column; gap:4px; }
+    .card h4 { margin: 0; font-size: 14px; }
+    .tag { display: inline-block; padding: 4px 8px; border-radius: 14px; font-size: 11px; font-weight: 700; }
+    .tag.pass { background: rgba(34,197,94,0.15); color: var(--accent); border: 1px solid rgba(34,197,94,0.4); }
+    .tag.gamble { background: rgba(239,68,68,0.15); color: var(--fail); border: 1px solid rgba(239,68,68,0.35); }
+    .row { display: flex; justify-content: space-between; margin: 2px 0; font-size: 12px; color: var(--muted); }
+    .price { font-size: 14px; font-weight: 700; color: var(--text); }
+    .pill { padding: 2px 6px; border-radius: 8px; background: #1f2937; margin-left: 6px; font-size: 12px; }
+    .link-btn { padding:5px 9px; border-radius:8px; background:#1f2937; color:#e2e8f0; border:1px solid #1f3750; text-decoration:none; font-weight:600; }
+    .link-btn:hover { border-color:#22c55e; color:#22c55e; }
+    .view-toggle { display:flex; gap:8px; padding:0 24px 8px; }
+    .toggle-btn { padding:8px 12px; border-radius:10px; border:1px solid #1f2937; background:#0f172a; color:var(--text); cursor:pointer; font-weight:600; }
+    .toggle-btn.active { background: var(--accent); color:#0b1221; border-color: var(--accent); }
+    .tag.amazon { background: rgba(59,130,246,0.15); color: #93c5fd; border: 1px solid rgba(59,130,246,0.35); }
+    .tag.pickup { background: rgba(34,197,94,0.12); color: #86efac; border: 1px solid rgba(34,197,94,0.25); }
+	    .tag.delivery { background: rgba(59,130,246,0.12); color: #93c5fd; border: 1px solid rgba(59,130,246,0.25); }
+	    .tag.unknown { background: rgba(148,163,184,0.12); color: #cbd5e1; border: 1px solid rgba(148,163,184,0.25); }
+	    .tag.blocked { background: rgba(245,158,11,0.12); color: #fdba74; border: 1px solid rgba(245,158,11,0.25); }
+	    .qty-input { width: 74px; padding: 6px 8px; border-radius: 10px; border: 1px solid #1f2937; background:#0f172a; color: var(--text); font-weight: 700; }
+	    .est { display:flex; gap:8px; align-items:center; justify-content:flex-end; flex-wrap:wrap; }
+	    .est .pill { margin-left: 0; }
+	    .buy { display:flex; align-items:center; gap:8px; justify-content:flex-end; }
+	    .buy input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent); }
+	    .receipt { background: var(--card); border:1px solid #1f2937; border-radius:12px; padding:14px; }
+	    .receipt h3 { margin: 0 0 10px; font-size: 15px; color: var(--muted); }
+	    .receipt-table { width:100%; border-collapse: collapse; }
+	    .receipt-table th, .receipt-table td { padding: 8px 6px; border-top: 1px solid #1f2937; font-size: 12px; }
+	    .receipt-table th { text-align:left; color: var(--muted); font-weight: 700; }
+	    .receipt-table td { color: var(--text); vertical-align: top; }
+	    .receipt-table .num { text-align:right; white-space:nowrap; }
+	    .receipt-totals { display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-bottom: 10px; }
+	    .receipt-total { background:#0f172a; border:1px solid #1f2937; border-radius:10px; padding:10px; }
+	    .receipt-total .k { color: var(--muted); font-size: 12px; }
+	    .receipt-total .v { font-size: 16px; font-weight: 800; margin-top: 4px; }
+	    .receipt-actions { display:flex; gap:8px; flex-wrap:wrap; margin: 10px 0 6px; }
+	    .receipt-actions .toggle-btn { padding: 8px 12px; }
+	    .toast { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); background: rgba(17,24,39,0.95); border:1px solid #1f2937; color: var(--text); padding: 10px 12px; border-radius: 12px; box-shadow: 0 10px 24px rgba(0,0,0,0.35); z-index: 50; }
+	  </style>
+	</head>
+	<body>
+  <header>
+    <div>
+      <h1>January 2026 </h1>
+      <div class="meta">Generated 1/21/2026, 2:16:56 PM • Threshold: 45%</div>
+    </div>
+    <div class="meta">Total links: 1</div>
+  </header>
+  <section class="stats">
+    <div class="stat"><h3>Passed</h3><div class="value passes">1</div></div>
+    <div class="stat"><h3>Avg Discount</h3><div class="value">60.4%</div></div>
+    <div class="stat"><h3>Low/N/A gambles</h3><div class="value warning">9</div></div>
+    <div class="stat"><h3>Total Stores</h3><div class="value">1</div></div>
+  </section>
+		  <div class="view-toggle">
+		    <button id="view-walmart" class="toggle-btn active">Walmart view</button>
+		    <button id="view-amazon" class="toggle-btn">Amazon view</button>
+		    <button id="view-receipt" class="toggle-btn">Receipt</button>
+		  </div>
+		  <div id="status-line" class="meta" style="padding:0 24px 12px;"></div>
+		  <section class="layout">
+		    <div class="sidebar">
+	      <h3>Filters</h3>
+      <div class="control">
+        <label for="discount-filter">Min discount (%)</label>
+        <input id="discount-filter" type="number" min="-100" max="100" placeholder="30" />
+      </div>
+      <div class="control">
+        <label for="floor-filter">Min floor stock</label>
+        <input id="floor-filter" type="number" min="0" step="1" placeholder="2" />
+      </div>
+      <div class="control">
+        <label for="back-filter">Min back stock</label>
+        <input id="back-filter" type="number" min="0" step="1" placeholder="2" />
+      </div>
+      <div class="control">
+        <label for="aisle-filter">Aisle</label>
+        <select id="aisle-filter"></select>
+      </div>
+      <div class="control">
+        <label for="store-filter">Store</label>
+        <select id="store-filter"></select>
+      </div>
+      <div class="control">
+        <label for="fulfillment-filter">Fulfillment</label>
+        <select id="fulfillment-filter">
+          <option value="all">All</option>
+          <option value="pickup">Pickup available</option>
+          <option value="delivery">Delivery available</option>
+          <option value="both">Both</option>
+          <option value="instore">In store only</option>
+        </select>
+      </div>
+	    </div>
+	    <div class="list" id="cards"></div>
+	    <div id="receipt-root" class="receipt" style="display:none;"></div>
+	  </section>
+  <section class="layout">
+    <div class="sidebar">
+      <h3>Low/N/A gambles</h3>
+      <div class="meta">Floor/Back = 1 and aisle N/A</div>
+    </div>
+    <div class="list" id="gamble-cards"></div>
+  </section>
+  <script>window.__SUMMARY__ = {"tripName":"January 2026 ","tripId":"january-2026","runId":"2026-01-21T20-16-51-206Z","discountThreshold":45,"generatedAt":"2026-01-21T21:06:29.539Z","results":[{"price":15,"floor":3,"back":0,"aisles":"J16-100","storeLine":"#2765 - Los Fresnos (44.9 mi)","address":"1004 W Ocean Boulevard, 78566","raw":"Close\nHogwarts Legacy - PlayStation 4\nSort by:\nPrice (Low to High)\n$15.00\nFloor:\n3\nBack:\n0\nAisles: J16-100\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: K21-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$24.88\nFloor:\n3\nBack:\n0\nAisles: K21-6\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: K6-8\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: K23-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: K21-1\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$24.88\nFloor:\n1\nBack:\n0\nAisles: K26-6\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$24.88\nFloor:\n3\nBack:\n0\nAisles: O7-8\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$24.88\nFloor:\n5\nBack:\n0\nAisles: K15-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$24.88\nFloor:\n1\nBack:\n0\nAisles: K18-3\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: K6-3\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$24.88\nFloor:\n1\nBack:\n0\nAisles: N5-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$24.88\nFloor:\n1\nBack:\n0\nAisles: K15-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$24.88\nFloor:\n6\nBack:\n0\nAisles: K18-4\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: K5-5\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: K19-3\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$24.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$24.88\nFloor:\n0\nBack:\n0\nAisles: K23-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$24.88\nFloor:\n0\nBack:\n0\nAisles: K19-7\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$59.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$59.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$59.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$59.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back","storeId":"2765","itemId":"521388454","sourceLink":"https://www.walmart.com/ip/Hogwarts-Legacy-PlayStation-4/521388454","marterPrice":37.89,"discountPct":60.41,"pass":true,"lowNAGamble":false,"keepa":{"found":true,"asin":"B09VYHRDG9","title":"Hogwarts Legacy - PlayStation 4","price":24.99,"data":{"buyBox":24.99,"amazon":24.99,"newPrice":24.99,"newAvg90":90,"newFbaAvg90":3,"newFbmCurrent":3,"buyBoxOos90":null,"amazonOos90":93,"newOos90":0,"liveOffers":{"fba":5,"fbm":9},"newOfferCount":13,"salesRankCurrent":4,"salesRankAvg30":30,"boughtInPastMonth":"50+"},"keepaUrl":"https://keepa.com/#!product/1-B09VYHRDG9"},"upc":"883929730674","fulfillment":{"status":"BLOCKED","store_id":"2765","pickup":null,"delivery":null,"checked_at":"2026-01-21T21:06:24.955Z"}}],"lowNAGambles":[{"price":10,"floor":1,"back":0,"aisles":"N/A","storeLine":"#452 - Mcallen (6.7 mi)","address":"2800 W Nolana Ave, 78504","raw":"Close\nCarnival Games - Nintendo Switch\nSort by:\nPrice (Low to High)\n$10.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.00\nFloor:\n1\nBack:\n0\nAisles: O4-200\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$17.93\nFloor:\n10\nBack:\n0\nAisles: K14-7\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$17.93\nFloor:\n5\nBack:\n0\nAisles: K19-6\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$17.93\nFloor:\n5\nBack:\n0\nAisles: K22-4\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$17.93\nFloor:\n3\nBack:\n0\nAisles: K7-9\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$17.93\nFloor:\n2\nBack:\n0\nAisles: K17-1\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$17.93\nFloor:\n1\nBack:\n1\nAisles: K22-6\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$17.93\nFloor:\n3\nBack:\n0\nAisles: K22-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$17.93\nFloor:\n6\nBack:\n0\nAisles: J17-8\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$17.93\nFloor:\n2\nBack:\n0\nAisles: K20-3\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$17.93\nFloor:\n2\nBack:\n0\nAisles: K25-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$17.93\nFloor:\n3\nBack:\n0\nAisles: K19-7\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$17.93\nFloor:\n7\nBack:\n0\nAisles: N5-6\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$17.93\nFloor:\n5\nBack:\n0\nAisles: K18-2\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$17.93\nFloor:\n4\nBack:\n0\nAisles: K4-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$17.93\nFloor:\n2\nBack:\n0\nAisles: K19-7\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back","storeId":"452","itemId":"492363987","sourceLink":"https://www.walmart.com/ip/Carnival-Games-Nintendo-Switch/492363987","marterPrice":17.93,"discountPct":44.23,"pass":false,"lowNAGamble":true,"keepa":{"found":true,"asin":"B07F3RFPXG","title":"Carnival Games Nintendo Switch","price":14.87,"data":{"buyBox":90,"amazon":365,"newPrice":14.87,"newAvg90":90,"newFbaAvg90":3,"newFbmCurrent":3,"buyBoxOos90":null,"amazonOos90":100,"newOos90":0,"liveOffers":{"fba":14,"fbm":12},"newOfferCount":29,"salesRankCurrent":2,"salesRankAvg30":30,"boughtInPastMonth":null},"keepaUrl":"https://keepa.com/#!product/1-B07F3RFPXG"},"upc":"710425551574","fulfillment":{"status":"NOT_CHECKED","store_id":"452","pickup":null,"delivery":null,"checked_at":null}},{"price":19.93,"floor":1,"back":0,"aisles":"N/A","storeLine":"#2765 - Los Fresnos (44.9 mi)","address":"1004 W Ocean Boulevard, 78566","raw":"Close\nCrash Bandicoot 4: It's About Time - PlayStation 4\nSort by:\nPrice (Low to High)\n$19.93\nFloor:\n1\nBack:\n0\nAisles: K22-4\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$19.93\nFloor:\n2\nBack:\n0\nAisles: K7-9\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: K22-6\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$19.93\nFloor:\n6\nBack:\n0\nAisles: K19-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: O7-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$19.93\nFloor:\n6\nBack:\n0\nAisles: K16-5\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: K25-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$19.93\nFloor:\n6\nBack:\n0\nAisles: K5-5\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: K15-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$19.93\nFloor:\n2\nBack:\n0\nAisles: N5-6\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$19.93\nFloor:\n2\nBack:\n0\nAisles: K19-7\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$30.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$30.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$49.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$49.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$49.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$49.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$49.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back","storeId":"2765","itemId":"284486531","sourceLink":"https://www.walmart.com/ip/Crash-Bandicoot-4-It-s-About-Time-PlayStation-4/284486531","marterPrice":17,"discountPct":-17.24,"pass":false,"lowNAGamble":true,"keepa":{"found":true,"asin":"B08BMDZBK8","title":"Crash 4: It's About Time","price":28.49,"data":{"buyBox":90,"amazon":90,"newPrice":28.49,"newAvg90":90,"newFbaAvg90":3,"newFbmCurrent":3,"buyBoxOos90":null,"amazonOos90":100,"newOos90":0,"liveOffers":{"fba":12,"fbm":13},"newOfferCount":26,"salesRankCurrent":2,"salesRankAvg30":30,"boughtInPastMonth":"50+"},"keepaUrl":"https://keepa.com/#!product/1-B08BMDZBK8"},"upc":"047875785465","fulfillment":{"status":"NOT_CHECKED","store_id":"2765","pickup":null,"delivery":null,"checked_at":null}},{"price":19.93,"floor":1,"back":0,"aisles":"N/A","storeLine":"#395 - Mission (5.6 mi)","address":"2410 E Expressway 83, 78572","raw":"Close\nCrash Bandicoot 4: It's About Time - PlayStation 4\nSort by:\nPrice (Low to High)\n$19.93\nFloor:\n1\nBack:\n0\nAisles: K22-4\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$19.93\nFloor:\n2\nBack:\n0\nAisles: K7-9\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: K22-6\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$19.93\nFloor:\n6\nBack:\n0\nAisles: K19-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: O7-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$19.93\nFloor:\n6\nBack:\n0\nAisles: K16-5\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: K25-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$19.93\nFloor:\n6\nBack:\n0\nAisles: K5-5\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$19.93\nFloor:\n1\nBack:\n0\nAisles: K15-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$19.93\nFloor:\n2\nBack:\n0\nAisles: N5-6\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$19.93\nFloor:\n2\nBack:\n0\nAisles: K19-7\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$30.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$30.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$49.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$49.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$49.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$49.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$49.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back","storeId":"395","itemId":"284486531","sourceLink":"https://www.walmart.com/ip/Crash-Bandicoot-4-It-s-About-Time-PlayStation-4/284486531","marterPrice":17,"discountPct":-17.24,"pass":false,"lowNAGamble":true,"keepa":{"found":true,"asin":"B08BMDZBK8","title":"Crash 4: It's About Time","price":28.49,"data":{"buyBox":90,"amazon":90,"newPrice":28.49,"newAvg90":90,"newFbaAvg90":3,"newFbmCurrent":3,"buyBoxOos90":null,"amazonOos90":100,"newOos90":0,"liveOffers":{"fba":12,"fbm":13},"newOfferCount":26,"salesRankCurrent":2,"salesRankAvg30":30,"boughtInPastMonth":"50+"},"keepaUrl":"https://keepa.com/#!product/1-B08BMDZBK8"},"upc":"047875785465","fulfillment":{"status":"NOT_CHECKED","store_id":"395","pickup":null,"delivery":null,"checked_at":null}},{"price":29.83,"floor":1,"back":0,"aisles":"N/A","storeLine":"#1000 - Brownsville (48.1 mi)","address":"2721 Boca Chica Blvd, 78521","raw":"Close\nDisney Epic Mickey: Rebrushed, PlayStation 5\nSort by:\nPrice (Low to High)\n$29.83\nFloor:\n2\nBack:\n0\nAisles: K23-6\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$29.83\nFloor:\n6\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$29.83\nFloor:\n4\nBack:\n0\nAisles: K15-2\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$20.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: K24-19\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$39.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$39.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$59.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$59.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$59.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$59.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$59.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$59.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back","storeId":"1000","itemId":"5446374284","sourceLink":"https://www.walmart.com/ip/Disney-Epic-Mickey-Rebrushed-PlayStation-5/5446374284","marterPrice":26,"discountPct":-14.73,"pass":false,"lowNAGamble":true,"keepa":{"found":true,"asin":"B0CW3KHPTQ","title":"Disney Epic Mickey: Rebrushed - PlayStation 5","price":24.2,"data":{"buyBox":26,"amazon":26,"newPrice":24.2,"newAvg90":90,"newFbaAvg90":3,"newFbmCurrent":3,"buyBoxOos90":null,"amazonOos90":14,"newOos90":0,"liveOffers":{"fba":5,"fbm":7},"newOfferCount":13,"salesRankCurrent":1,"salesRankAvg30":30,"boughtInPastMonth":"200+"},"keepaUrl":"https://keepa.com/#!product/1-B0CW3KHPTQ"},"upc":"811994024114","fulfillment":{"status":"NOT_CHECKED","store_id":"1000","pickup":null,"delivery":null,"checked_at":null}},{"price":59.88,"floor":1,"back":0,"aisles":"N/A","storeLine":"#6098 - Mcallen (5.8 mi)","address":"800 East Nolana Ave, 78501","raw":"Close\nLuigi's Mansion 3 - Nintendo Switch\nSort by:\nPrice (Low to High)\n$59.88\nFloor:\n1\nBack:\n0\nAisles: K15-5\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$59.88\nFloor:\n3\nBack:\n0\nAisles: K19-4\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$59.88\nFloor:\n2\nBack:\n0\nAisles: K6-5\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$59.88\nFloor:\n4\nBack:\n0\nAisles: K17-2\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$59.88\nFloor:\n3\nBack:\n0\nAisles: K21-3\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$59.88\nFloor:\n1\nBack:\n0\nAisles: K23-5\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$59.88\nFloor:\n3\nBack:\n0\nAisles: K23-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$59.88\nFloor:\n1\nBack:\n0\nAisles: J17-5\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$59.88\nFloor:\n3\nBack:\n0\nAisles: O6-3\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$59.88\nFloor:\n5\nBack:\n0\nAisles: K18-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$59.88\nFloor:\n3\nBack:\n0\nAisles: K17-5\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$59.88\nFloor:\n3\nBack:\n0\nAisles: K24-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$59.88\nFloor:\n3\nBack:\n0\nAisles: K18-7\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$59.88\nFloor:\n1\nBack:\n0\nAisles: K3-5\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$59.88\nFloor:\n3\nBack:\n0\nAisles: N4-4\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$59.88\nFloor:\n1\nBack:\n0\nAisles: K17-4\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$59.88\nFloor:\n3\nBack:\n0\nAisles: K17-9\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$59.88\nFloor:\n2\nBack:\n0\nAisles: K6-4\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$59.88\nFloor:\n2\nBack:\n0\nAisles: K18-4\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$59.88\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nOut of Stock\n\n$59.88\nFloor:\n0\nBack:\n0\nAisles: K20-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$59.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$59.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$59.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\nStore Locations Map\nGo Back","storeId":"6098","itemId":"270679640","sourceLink":"https://www.walmart.com/ip/Luigi-s-Mansion-3-Nintendo-Switch/270679640","marterPrice":51,"discountPct":-17.41,"pass":false,"lowNAGamble":true,"keepa":{"found":true,"asin":"B07SK4W1VJ","title":"Luigi's Mansion 3 - US Version","price":90,"data":{"buyBox":49.49,"amazon":49.49,"newPrice":90,"newAvg90":90,"newFbaAvg90":3,"newFbmCurrent":3,"buyBoxOos90":null,"amazonOos90":null,"newOos90":null,"liveOffers":{"fba":17,"fbm":19},"newOfferCount":56,"salesRankCurrent":586,"salesRankAvg30":30,"boughtInPastMonth":"900+"},"keepaUrl":"https://keepa.com/#!product/1-B07SK4W1VJ"},"upc":"045496596408","fulfillment":{"status":"NOT_CHECKED","store_id":"6098","pickup":null,"delivery":null,"checked_at":null}},{"price":19.93,"floor":1,"back":0,"aisles":"N/A","storeLine":"#3567 - Hidalgo (2.0 mi)","address":"3000 S Jackson Rd, 78557","raw":"Close\nMonopoly Plus and Monopoly Madness - PlayStation 4, PlayStation 5\nSort by:\nPrice (Low to High)\n$19.93\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$19.93\nFloor:\n2\nBack:\n0\nAisles: K23-100\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$19.93\nFloor:\n5\nBack:\n0\nAisles: N/A\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\nOut of Stock\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back","storeId":"3567","itemId":"151737459","sourceLink":"https://www.walmart.com/ip/Monopoly-Plus-and-Monopoly-Madness-PlayStation-4-PlayStation-5/151737459","marterPrice":15.09,"discountPct":-32.07,"pass":false,"lowNAGamble":true,"keepa":{"found":true,"asin":"B000U5B2FW","title":"Alive","price":24.53,"data":{"buyBox":30.52,"amazon":11.99,"newPrice":24.53,"newAvg90":90,"newFbaAvg90":null,"newFbmCurrent":3,"buyBoxOos90":null,"amazonOos90":100,"newOos90":1,"liveOffers":{"fba":0,"fbm":1},"newOfferCount":1,"salesRankCurrent":464,"salesRankAvg30":30,"boughtInPastMonth":"50+"},"keepaUrl":"https://keepa.com/#!product/1-B000U5B2FW"},"upc":"887256112066","fulfillment":{"status":"NOT_CHECKED","store_id":"3567","pickup":null,"delivery":null,"checked_at":null}},{"price":20,"floor":1,"back":0,"aisles":"N/A","storeLine":"#456 - Brownsville (44.5 mi)","address":"3500 W Alton Gloor Blvd, 78520","raw":"Close\nStreet Fighter 6 - PlayStation 5\nSort by:\nPrice (Low to High)\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$20.00\nFloor:\n2\nBack:\n0\nAisles: K21-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: K5-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$29.83\nFloor:\n4\nBack:\n0\nAisles: K6-9\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: K23-6\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: K19-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$29.83\nFloor:\n3\nBack:\n0\nAisles: K15-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: O7-8\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: K26-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: K18-3\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: K6-3\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: K15-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: N5-4\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: K18-4\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$29.83\nFloor:\n3\nBack:\n0\nAisles: K19-3\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: K21-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: K21-5\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: K23-3\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back","storeId":"456","itemId":"1012767389","sourceLink":"https://www.walmart.com/ip/Street-Fighter-6-PlayStation-5/1012767389","marterPrice":22.34,"discountPct":10.47,"pass":false,"lowNAGamble":true,"keepa":{"found":true,"asin":"B0BPJRGNSD","title":"Street Fighter 6 - PS5","price":16.99,"data":{"buyBox":21.99,"amazon":21.99,"newPrice":16.99,"newAvg90":90,"newFbaAvg90":3,"newFbmCurrent":3,"buyBoxOos90":null,"amazonOos90":8,"newOos90":0,"liveOffers":{"fba":6,"fbm":15},"newOfferCount":22,"salesRankCurrent":453,"salesRankAvg30":30,"boughtInPastMonth":"1000+"},"keepaUrl":"https://keepa.com/#!product/1-B0BPJRGNSD"},"upc":"013388580095","fulfillment":{"status":"NOT_CHECKED","store_id":"456","pickup":null,"delivery":null,"checked_at":null}},{"price":29.83,"floor":1,"back":0,"aisles":"N/A","storeLine":"#2765 - Los Fresnos (44.9 mi)","address":"1004 W Ocean Boulevard, 78566","raw":"Close\nStreet Fighter 6 - PlayStation 5\nSort by:\nPrice (Low to High)\n$20.00\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$20.00\nFloor:\n2\nBack:\n0\nAisles: K21-2\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$20.00\nFloor:\n1\nBack:\n0\nAisles: K5-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$29.83\nFloor:\n4\nBack:\n0\nAisles: K6-9\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: K23-6\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: K19-8\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$29.83\nFloor:\n3\nBack:\n0\nAisles: K15-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: O7-8\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: K26-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: K18-3\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: K6-3\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: K15-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$29.83\nFloor:\n2\nBack:\n0\nAisles: N5-4\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$29.83\nFloor:\n1\nBack:\n0\nAisles: K18-4\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$29.83\nFloor:\n3\nBack:\n0\nAisles: K19-3\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: K21-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: K21-5\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: K23-3\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$29.83\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back","storeId":"2765","itemId":"1012767389","sourceLink":"https://www.walmart.com/ip/Street-Fighter-6-PlayStation-5/1012767389","marterPrice":22.34,"discountPct":-33.53,"pass":false,"lowNAGamble":true,"keepa":{"found":true,"asin":"B0BPJRGNSD","title":"Street Fighter 6 - PS5","price":16.99,"data":{"buyBox":21.99,"amazon":21.99,"newPrice":16.99,"newAvg90":90,"newFbaAvg90":3,"newFbmCurrent":3,"buyBoxOos90":null,"amazonOos90":8,"newOos90":0,"liveOffers":{"fba":6,"fbm":15},"newOfferCount":22,"salesRankCurrent":453,"salesRankAvg30":30,"boughtInPastMonth":"1000+"},"keepaUrl":"https://keepa.com/#!product/1-B0BPJRGNSD"},"upc":"013388580095","fulfillment":{"status":"NOT_CHECKED","store_id":"2765","pickup":null,"delivery":null,"checked_at":null}},{"price":24.88,"floor":1,"back":0,"aisles":"N/A","storeLine":"#2765 - Los Fresnos (44.9 mi)","address":"1004 W Ocean Boulevard, 78566","raw":"Close\nUndisputed, PlayStation 5\nSort by:\nPrice (Low to High)\n$15.00\nFloor:\n2\nBack:\n0\nAisles: K5-5\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: K7-9\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$24.88\nFloor:\n1\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: K16-5\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$24.88\nFloor:\n1\nBack:\n0\nAisles: O7-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$24.88\nFloor:\n1\nBack:\n0\nAisles: K19-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$24.88\nFloor:\n4\nBack:\n0\nAisles: K15-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: N5-6\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$24.88\nFloor:\n2\nBack:\n0\nAisles: K19-7, K24-19\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: K22-4\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$15.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$19.93\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$24.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$24.88\nFloor:\n0\nBack:\n0\nAisles: K22-6\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$24.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$24.88\nFloor:\n0\nBack:\n0\nAisles: K25-5\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$24.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$30.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$59.88\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$60.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$60.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$60.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$60.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back","storeId":"2765","itemId":"5899312528","sourceLink":"https://www.walmart.com/ip/Undisputed-PlayStation-5/5899312528","marterPrice":24,"discountPct":-3.67,"pass":false,"lowNAGamble":true,"keepa":{"found":true,"asin":"B0D4C3VTTG","title":"Undisputed - PlayStation 5","price":17.1,"data":{"buyBox":17.1,"amazon":17.1,"newPrice":17.1,"newAvg90":90,"newFbaAvg90":3,"newFbmCurrent":3,"buyBoxOos90":null,"amazonOos90":0,"newOos90":0,"liveOffers":{"fba":9,"fbm":15},"newOfferCount":25,"salesRankCurrent":367,"salesRankAvg30":30,"boughtInPastMonth":"1000+"},"keepaUrl":"https://keepa.com/#!product/1-B0D4C3VTTG"},"upc":"810086922680","fulfillment":{"status":"NOT_CHECKED","store_id":"2765","pickup":null,"delivery":null,"checked_at":null}}]};</script>
+  <script>
+	    const root = document.getElementById('cards');
+	    const gambleRoot = document.getElementById('gamble-cards');
+	    const receiptRoot = document.getElementById('receipt-root');
+	    const statusLine = document.getElementById('status-line');
+	    const discountFilter = document.getElementById('discount-filter');
+	    const floorFilter = document.getElementById('floor-filter');
+		    const backFilter = document.getElementById('back-filter');
+		    const aisleFilter = document.getElementById('aisle-filter');
+		    const storeFilter = document.getElementById('store-filter');
+		    const urlParams = new URLSearchParams(location.search);
+		    let itemParam = (urlParams.get('itemId') || '').trim();
+		    const qtyParamRaw = (urlParams.get('qty') || '').trim();
+		    const defaultQty = (function () {
+		      const n = Number.parseInt(qtyParamRaw || '1', 10);
+		      return Number.isFinite(n) && n > 0 ? n : 1;
+		    })();
+		    const viewButtons = {
+		      walmart: document.getElementById('view-walmart'),
+		      amazon: document.getElementById('view-amazon'),
+		      receipt: document.getElementById('view-receipt'),
+		    };
+		    let currentView = 'walmart';
+		    const data = window.__SUMMARY__;
+		    const gambles = data.lowNAGambles || [];
+		    const qtyByItem = new Map();
+		    const receiptState = { bought: {}, qty: {}, items: {}, channel: {} };
+		    function receiptStorageKey() {
+		      const tid = (data.tripId || data.tripName || 'trip').toString();
+		      const rid = (data.runId || '').toString();
+		      return 'ts2_receipt::' + tid + '::' + rid;
+		    }
+		    function loadReceiptState() {
+		      try {
+		        const raw = localStorage.getItem(receiptStorageKey());
+		        if (!raw) return;
+		        const parsed = JSON.parse(raw);
+		        if (parsed && typeof parsed === 'object') {
+		          receiptState.bought = parsed.bought && typeof parsed.bought === 'object' ? parsed.bought : {};
+		          receiptState.qty = parsed.qty && typeof parsed.qty === 'object' ? parsed.qty : {};
+		          receiptState.items = parsed.items && typeof parsed.items === 'object' ? parsed.items : {};
+		          receiptState.channel = parsed.channel && typeof parsed.channel === 'object' ? parsed.channel : {};
+		        }
+		      } catch (_) {}
+		    }
+		    let _saveReceiptTimer = null;
+		    function saveReceiptStateSoon() {
+		      if (_saveReceiptTimer) return;
+		      _saveReceiptTimer = setTimeout(() => {
+		        _saveReceiptTimer = null;
+		        try {
+		          localStorage.setItem(receiptStorageKey(), JSON.stringify(receiptState));
+		        } catch (_) {}
+		      }, 250);
+		    }
+		    loadReceiptState();
+		    buildAisleOptions();
+		    buildStoreOptions();
+		    // Ensure filters start empty so cards show by default
+		    [discountFilter, floorFilter, backFilter].forEach((el) => (el.value = ''));
+
+		    // If opened from an alert email, we may have ?itemId=... to focus a single item.
+		    if (itemParam) {
+		      const hint = document.createElement('div');
+		      hint.className = 'control';
+		      hint.innerHTML = [
+		        '<label>Item filter active</label>',
+		        '<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">',
+		        '<span class="pill" style="background:#0f172a;border:1px solid #1f2937;">Item ' + esc(itemParam) + '</span>',
+		        '<button id="clear-item-filter" class="toggle-btn" style="padding:6px 10px;">Show all</button>',
+		        '</div>',
+		        '<div class="meta" style="margin-top:6px;">Opened from a deep link. Tap “Show all” to see every passed item.</div>',
+		      ].join('');
+		      const sidebar = document.querySelector('.sidebar');
+		      if (sidebar) sidebar.insertBefore(hint, sidebar.firstChild);
+		      const btn = document.getElementById('clear-item-filter');
+		      if (btn) {
+		        btn.addEventListener('click', () => {
+		          try {
+		            const p = new URLSearchParams(location.search);
+		            p.delete('itemId');
+		            itemParam = '';
+		            history.replaceState({}, '', location.pathname + (p.toString() ? ('?' + p.toString()) : ''));
+		          } catch (_) {
+		            itemParam = '';
+		          }
+		          applyFilters();
+		        });
+		      }
+		    }
+
+		    function applyFilters() {
+		      if (currentView === 'receipt') {
+		        if (root) root.style.display = 'none';
+		        if (receiptRoot) receiptRoot.style.display = '';
+		        renderReceipt();
+		        return;
+		      }
+		      if (root) root.style.display = '';
+		      if (receiptRoot) receiptRoot.style.display = 'none';
+		      const minDisc = discountFilter.value ? Number(discountFilter.value) : null;
+		      const minFloor = floorFilter.value ? Number(floorFilter.value) : null;
+	      const minBack = backFilter.value ? Number(backFilter.value) : null;
+      const aisleValue = aisleFilter.value || 'all';
+      const storeValue = storeFilter.value || 'all';
+      const filtered = data.results.filter((r) => {
+        if (!r.pass) return false;
+        if (currentView === 'amazon' && !(r.keepa && r.keepa.found)) return false;
+        if (itemParam && String(r.itemId || '').trim() !== itemParam) return false;
+        if (minDisc != null && (r.discountPct == null || r.discountPct < minDisc)) return false;
+        // Stock filter: if both provided, accept if EITHER meets the threshold; if only one provided, apply that one.
+        if (minFloor != null && minBack != null) {
+          const floorOk = r.floor != null && r.floor >= minFloor;
+          const backOk = r.back != null && r.back >= minBack;
+          if (!floorOk && !backOk) return false;
+        } else if (minFloor != null) {
+          if (r.floor == null || r.floor < minFloor) return false;
+        } else if (minBack != null) {
+          if (r.back == null || r.back < minBack) return false;
+        }
+        const ais = (r.aisles || '').trim();
+        const isNA = !ais || new RegExp('^n/?a$', 'i').test(ais);
+        if (aisleValue === 'na' && !isNA) return false;
+        if (aisleValue === 'has' && isNA) return false;
+        if (aisleValue.length === 1 && aisleValue !== 'all') {
+          if (!ais.toUpperCase().startsWith(aisleValue)) return false;
+        }
+        if (storeValue !== 'all') {
+          const storeText = ((r.storeLine || '') + ' ' + (r.address || '')).toLowerCase();
+          if (!storeText.includes(storeValue.toLowerCase())) return false;
+        }
+	        return true;
+	      });
+	      renderItems(filtered);
+	    }
+	    Object.entries(viewButtons).forEach(([mode, btn]) => {
+	      if (!btn) return;
+	      btn.addEventListener('click', () => {
+	        currentView = mode;
+	        viewButtons.walmart.classList.toggle('active', mode === 'walmart');
+	        viewButtons.amazon.classList.toggle('active', mode === 'amazon');
+	        viewButtons.receipt.classList.toggle('active', mode === 'receipt');
+	        applyFilters();
+	      });
+	    });
+    function buildAisleOptions() {
+      const letters = new Set();
+      data.results.forEach((r) => {
+        const ais = (r.aisles || '').trim();
+        if (ais && !new RegExp('^n/?a$', 'i').test(ais)) {
+          letters.add(ais[0].toUpperCase());
+        }
+      });
+      const opts = [
+        { value: 'all', label: 'All aisles' },
+        { value: 'has', label: 'Has aisle' },
+        { value: 'na', label: 'N/A only' },
+        ...Array.from(letters).sort().map((l) => ({ value: l, label: 'Starts with ' + l })),
+      ];
+      aisleFilter.innerHTML = opts.map((o) => '<option value="' + o.value + '">' + o.label + '</option>').join('');
+      aisleFilter.value = 'all';
+    }
+    function buildStoreOptions() {
+      const storeMap = new Map();
+      data.results.forEach((r) => {
+        if (!r.pass) return;
+        const hasStock = (r.floor ?? 0) > 0 || (r.back ?? 0) > 0;
+        if (!hasStock) return;
+        const key = (r.storeLine || r.address || '').trim();
+        if (!key) return;
+        const label = (r.storeLine ? r.storeLine : key) + (r.address ? ' — ' + r.address : '');
+        storeMap.set(key.toLowerCase(), label);
+      });
+      const opts = [{ value: 'all', label: 'All stores' }].concat(
+        Array.from(storeMap.entries()).map(([val, label]) => ({ value: val, label }))
+      );
+      storeFilter.innerHTML = opts.map((o) => '<option value="' + o.value + '">' + o.label + '</option>').join('');
+      storeFilter.value = 'all';
+    }
+    // Optional quick reset
+    const resetBtn = document.createElement('button');
+    resetBtn.textContent = 'Reset filters';
+    resetBtn.style.cssText = 'width:100%;margin-top:6px;padding:8px;border-radius:8px;border:1px solid #1f2937;background:#0f172a;color:#e2e8f0;cursor:pointer;';
+    resetBtn.onclick = () => {
+      discountFilter.value = '';
+      floorFilter.value = '';
+      backFilter.value = '';
+      aisleFilter.value = 'all';
+      storeFilter.value = 'all';
+      applyFilters();
+    };
+    document.querySelector('.sidebar').appendChild(resetBtn);
+	    function fmt(n) { return n == null ? '-' : '$' + n.toFixed(2); }
+	    function pct(n) { return n == null ? '-' : n.toFixed(1) + '%'; }
+    function rankVal(n) { return n == null ? '-' : '#' + Number(n).toLocaleString(); }
+	    function boughtVal(v) {
+	      if (v == null) return '-';
+	      if (typeof v === 'number') return Number(v).toLocaleString();
+	      return String(v);
+	    }
+	    function esc(s) {
+	      return String(s ?? '')
+	        .replace(/&/g, '&amp;')
+	        .replace(/</g, '&lt;')
+	        .replace(/>/g, '&gt;')
+	        .replace(/"/g, '&quot;')
+	        .replace(/'/g, '&#39;');
+	    }
+	    function showRuntimeError(message) {
+	      try {
+	        const existing = document.getElementById('runtime-error');
+	        if (existing) return;
+	        const banner = document.createElement('div');
+	        banner.id = 'runtime-error';
+	        banner.className = 'card';
+	        banner.style.borderColor = 'rgba(239,68,68,0.6)';
+	        banner.style.background = 'rgba(239,68,68,0.08)';
+	        banner.innerHTML =
+	          '<h4 style="margin:0 0 6px 0;">Summary render error</h4>' +
+	          '<div class="meta" style="color:#fecaca;">' + esc(message) + '</div>' +
+	          '<div class="meta" style="margin-top:8px;">Open DevTools Console for details.</div>';
+	        if (root && root.parentElement) root.parentElement.insertBefore(banner, root);
+	      } catch (_) {}
+	    }
+	    window.addEventListener('error', (e) => showRuntimeError(e && e.message ? e.message : 'Unknown error'));
+	    window.addEventListener('unhandledrejection', (e) => showRuntimeError((e && e.reason && e.reason.message) ? e.reason.message : String(e.reason || e)));
+	    function setStatus(text) {
+	      if (!statusLine) return;
+	      statusLine.textContent = text || '';
+	    }
+		    function renderItems(list) {
+		      root.innerHTML = '';
+		      const dataset = (list || data.results.filter(r => r.pass)).filter((r) => currentView === 'amazon' ? (r.keepa && r.keepa.found) : true);
+		      if (!dataset.length) {
+		        root.innerHTML = '<div class="meta">No results match the current filters.</div>';
+		        setStatus('Showing 0 of ' + String((data.results || []).length) + ' passed results' + (itemParam ? (' • itemId=' + itemParam) : ''));
+		        return;
+		      }
+		      setStatus('Showing ' + String(dataset.length) + ' of ' + String((data.results || []).length) + ' passed results' + (itemParam ? (' • itemId=' + itemParam) : ''));
+		      dataset.forEach((r) => {
+		        const card = document.createElement('div');
+		        card.className = 'card';
+		        const receiptKey = [
+		          (data.tripId || data.tripName || 'trip'),
+		          (data.runId || ''),
+		          (r.itemId || ''),
+		          (r.storeId || ''),
+		          (r.sourceLink || ''),
+		        ].join('||');
+		        const initialQtyRaw = receiptState.qty && receiptState.qty[receiptKey] != null ? receiptState.qty[receiptKey] : (qtyByItem.get(receiptKey) ?? defaultQty);
+		        const initialQty = Number.parseInt(String(initialQtyRaw), 10);
+		        const qty = Number.isFinite(initialQty) && initialQty > 0 ? initialQty : defaultQty;
+		        qtyByItem.set(receiptKey, qty);
+		        receiptState.qty[receiptKey] = qty;
+		        const bought = !!(receiptState.bought && receiptState.bought[receiptKey]);
+		        const markedChannel = (receiptState.channel && receiptState.channel[receiptKey]) || null;
+		        const walmartLink = r.itemId ? 'https://www.walmart.com/ip/' + r.itemId : (r.sourceLink || '#');
+		        const keepaLink =
+		          (r.keepa && (r.keepa.keepaUrl || (r.keepa.asin && 'https://keepa.com/#!product/1-' + r.keepa.asin))) ||
+		          (r.upc ? 'https://keepa.com/#!search/1-' + r.upc : '#');
+        const tags = ['<span class="tag pass">PASS</span>'];
+        if (r.lowNAGamble) tags.push('<span class="tag gamble">Low/N/A gambles</span>');
+        if (r.keepa && r.keepa.found) tags.push('<span class="tag amazon">Amazon</span>');
+
+        const f = r.fulfillment || null;
+        if (!f || (f.pickup == null && f.delivery == null)) {
+          const label = f && f.status === 'BLOCKED'
+            ? '<span class="tag blocked">BLOCKED</span>'
+            : '<span class="tag unknown">Fulfillment unknown</span>';
+          tags.push(label);
+        } else {
+          if (f.pickup === true) tags.push('<span class="tag pickup">Pickup</span>');
+          if (f.delivery === true) tags.push('<span class="tag delivery">Delivery</span>');
+        }
+        const isAmazon = currentView === 'amazon';
+        const storeTitle = r.storeLine || (r.storeId ? ('Store #' + r.storeId) : null);
+        const headerTitle = isAmazon
+          ? ((storeTitle ? (storeTitle + ' — ') : '') + (r.keepa?.title || 'Keepa item'))
+          : (storeTitle || 'Store');
+		        const keepaRank = r.keepa?.data?.salesRankCurrent ?? r.keepa?.data?.salesRankAvg30 ?? null;
+		        const keepaBought = r.keepa?.data?.boughtInPastMonth ?? null;
+		        const qtyRow = [
+		          '<div class="row"><span>Quantity</span>',
+		          '<span class="est">',
+		          '<input class="qty-input" type="number" min="1" step="1" inputmode="numeric" value="' + String(qty) + '" />',
+		          '<span class="pill">Est cost <b class="est-cost" style="color:var(--text)"></b></span>',
+		          '<span class="pill">Est sales <b class="est-sales" style="color:var(--text)"></b></span>',
+		          '</span></div>',
+		        ].join('');
+		        const buyRow = [
+		          '<div class="row"><span>Bought</span>',
+		          '<span class="buy">',
+		          '<label style="display:flex;align-items:center;gap:8px;cursor:pointer;">',
+		          '<input class="bought-toggle" type="checkbox"' + (bought ? ' checked' : '') + ' />',
+		          '<span class="pill">Add to receipt</span>' + (bought && markedChannel ? ('<span class="pill" style="margin-left:6px;">' + esc(markedChannel) + '</span>') : ''),
+		          '</label>',
+		          '</span></div>',
+		        ].join('');
+		        const cardHtml = isAmazon
+		          ? [
+		              '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">',
+		              '<h4>' + headerTitle + '</h4>',
+		              '<div style="display:flex;gap:6px;align-items:center;">' + tags.join('') + '</div>',
+		              '</div>',
+		              qtyRow,
+		              buyRow,
+		              '<div class="row"><span>Keepa</span><span class="price" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">',
+		              '<span>Rank: ' + rankVal(keepaRank) + '</span>',
+		              '<span>Past month: ' + boughtVal(keepaBought) + '</span>',
+		              '<a class="pill link-btn" href="' + keepaLink + '" target="_blank">' + (r.keepa?.asin || 'Keepa') + '</a>',
+	              '</span></div>',
+              '<div class="row"><span>Keepa price</span><span class="price">' + fmt(r.keepa?.price ?? null) + '</span></div>',
+              '<div class="row"><span>UPC</span><span class="pill">' + (r.upc || '-') + '</span></div>',
+              '<div class="row"><span>Turbo price</span><span class="price">' + fmt(r.price) + '</span></div>',
+              '<div class="row"><span>Discount</span><span class="price">' + pct(r.discountPct) + '</span></div>',
+              '<div class="row"><span>Floor stock</span><span class="pill">' + (r.floor ?? '-') + '</span></div>',
+              '<div class="row"><span>Back stock</span><span class="pill">' + (r.back ?? '-') + '</span></div>',
+		              '<div class="row"><span>Links</span>',
+		              '<a class="pill link-btn" style="margin-left:8px;" href="' + walmartLink + '" target="_blank">Walmart</a>',
+		              '</div>'
+		            ].join('')
+		          : [
+		              '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">',
+		              '<h4>' + headerTitle + '</h4>',
+		              '<div style="display:flex;gap:6px;align-items:center;">' + tags.join('') + '</div>',
+		              '</div>',
+		              qtyRow,
+		              buyRow,
+		              '<div class="row"><span>Turbo price</span><span class="price">' + fmt(r.price) + '</span></div>',
+		              '<div class="row"><span>Marter price</span><span class="price">' + fmt(r.marterPrice) + '</span></div>',
+		              '<div class="row"><span>Discount</span><span class="price">' + pct(r.discountPct) + '</span></div>',
+	              '<div class="row"><span>Floor stock</span><span class="pill">' + (r.floor ?? '-') + '</span></div>',
+              '<div class="row"><span>Back stock</span><span class="pill">' + (r.back ?? '-') + '</span></div>',
+              '<div class="row"><span>Aisles</span><span class="pill">' + (r.aisles || 'N/A') + '</span></div>',
+	              '<div class="row"><span>Item</span>',
+	              '<span class="pill">' + (r.itemId || '-') + '</span>',
+		              '<a class="pill link-btn" style="margin-left:8px;" href="' + walmartLink + '" target="_blank">Walmart link</a>',
+		              '</div>'
+		            ].join('');
+		        card.innerHTML = cardHtml;
+		        // Update snapshot in receipt state so Receipt tab can render even if filters hide this card.
+		        receiptState.items[receiptKey] = {
+		          receiptKey,
+		          itemId: r.itemId || null,
+		          upc: r.upc || null,
+		          storeId: r.storeId || null,
+		          storeLine: r.storeLine || null,
+		          address: r.address || null,
+		          price: r.price ?? null,
+		          marterPrice: r.marterPrice ?? null,
+		          keepaPrice: (r.keepa && r.keepa.found) ? (r.keepa.price ?? null) : null,
+		          keepaUrl: (r.keepa && (r.keepa.keepaUrl || (r.keepa.asin && ('https://keepa.com/#!product/1-' + r.keepa.asin)))) || null,
+		          sourceLink: r.sourceLink || null,
+		          walmartLink: walmartLink,
+		          discountPct: r.discountPct ?? null,
+		          fulfillment: r.fulfillment || null,
+		        };
+		        saveReceiptStateSoon();
+
+		        function updateCardEstimates() {
+		          const input = card.querySelector('.qty-input');
+		          const qtyVal = Number.parseInt((input && input.value) ? input.value : '1', 10);
+		          const q = Number.isFinite(qtyVal) && qtyVal > 0 ? qtyVal : 1;
+		          qtyByItem.set(receiptKey, q);
+		          receiptState.qty[receiptKey] = q;
+		          saveReceiptStateSoon();
+		          const costUnit = r.price != null ? Number(r.price) : null;
+		          const salesUnit = currentView === 'amazon'
+		            ? ((r.keepa && r.keepa.found && r.keepa.price != null) ? Number(r.keepa.price) : null)
+		            : (r.marterPrice != null ? Number(r.marterPrice) : null);
+	          const fmtMoney = (n) => (n == null || !Number.isFinite(n)) ? '–' : '$' + n.toFixed(2);
+	          const cost = costUnit != null ? costUnit * q : null;
+	          const sales = salesUnit != null ? salesUnit * q : null;
+		          const costEl = card.querySelector('.est-cost');
+		          const salesEl = card.querySelector('.est-sales');
+		          if (costEl) costEl.textContent = fmtMoney(cost);
+		          if (salesEl) salesEl.textContent = fmtMoney(sales);
+		        }
+		        const qtyInput = card.querySelector('.qty-input');
+		        if (qtyInput) qtyInput.addEventListener('input', updateCardEstimates);
+		        const boughtToggle = card.querySelector('.bought-toggle');
+		        if (boughtToggle) {
+		          boughtToggle.addEventListener('change', () => {
+		            const checked = !!boughtToggle.checked;
+		            receiptState.bought[receiptKey] = checked;
+		            if (checked) receiptState.channel[receiptKey] = (currentView === 'amazon' ? 'Amazon view' : 'Walmart view');
+		            else delete receiptState.channel[receiptKey];
+		            saveReceiptStateSoon();
+		          });
+		        }
+		        updateCardEstimates();
+		        root.appendChild(card);
+		      });
+		    }
+
+	    function renderReceipt() {
+	      if (!receiptRoot) return;
+		      const entries = [];
+		      const boughtMap = receiptState.bought || {};
+		      const itemsMap = receiptState.items || {};
+		      const channelMap = receiptState.channel || {};
+		      Object.keys(boughtMap).forEach((k) => {
+		        if (!boughtMap[k]) return;
+		        const snap = itemsMap[k];
+		        if (!snap) return;
+		        const qRaw = receiptState.qty && receiptState.qty[k] != null ? receiptState.qty[k] : 1;
+		        const q = Number.parseInt(String(qRaw), 10);
+		        entries.push({ ...snap, qty: Number.isFinite(q) && q > 0 ? q : 1, channel: channelMap[k] || null });
+		      });
+
+		      // Sort by highest discount then store label.
+		      entries.sort((a, b) => {
+		        const da = a.discountPct == null ? -Infinity : Number(a.discountPct);
+		        const db = b.discountPct == null ? -Infinity : Number(b.discountPct);
+		        if (db !== da) return db - da;
+		        return String(a.storeLine || a.storeId || "").localeCompare(String(b.storeLine || b.storeId || ""));
+		      });
+
+		      const fmtMoney = (n) => (n == null || !Number.isFinite(n)) ? '–' : '$' + Number(n).toFixed(2);
+		      const totalQty = entries.reduce((a, e) => a + (e.qty || 0), 0);
+		      const totalCost = entries.reduce((a, e) => a + ((Number(e.price) || 0) * (e.qty || 0)), 0);
+		      const totalSales = entries.reduce((a, e) => {
+		        const unit = (e.keepaPrice != null && Number.isFinite(Number(e.keepaPrice))) ? Number(e.keepaPrice)
+		          : (e.marterPrice != null && Number.isFinite(Number(e.marterPrice))) ? Number(e.marterPrice)
+		          : 0;
+		        return a + unit * (e.qty || 0);
+		      }, 0);
+	      const profit = totalSales - totalCost;
+
+	      function toast(msg) {
+	        try {
+	          const el = document.createElement('div');
+	          el.className = 'toast';
+	          el.textContent = msg;
+	          document.body.appendChild(el);
+	          setTimeout(() => el.remove(), 1800);
+	        } catch (_) {}
+	      }
+
+	      function tsvCell(v) {
+	        const s = v == null ? '' : String(v);
+	        // Note: this is emitted into an inline <script> inside a template literal, so escape backslashes
+	        // to avoid CR/LF escape sequences becoming real line breaks in the generated HTML (which breaks the regex literal).
+	        return s.replace(/\t/g, ' ').replace(/\r?\n/g, ' ');
+	      }
+		      function csvCell(v) {
+		        const s = v == null ? '' : String(v);
+		        const escaped = s.replace(/"/g, '""');
+		        return '"' + escaped + '"';
+		      }
+	      function buildExportRows() {
+	        return entries.map((e) => {
+	          const unitSales = (e.keepaPrice != null && Number.isFinite(Number(e.keepaPrice))) ? Number(e.keepaPrice)
+	            : (e.marterPrice != null && Number.isFinite(Number(e.marterPrice))) ? Number(e.marterPrice)
+	            : null;
+	          const unitCost = (e.price != null && Number.isFinite(Number(e.price))) ? Number(e.price) : null;
+	          const qty = Number(e.qty) || 0;
+	          const totalCost = unitCost != null ? unitCost * qty : null;
+	          const totalSales = unitSales != null ? unitSales * qty : null;
+	          const estProfit = (totalSales != null && totalCost != null) ? (totalSales - totalCost) : null;
+	          return {
+	            tripName: data.tripName || '',
+	            tripId: data.tripId || '',
+	            runId: data.runId || '',
+	            markedIn: e.channel || '',
+	            store: e.storeLine || (e.storeId ? ('Store #' + e.storeId) : ''),
+	            itemLink: e.walmartLink || '',
+	            itemId: e.itemId || '',
+	            upc: e.upc || '',
+	            qty,
+	            costPerItem: unitCost != null ? unitCost.toFixed(2) : '',
+	            totalCost: totalCost != null ? totalCost.toFixed(2) : '',
+	            salesPerItem: unitSales != null ? unitSales.toFixed(2) : '',
+	            totalSales: totalSales != null ? totalSales.toFixed(2) : '',
+	            estProfit: estProfit != null ? estProfit.toFixed(2) : '',
+	            discountPct: e.discountPct != null ? Number(e.discountPct).toFixed(2) : '',
+	            marterPrice: e.marterPrice != null ? Number(e.marterPrice).toFixed(2) : '',
+	            keepaPrice: e.keepaPrice != null ? Number(e.keepaPrice).toFixed(2) : '',
+	            keepaUrl: e.keepaUrl || '',
+	          };
+	        });
+	      }
+	      function exportTsv() {
+	        const rows = buildExportRows();
+	        const headers = [
+	          'Trip name','Trip ID','Run ID','Marked in','Store',
+	          'Item link','Item ID','UPC',
+	          'Cost per item','Total cost','Total quantity bought',
+	          'Sales per item','Est. sales','Est. profit',
+	          'Discount %','Marter price','Keepa price','Keepa link',
+	        ];
+	        const lines = [headers.join('\t')];
+	        rows.forEach((r) => {
+	          const line = [
+	            r.tripName, r.tripId, r.runId, r.markedIn, r.store,
+	            r.itemLink, r.itemId, r.upc,
+	            r.costPerItem, r.totalCost, r.qty,
+	            r.salesPerItem, r.totalSales, r.estProfit,
+	            r.discountPct, r.marterPrice, r.keepaPrice, r.keepaUrl,
+	          ].map(tsvCell).join('\t');
+	          lines.push(line);
+	        });
+	        const txt = lines.join('\n');
+	        (navigator.clipboard && navigator.clipboard.writeText ? navigator.clipboard.writeText(txt) : Promise.reject())
+	          .then(() => toast('Copied for Google Sheets'))
+	          .catch(() => {
+	            // Fallback: prompt
+	            try { window.prompt('Copy to clipboard:', txt); } catch (_) {}
+	          });
+	      }
+	      function exportCsv() {
+	        const rows = buildExportRows();
+	        const headers = [
+	          'Trip name','Trip ID','Run ID','Marked in','Store',
+	          'Item link','Item ID','UPC',
+	          'Cost per item','Total cost','Total quantity bought',
+	          'Sales per item','Est. sales','Est. profit',
+	          'Discount %','Marter price','Keepa price','Keepa link',
+	        ];
+	        const lines = [headers.map(csvCell).join(',')];
+	        rows.forEach((r) => {
+	          lines.push([
+	            r.tripName, r.tripId, r.runId, r.markedIn, r.store,
+	            r.itemLink, r.itemId, r.upc,
+	            r.costPerItem, r.totalCost, r.qty,
+	            r.salesPerItem, r.totalSales, r.estProfit,
+	            r.discountPct, r.marterPrice, r.keepaPrice, r.keepaUrl,
+	          ].map(csvCell).join(','));
+	        });
+	        const csv = lines.join('\n');
+	        try {
+	          const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+	          const url = URL.createObjectURL(blob);
+		          const a = document.createElement('a');
+		          const safe = String(data.tripName || 'trip').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+		          a.href = url;
+		          a.download = 'receipt-' + (safe || 'trip') + '.csv';
+		          document.body.appendChild(a);
+	          a.click();
+	          a.remove();
+	          setTimeout(() => URL.revokeObjectURL(url), 1000);
+	          toast('Downloaded CSV');
+	        } catch (_) {}
+	      }
+	      const rows = entries.map((e) => {
+		        const unitSales = (e.keepaPrice != null && Number.isFinite(Number(e.keepaPrice))) ? Number(e.keepaPrice)
+		          : (e.marterPrice != null && Number.isFinite(Number(e.marterPrice))) ? Number(e.marterPrice)
+		          : null;
+		        const cost = (Number(e.price) || 0) * (e.qty || 0);
+		        const sales = unitSales != null ? unitSales * (e.qty || 0) : null;
+		        const storeTitle = e.storeLine || (e.storeId ? ('Store #' + e.storeId) : 'Store');
+		        return [
+		          '<tr>',
+		          '<td>',
+		          '<div style="font-weight:800;">' + esc(storeTitle) + '</div>',
+		          '<div class="meta" style="margin-top:3px;">' + (e.itemId ? ('Item ' + esc(e.itemId)) : '') + '</div>',
+		          '<div class="meta" style="margin-top:3px;">' + (e.discountPct != null ? ('Discount ' + Number(e.discountPct).toFixed(1) + '%') : '') + '</div>',
+		          '<div style="margin-top:6px;">' +
+		            (e.walmartLink ? '<a class="link-btn" href="' + esc(e.walmartLink) + '" target="_blank">Walmart</a>' : '') +
+		            (e.keepaUrl ? '<a class="link-btn" style="margin-left:6px;" href="' + esc(e.keepaUrl) + '" target="_blank">Keepa</a>' : '') +
+		            '</div>',
+		          '</td>',
+		          '<td>' + (e.channel ? ('<span class="pill">' + esc(e.channel) + '</span>') : '<span class="meta">–</span>') + '</td>',
+		          '<td class="num"><input data-receipt-qty="' + esc(e.receiptKey) + '" class="qty-input" type="number" min="1" step="1" inputmode="numeric" value="' + String(e.qty) + '" /></td>',
+		          '<td class="num">' + fmtMoney(e.price) + '</td>',
+		          '<td class="num">' + fmtMoney(cost) + '</td>',
+		          '<td class="num">' + fmtMoney(unitSales) + '</td>',
+		          '<td class="num">' + fmtMoney(sales) + '</td>',
+		          '<td class="num"><button data-receipt-remove="' + esc(e.receiptKey) + '" class="toggle-btn" style="padding:6px 10px;">Remove</button></td>',
+		          '</tr>',
+		        ].join('');
+		      }).join('');
+
+		      receiptRoot.innerHTML = [
+		        '<h3>Receipt (this trip)</h3>',
+		        '<div class="receipt-actions">' +
+		          '<button id="receipt-copy" class="toggle-btn">Copy to Google Sheets</button>' +
+		          '<button id="receipt-csv" class="toggle-btn">Download CSV</button>' +
+		        '</div>',
+		        '<div class="receipt-totals">',
+		        '<div class="receipt-total"><div class="k">Items checked</div><div class="v">' + String(entries.length) + '</div></div>',
+		        '<div class="receipt-total"><div class="k">Total qty</div><div class="v">' + String(totalQty) + '</div></div>',
+		        '<div class="receipt-total"><div class="k">Total cost</div><div class="v">' + fmtMoney(totalCost) + '</div></div>',
+		        '<div class="receipt-total"><div class="k">Est. sales</div><div class="v">' + fmtMoney(totalSales) + '</div></div>',
+		        '<div class="receipt-total"><div class="k">Est. profit</div><div class="v">' + fmtMoney(profit) + '</div></div>',
+		        '</div>',
+		        entries.length ? (
+		          '<table class="receipt-table"><thead><tr>' +
+		          '<th>Item</th><th>Marked in</th><th class="num">Qty</th><th class="num">Unit cost</th><th class="num">Cost</th><th class="num">Unit sales</th><th class="num">Sales</th><th class="num"></th>' +
+		          '</tr></thead><tbody>' + rows + '</tbody></table>'
+		        ) : '<div class="meta">No items checked yet. Check “Add to receipt” on an item card.</div>'
+		      ].join('');
+
+		      const copyBtn = document.getElementById('receipt-copy');
+		      if (copyBtn) copyBtn.addEventListener('click', exportTsv);
+		      const csvBtn = document.getElementById('receipt-csv');
+		      if (csvBtn) csvBtn.addEventListener('click', exportCsv);
+
+		      Array.from(receiptRoot.querySelectorAll('input[data-receipt-qty]')).forEach((inp) => {
+		        inp.addEventListener('input', () => {
+		          const k = inp.getAttribute('data-receipt-qty');
+		          const n = Number.parseInt(inp.value || '1', 10);
+		          const q = Number.isFinite(n) && n > 0 ? n : 1;
+		          receiptState.qty[k] = q;
+		          saveReceiptStateSoon();
+		          renderReceipt();
+		        });
+		      });
+			      Array.from(receiptRoot.querySelectorAll('button[data-receipt-remove]')).forEach((btn) => {
+			        btn.addEventListener('click', () => {
+			          const k = btn.getAttribute('data-receipt-remove');
+			          receiptState.bought[k] = false;
+			          delete receiptState.channel[k];
+			          saveReceiptStateSoon();
+			          renderReceipt();
+			        });
+			      });
+			      setStatus('Receipt items: ' + String(entries.length));
+			    }
+	    function renderGambles() {
+      if (!gambleRoot) return;
+      gambleRoot.innerHTML = '';
+      if (!gambles.length) {
+        const empty = document.createElement('div');
+        empty.className = 'meta';
+        empty.textContent = 'No Low/N/A gambles captured';
+        gambleRoot.appendChild(empty);
+        return;
+      }
+      gambles.forEach((r) => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        const walmartLink = r.itemId ? 'https://www.walmart.com/ip/' + r.itemId : (r.sourceLink || '#');
+        const cardHtml = [
+          '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">',
+          '<h4>' + (r.storeLine || 'Store') + '</h4>',
+          '<span class="tag gamble">Low/N/A gambles</span>',
+          '</div>',
+          '<div class="row"><span>Turbo price</span><span class="price">' + fmt(r.price) + '</span></div>',
+          '<div class="row"><span>Floor stock</span><span class="pill">' + (r.floor ?? '–') + '</span></div>',
+          '<div class="row"><span>Back stock</span><span class="pill">' + (r.back ?? '–') + '</span></div>',
+          '<div class="row"><span>Aisles</span><span class="pill">' + (r.aisles || 'N/A') + '</span></div>',
+          '<div class="row"><span>Item</span>',
+          '<span class="pill">' + (r.itemId || '–') + '</span>',
+          '<a class="pill link-btn" style="margin-left:8px;" href="' + walmartLink + '" target="_blank">Walmart link</a>',
+          '</div>'
+        ].join('');
+        card.innerHTML = cardHtml;
+        gambleRoot.appendChild(card);
+      });
+    }
+    function applyFulfillmentUIFilter() {
+      const mode = (fulfillmentFilter && fulfillmentFilter.value) || 'all';
+      const cards = Array.from(root.querySelectorAll('.card'));
+      cards.forEach((card) => {
+        const hasPickup = !!card.querySelector('.tag.pickup');
+        const hasDelivery = !!card.querySelector('.tag.delivery');
+        let show = true;
+        if (mode === 'pickup') show = hasPickup;
+        else if (mode === 'delivery') show = hasDelivery;
+        else if (mode === 'both') show = hasPickup && hasDelivery;
+        else if (mode === 'instore') show = !hasPickup && !hasDelivery;
+        card.style.display = show ? '' : 'none';
+      });
+    }
+
+    const fulfillmentFilter = document.getElementById('fulfillment-filter');
+    const _applyFilters = applyFilters;
+    applyFilters = function () {
+      _applyFilters();
+      applyFulfillmentUIFilter();
+    };
+
+    applyFilters();
+    renderGambles();
+    discountFilter.addEventListener('input', applyFilters);
+    floorFilter.addEventListener('input', applyFilters);
+    backFilter.addEventListener('input', applyFilters);
+    aisleFilter.addEventListener('change', applyFilters);
+    storeFilter.addEventListener('change', applyFilters);
+    if (fulfillmentFilter) fulfillmentFilter.addEventListener('change', applyFilters);
+  </script>
+</body>
+</html>
