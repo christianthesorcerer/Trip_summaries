@@ -4371,6 +4371,822 @@
         "checked_at": "2026-01-23T14:26:03.634Z",
         "reason": "SKIP_WALMART_NAV=1"
       }
+    },
+    {
+      "price": 7.97,
+      "floor": 3,
+      "back": 0,
+      "aisles": "L9-3",
+      "storeLine": "#1958 - Rio Grande City (39.2 mi)",
+      "address": "4534 E Us Highway 83, 78582",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1958",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "1958",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 5,
+      "back": 0,
+      "aisles": "L12-2",
+      "storeLine": "#429 - Edinburg (10.4 mi)",
+      "address": "1724 W University Dr, 78539",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "429",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "429",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 12,
+      "back": 0,
+      "aisles": "I8-3",
+      "storeLine": "#2763 - Donna (10.8 mi)",
+      "address": "900 N Salinas Boulevard, 78537",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2763",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "2763",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 23,
+      "back": 0,
+      "aisles": "I8-3",
+      "storeLine": "#3567 - Hidalgo (2.0 mi)",
+      "address": "3000 S Jackson Rd, 78557",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3567",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "3567",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 2,
+      "back": 0,
+      "aisles": "I10-2",
+      "storeLine": "#5809 - Edinburg (9.0 mi)",
+      "address": "2812 S Expressway 281, 78542",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "5809",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "5809",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 8,
+      "back": 0,
+      "aisles": "H12-3",
+      "storeLine": "#2765 - Los Fresnos (44.9 mi)",
+      "address": "1004 W Ocean Boulevard, 78566",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2765",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "2765",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 11,
+      "back": 0,
+      "aisles": "I12-4",
+      "storeLine": "#5808 - Elsa (16.5 mi)",
+      "address": "411 South Broadway Street, 78543",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "5808",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "5808",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 2,
+      "back": 0,
+      "aisles": "L16-3",
+      "storeLine": "#397 - Mcallen (2.5 mi)",
+      "address": "1200 E Jackson Ave, 78503",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "397",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "397",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 7,
+      "back": 0,
+      "aisles": "L10-4",
+      "storeLine": "#595 - Harlingen (30.6 mi)",
+      "address": "1801 W Lincoln St, 78552",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "595",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "595",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 10,
+      "back": 0,
+      "aisles": "M9-4",
+      "storeLine": "#4508 - Penitas (15.9 mi)",
+      "address": "1705 Expressway 83, 78576",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "4508",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "4508",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 8,
+      "back": 0,
+      "aisles": "L13-2",
+      "storeLine": "#395 - Mission (5.6 mi)",
+      "address": "2410 E Expressway 83, 78572",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "395",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "395",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 6,
+      "back": 0,
+      "aisles": "I9-2",
+      "storeLine": "#1041 - Weslaco (13.9 mi)",
+      "address": "1310 N Texas Blvd, 78599",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1041",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "1041",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 13,
+      "back": 0,
+      "aisles": "L11-3",
+      "storeLine": "#3320 - Palmhurst (10.0 mi)",
+      "address": "215 E Mile 3 Rd, 78573",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3320",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "3320",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 4,
+      "back": 0,
+      "aisles": "L9-3",
+      "storeLine": "#1000 - Brownsville (48.1 mi)",
+      "address": "2721 Boca Chica Blvd, 78521",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1000",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "1000",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 7,
+      "back": 0,
+      "aisles": "I10-3",
+      "storeLine": "#4112 - Brownsville (47.3 mi)",
+      "address": "2205 Ruben Torres Sr Blvd, 78526",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "4112",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "4112",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 7.97,
+      "floor": 2,
+      "back": 0,
+      "aisles": "L8-2",
+      "storeLine": "#5165 - Alamo (5.5 mi)",
+      "address": "1421 Frontage Rd, 78516",
+      "raw": "Close\nLEGO Classic Blue Baseplate Square 32x32 Stud Foundation to Build, Play, and Display Brick Creations, Great for Ocean and Water Landscapes, 11025\nSort by:\nPrice (Low to High)\n$7.97\nFloor:\n3\nBack:\n0\nAisles: L9-3\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$7.97\nFloor:\n5\nBack:\n0\nAisles: L12-2\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$7.97\nFloor:\n12\nBack:\n0\nAisles: I8-3\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$7.97\nFloor:\n23\nBack:\n0\nAisles: I8-3\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: I10-2\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: H12-3\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$7.97\nFloor:\n11\nBack:\n0\nAisles: I12-4\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L16-3\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: L10-4\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$7.97\nFloor:\n10\nBack:\n0\nAisles: M9-4\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$7.97\nFloor:\n8\nBack:\n0\nAisles: L13-2\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$7.97\nFloor:\n6\nBack:\n0\nAisles: I9-2\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$7.97\nFloor:\n13\nBack:\n0\nAisles: L11-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$7.97\nFloor:\n4\nBack:\n0\nAisles: L9-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$7.97\nFloor:\n7\nBack:\n0\nAisles: I10-3\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$7.97\nFloor:\n2\nBack:\n0\nAisles: L8-2\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L13-4\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L10-3\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$7.97\nFloor:\n0\nBack:\n0\nAisles: L12-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$7.99\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "5165",
+      "itemId": "958133690",
+      "sourceLink": "https://www.walmart.com/ip/LEGO-Classic-Blue-Baseplate-Square-32x32-Stud-Foundation-to-Build-Play-and-Display-Brick-Creations-Great-for-Ocean-and-Water-Landscapes-11025/958133690",
+      "marterPrice": 14.99,
+      "discountPct": 46.83,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B09JKVYDFR",
+        "title": "LEGO Classic Blue Baseplate 11025 Building Toy Set for Preschool Kids, Boys, and Girls Ages 4+ (1 Pieces)",
+        "price": 7.97,
+        "data": {
+          "buyBox": 7.97,
+          "amazon": 7.97,
+          "newPrice": 7.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 0,
+          "newOos90": 0,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 10
+          },
+          "newOfferCount": 12,
+          "salesRankCurrent": 2,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": "2000+"
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B09JKVYDFR"
+      },
+      "upc": "673419360340",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "5165",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T15:09:43.131Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
     }
   ],
   "lowNAGambles": [
