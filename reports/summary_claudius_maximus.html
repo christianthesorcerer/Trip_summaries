@@ -132,10 +132,14 @@
 	    <div class="sidebar">
 	      <h3>Low/N/A gambles</h3>
 	      <div class="meta">Floor/Back = 1 and aisle N/A</div>
+	      <div class="control" style="margin-top:10px;">
+	        <label for="gambles-store-filter">Store</label>
+	        <select id="gambles-store-filter"></select>
+	      </div>
 	    </div>
-    <div class="list" id="gamble-cards"></div>
-  </section>
-	  <script>window.__SUMMARY__ = {"tripName":"January 2026 ","tripId":"january-2026","runId":"2026-01-21T02-12-13-586Z","discountThreshold":40,"generatedAt":"2026-01-23T10:55:12.652Z","results":[],"lowNAGambles":[]};</script>
+	    <div class="list" id="gamble-cards"></div>
+	  </section>
+	  <script>window.__SUMMARY__ = {"tripName":"January 2026 ","tripId":"january-2026","runId":"2026-01-21T02-12-13-586Z","discountThreshold":40,"generatedAt":"2026-01-23T11:06:44.260Z","results":[],"lowNAGambles":[]};</script>
 	  <script>
 		    const mainSection = document.getElementById('main-section');
 		    const gamblesSection = document.getElementById('gambles-section');
@@ -143,11 +147,12 @@
 		    const gambleRoot = document.getElementById('gamble-cards');
 		    const receiptRoot = document.getElementById('receipt-root');
 		    const statusLine = document.getElementById('status-line');
-	    const discountFilter = document.getElementById('discount-filter');
-	    const floorFilter = document.getElementById('floor-filter');
-		    const backFilter = document.getElementById('back-filter');
-		    const aisleFilter = document.getElementById('aisle-filter');
-		    const storeFilter = document.getElementById('store-filter');
+		    const discountFilter = document.getElementById('discount-filter');
+		    const floorFilter = document.getElementById('floor-filter');
+			    const backFilter = document.getElementById('back-filter');
+			    const aisleFilter = document.getElementById('aisle-filter');
+			    const storeFilter = document.getElementById('store-filter');
+			    const gamblesStoreFilter = document.getElementById('gambles-store-filter');
 		    const urlParams = new URLSearchParams(location.search);
 		    let itemParam = (urlParams.get('itemId') || '').trim();
 		    const qtyParamRaw = (urlParams.get('qty') || '').trim();
@@ -310,11 +315,11 @@
       aisleFilter.innerHTML = opts.map((o) => '<option value="' + o.value + '">' + o.label + '</option>').join('');
       aisleFilter.value = 'all';
     }
-	    function buildStoreOptions() {
-	      const storeMap = new Map();
-	      const consider = (r) => {
-	        if (!r) return;
-	        const key = (r.storeLine || r.address || '').trim();
+		    function buildStoreOptions() {
+		      const storeMap = new Map();
+		      const consider = (r) => {
+		        if (!r) return;
+		        const key = (r.storeLine || r.address || '').trim();
 	        if (!key) return;
 	        const label = (r.storeLine ? r.storeLine : key) + (r.address ? ' — ' + r.address : '');
 	        storeMap.set(key.toLowerCase(), label);
@@ -326,14 +331,20 @@
 	        consider(r);
 	      });
 	      gambles.forEach((r) => consider(r));
-	      const opts = [{ value: 'all', label: 'All stores' }].concat(
-	        Array.from(storeMap.entries())
-	          .map(([val, label]) => ({ value: val, label }))
-	          .sort((a, b) => String(a.label).localeCompare(String(b.label)))
-	      );
-	      storeFilter.innerHTML = opts.map((o) => '<option value="' + o.value + '">' + o.label + '</option>').join('');
-	      storeFilter.value = 'all';
-	    }
+		      const opts = [{ value: 'all', label: 'All stores' }].concat(
+		        Array.from(storeMap.entries())
+		          .map(([val, label]) => ({ value: val, label }))
+		          .sort((a, b) => String(a.label).localeCompare(String(b.label)))
+		      );
+		      storeFilter.innerHTML = opts.map((o) => '<option value="' + o.value + '">' + o.label + '</option>').join('');
+		      storeFilter.value = 'all';
+		      if (gamblesStoreFilter) {
+		        gamblesStoreFilter.innerHTML = opts
+		          .map((o) => '<option value="' + o.value + '">' + o.label + '</option>')
+		          .join('');
+		        gamblesStoreFilter.value = storeFilter.value;
+		      }
+		    }
     // Optional quick reset
     const resetBtn = document.createElement('button');
     resetBtn.textContent = 'Reset filters';
@@ -784,11 +795,11 @@
 	        gambleRoot.appendChild(empty);
 	        return;
 	      }
-	      const storeValue = (storeFilter && storeFilter.value) || 'all';
-	      const filtered = gambles
-	        .filter((r) => {
-	          if (storeValue === 'all') return true;
-	          const storeText = ((r.storeLine || '') + ' ' + (r.address || '')).toLowerCase();
+		      const storeValue = (gamblesStoreFilter && gamblesStoreFilter.value) || (storeFilter && storeFilter.value) || 'all';
+		      const filtered = gambles
+		        .filter((r) => {
+		          if (storeValue === 'all') return true;
+		          const storeText = ((r.storeLine || '') + ' ' + (r.address || '')).toLowerCase();
 	          return storeText.includes(String(storeValue).toLowerCase());
 	        })
 	        .slice()
@@ -876,8 +887,14 @@
 		    floorFilter.addEventListener('input', applyFilters);
 		    backFilter.addEventListener('input', applyFilters);
 		    aisleFilter.addEventListener('change', applyFilters);
-    storeFilter.addEventListener('change', applyFilters);
-    if (fulfillmentFilter) fulfillmentFilter.addEventListener('change', applyFilters);
-  </script>
-</body>
-</html>
+		    storeFilter.addEventListener('change', applyFilters);
+		    if (gamblesStoreFilter) {
+		      gamblesStoreFilter.addEventListener('change', () => {
+		        if (storeFilter) storeFilter.value = gamblesStoreFilter.value || 'all';
+		        if (currentView === 'gambles') renderGambles();
+		      });
+		    }
+		    if (fulfillmentFilter) fulfillmentFilter.addEventListener('change', applyFilters);
+	  </script>
+	</body>
+	</html>
