@@ -134,7 +134,7 @@
     </div>
     <div class="list" id="gamble-cards"></div>
   </section>
-  <script>window.__SUMMARY__ = {"tripName":"January 2026 ","tripId":"january-2026","runId":"2026-01-21T02-12-13-586Z","discountThreshold":40,"generatedAt":"2026-01-21T02:12:40.323Z","results":[],"lowNAGambles":[]};</script>
+  <script>window.__SUMMARY__ = {"tripName":"January 2026 ","tripId":"january-2026","runId":"2026-01-21T02-12-13-586Z","discountThreshold":40,"generatedAt":"2026-01-23T10:03:30.092Z","results":[],"lowNAGambles":[]};</script>
   <script>
 	    const root = document.getElementById('cards');
 	    const gambleRoot = document.getElementById('gamble-cards');
@@ -226,15 +226,16 @@
 		      }
 		    }
 
-		    function applyFilters() {
-		      if (currentView === 'receipt') {
-		        if (root) root.style.display = 'none';
-		        if (receiptRoot) receiptRoot.style.display = '';
-		        renderReceipt();
-		        return;
-		      }
-		      if (root) root.style.display = '';
-		      if (receiptRoot) receiptRoot.style.display = 'none';
+			    function applyFilters() {
+			      if (currentView === 'receipt') {
+			        if (root) root.style.display = 'none';
+			        if (receiptRoot) receiptRoot.style.display = '';
+			        renderReceipt();
+			        renderGambles();
+			        return;
+			      }
+			      if (root) root.style.display = '';
+			      if (receiptRoot) receiptRoot.style.display = 'none';
 		      const minDisc = discountFilter.value ? Number(discountFilter.value) : null;
 		      const minFloor = floorFilter.value ? Number(floorFilter.value) : null;
 	      const minBack = backFilter.value ? Number(backFilter.value) : null;
@@ -266,10 +267,11 @@
           const storeText = ((r.storeLine || '') + ' ' + (r.address || '')).toLowerCase();
           if (!storeText.includes(storeValue.toLowerCase())) return false;
         }
-	        return true;
-	      });
-	      renderItems(filtered);
-	    }
+		        return true;
+		      });
+		      renderItems(filtered);
+		      renderGambles();
+		    }
 	    Object.entries(viewButtons).forEach(([mode, btn]) => {
 	      if (!btn) return;
 	      btn.addEventListener('click', () => {
@@ -297,23 +299,30 @@
       aisleFilter.innerHTML = opts.map((o) => '<option value="' + o.value + '">' + o.label + '</option>').join('');
       aisleFilter.value = 'all';
     }
-    function buildStoreOptions() {
-      const storeMap = new Map();
-      data.results.forEach((r) => {
-        if (!r.pass) return;
-        const hasStock = (r.floor ?? 0) > 0 || (r.back ?? 0) > 0;
-        if (!hasStock) return;
-        const key = (r.storeLine || r.address || '').trim();
-        if (!key) return;
-        const label = (r.storeLine ? r.storeLine : key) + (r.address ? ' — ' + r.address : '');
-        storeMap.set(key.toLowerCase(), label);
-      });
-      const opts = [{ value: 'all', label: 'All stores' }].concat(
-        Array.from(storeMap.entries()).map(([val, label]) => ({ value: val, label }))
-      );
-      storeFilter.innerHTML = opts.map((o) => '<option value="' + o.value + '">' + o.label + '</option>').join('');
-      storeFilter.value = 'all';
-    }
+	    function buildStoreOptions() {
+	      const storeMap = new Map();
+	      const consider = (r) => {
+	        if (!r) return;
+	        const key = (r.storeLine || r.address || '').trim();
+	        if (!key) return;
+	        const label = (r.storeLine ? r.storeLine : key) + (r.address ? ' — ' + r.address : '');
+	        storeMap.set(key.toLowerCase(), label);
+	      };
+	      data.results.forEach((r) => {
+	        if (!r.pass) return;
+	        const hasStock = (r.floor ?? 0) > 0 || (r.back ?? 0) > 0;
+	        if (!hasStock) return;
+	        consider(r);
+	      });
+	      gambles.forEach((r) => consider(r));
+	      const opts = [{ value: 'all', label: 'All stores' }].concat(
+	        Array.from(storeMap.entries())
+	          .map(([val, label]) => ({ value: val, label }))
+	          .sort((a, b) => String(a.label).localeCompare(String(b.label)))
+	      );
+	      storeFilter.innerHTML = opts.map((o) => '<option value="' + o.value + '">' + o.label + '</option>').join('');
+	      storeFilter.value = 'all';
+	    }
     // Optional quick reset
     const resetBtn = document.createElement('button');
     resetBtn.textContent = 'Reset filters';
@@ -754,22 +763,49 @@
 			      });
 			      setStatus('Receipt items: ' + String(entries.length));
 			    }
-	    function renderGambles() {
-      if (!gambleRoot) return;
-      gambleRoot.innerHTML = '';
-      if (!gambles.length) {
-        const empty = document.createElement('div');
-        empty.className = 'meta';
-        empty.textContent = 'No Low/N/A gambles captured';
-        gambleRoot.appendChild(empty);
-        return;
-      }
-      gambles.forEach((r) => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        const walmartLink = r.itemId ? 'https://www.walmart.com/ip/' + r.itemId : (r.sourceLink || '#');
-        const cardHtml = [
-          '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">',
+		    function renderGambles() {
+	      if (!gambleRoot) return;
+	      gambleRoot.innerHTML = '';
+	      if (!gambles.length) {
+	        const empty = document.createElement('div');
+	        empty.className = 'meta';
+	        empty.textContent = 'No Low/N/A gambles captured';
+	        gambleRoot.appendChild(empty);
+	        return;
+	      }
+	      const storeValue = (storeFilter && storeFilter.value) || 'all';
+	      const filtered = gambles
+	        .filter((r) => {
+	          if (storeValue === 'all') return true;
+	          const storeText = ((r.storeLine || '') + ' ' + (r.address || '')).toLowerCase();
+	          return storeText.includes(String(storeValue).toLowerCase());
+	        })
+	        .slice()
+	        .sort((a, b) => {
+	          const aStore = String(a.storeLine || a.address || '').toLowerCase();
+	          const bStore = String(b.storeLine || b.address || '').toLowerCase();
+	          if (aStore < bStore) return -1;
+	          if (aStore > bStore) return 1;
+	          const aId = Number.parseInt(String(a.itemId || ''), 10);
+	          const bId = Number.parseInt(String(b.itemId || ''), 10);
+	          if (Number.isFinite(aId) && Number.isFinite(bId)) return aId - bId;
+	          return String(a.itemId || '').localeCompare(String(b.itemId || ''));
+	        });
+
+	      if (!filtered.length) {
+	        const empty = document.createElement('div');
+	        empty.className = 'meta';
+	        empty.textContent = 'No Low/N/A gambles match the current store filter';
+	        gambleRoot.appendChild(empty);
+	        return;
+	      }
+
+	      filtered.forEach((r) => {
+	        const card = document.createElement('div');
+	        card.className = 'card';
+	        const walmartLink = r.itemId ? 'https://www.walmart.com/ip/' + r.itemId : (r.sourceLink || '#');
+	        const cardHtml = [
+	          '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">',
           '<h4>' + (r.storeLine || 'Store') + '</h4>',
           '<span class="tag gamble">Low/N/A gambles</span>',
           '</div>',
@@ -781,11 +817,11 @@
           '<span class="pill">' + (r.itemId || '–') + '</span>',
           '<a class="pill link-btn" style="margin-left:8px;" href="' + walmartLink + '" target="_blank">Walmart link</a>',
           '</div>'
-        ].join('');
-        card.innerHTML = cardHtml;
-        gambleRoot.appendChild(card);
-      });
-    }
+	        ].join('');
+	        card.innerHTML = cardHtml;
+	        gambleRoot.appendChild(card);
+	      });
+	    }
     function applyFulfillmentUIFilter() {
       const mode = (fulfillmentFilter && fulfillmentFilter.value) || 'all';
       const cards = Array.from(root.querySelectorAll('.card'));
