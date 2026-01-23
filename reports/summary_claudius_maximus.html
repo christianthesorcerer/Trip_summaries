@@ -84,17 +84,18 @@
     <div class="stat"><h3>Low/N/A gambles</h3><div class="value warning">0</div></div>
     <div class="stat"><h3>Total Stores</h3><div class="value">0</div></div>
   </section>
-		  <div class="view-toggle">
-		    <button id="view-walmart" class="toggle-btn active">Walmart view</button>
-		    <button id="view-amazon" class="toggle-btn">Amazon view</button>
-		    <button id="view-receipt" class="toggle-btn">Receipt</button>
-		  </div>
-		  <div id="status-line" class="meta" style="padding:0 24px 12px;"></div>
-		  <section class="layout">
-		    <div class="sidebar">
-	      <h3>Filters</h3>
-      <div class="control">
-        <label for="discount-filter">Min discount (%)</label>
+			  <div class="view-toggle">
+			    <button id="view-walmart" class="toggle-btn active">Walmart view</button>
+			    <button id="view-amazon" class="toggle-btn">Amazon view</button>
+			    <button id="view-receipt" class="toggle-btn">Receipt</button>
+			    <button id="view-gambles" class="toggle-btn">Low/N/A view</button>
+			  </div>
+			  <div id="status-line" class="meta" style="padding:0 24px 12px;"></div>
+			  <section class="layout" id="main-section">
+			    <div class="sidebar">
+		      <h3>Filters</h3>
+	      <div class="control">
+	        <label for="discount-filter">Min discount (%)</label>
         <input id="discount-filter" type="number" min="-100" max="100" placeholder="30" />
       </div>
       <div class="control">
@@ -124,22 +125,24 @@
         </select>
       </div>
 	    </div>
-	    <div class="list" id="cards"></div>
-	    <div id="receipt-root" class="receipt" style="display:none;"></div>
-	  </section>
-  <section class="layout">
-    <div class="sidebar">
-      <h3>Low/N/A gambles</h3>
-      <div class="meta">Floor/Back = 1 and aisle N/A</div>
-    </div>
+		    <div class="list" id="cards"></div>
+		    <div id="receipt-root" class="receipt" style="display:none;"></div>
+		  </section>
+	  <section class="layout" id="gambles-section" style="display:none;">
+	    <div class="sidebar">
+	      <h3>Low/N/A gambles</h3>
+	      <div class="meta">Floor/Back = 1 and aisle N/A</div>
+	    </div>
     <div class="list" id="gamble-cards"></div>
   </section>
-  <script>window.__SUMMARY__ = {"tripName":"January 2026 ","tripId":"january-2026","runId":"2026-01-21T02-12-13-586Z","discountThreshold":40,"generatedAt":"2026-01-23T10:03:30.092Z","results":[],"lowNAGambles":[]};</script>
-  <script>
-	    const root = document.getElementById('cards');
-	    const gambleRoot = document.getElementById('gamble-cards');
-	    const receiptRoot = document.getElementById('receipt-root');
-	    const statusLine = document.getElementById('status-line');
+	  <script>window.__SUMMARY__ = {"tripName":"January 2026 ","tripId":"january-2026","runId":"2026-01-21T02-12-13-586Z","discountThreshold":40,"generatedAt":"2026-01-23T10:55:12.652Z","results":[],"lowNAGambles":[]};</script>
+	  <script>
+		    const mainSection = document.getElementById('main-section');
+		    const gamblesSection = document.getElementById('gambles-section');
+		    const root = document.getElementById('cards');
+		    const gambleRoot = document.getElementById('gamble-cards');
+		    const receiptRoot = document.getElementById('receipt-root');
+		    const statusLine = document.getElementById('status-line');
 	    const discountFilter = document.getElementById('discount-filter');
 	    const floorFilter = document.getElementById('floor-filter');
 		    const backFilter = document.getElementById('back-filter');
@@ -156,6 +159,7 @@
 		      walmart: document.getElementById('view-walmart'),
 		      amazon: document.getElementById('view-amazon'),
 		      receipt: document.getElementById('view-receipt'),
+		      gambles: document.getElementById('view-gambles'),
 		    };
 		    let currentView = 'walmart';
 		    const data = window.__SUMMARY__;
@@ -226,18 +230,25 @@
 		      }
 		    }
 
-			    function applyFilters() {
-			      if (currentView === 'receipt') {
-			        if (root) root.style.display = 'none';
-			        if (receiptRoot) receiptRoot.style.display = '';
-			        renderReceipt();
-			        renderGambles();
-			        return;
-			      }
-			      if (root) root.style.display = '';
-			      if (receiptRoot) receiptRoot.style.display = 'none';
-		      const minDisc = discountFilter.value ? Number(discountFilter.value) : null;
-		      const minFloor = floorFilter.value ? Number(floorFilter.value) : null;
+				    function applyFilters() {
+				      if (currentView === 'gambles') {
+				        if (mainSection) mainSection.style.display = 'none';
+				        if (gamblesSection) gamblesSection.style.display = '';
+				        renderGambles();
+				        return;
+				      }
+				      if (mainSection) mainSection.style.display = '';
+				      if (gamblesSection) gamblesSection.style.display = 'none';
+				      if (currentView === 'receipt') {
+				        if (root) root.style.display = 'none';
+				        if (receiptRoot) receiptRoot.style.display = '';
+				        renderReceipt();
+				        return;
+				      }
+				      if (root) root.style.display = '';
+				      if (receiptRoot) receiptRoot.style.display = 'none';
+			      const minDisc = discountFilter.value ? Number(discountFilter.value) : null;
+			      const minFloor = floorFilter.value ? Number(floorFilter.value) : null;
 	      const minBack = backFilter.value ? Number(backFilter.value) : null;
       const aisleValue = aisleFilter.value || 'all';
       const storeValue = storeFilter.value || 'all';
@@ -267,21 +278,21 @@
           const storeText = ((r.storeLine || '') + ' ' + (r.address || '')).toLowerCase();
           if (!storeText.includes(storeValue.toLowerCase())) return false;
         }
-		        return true;
+			        return true;
+			      });
+			      renderItems(filtered);
+			    }
+		    Object.entries(viewButtons).forEach(([mode, btn]) => {
+		      if (!btn) return;
+		      btn.addEventListener('click', () => {
+		        currentView = mode;
+		        viewButtons.walmart.classList.toggle('active', mode === 'walmart');
+		        viewButtons.amazon.classList.toggle('active', mode === 'amazon');
+		        viewButtons.receipt.classList.toggle('active', mode === 'receipt');
+		        viewButtons.gambles.classList.toggle('active', mode === 'gambles');
+		        applyFilters();
 		      });
-		      renderItems(filtered);
-		      renderGambles();
-		    }
-	    Object.entries(viewButtons).forEach(([mode, btn]) => {
-	      if (!btn) return;
-	      btn.addEventListener('click', () => {
-	        currentView = mode;
-	        viewButtons.walmart.classList.toggle('active', mode === 'walmart');
-	        viewButtons.amazon.classList.toggle('active', mode === 'amazon');
-	        viewButtons.receipt.classList.toggle('active', mode === 'receipt');
-	        applyFilters();
-	      });
-	    });
+		    });
     function buildAisleOptions() {
       const letters = new Set();
       data.results.forEach((r) => {
@@ -763,10 +774,10 @@
 			      });
 			      setStatus('Receipt items: ' + String(entries.length));
 			    }
-		    function renderGambles() {
-	      if (!gambleRoot) return;
-	      gambleRoot.innerHTML = '';
-	      if (!gambles.length) {
+			    function renderGambles() {
+		      if (!gambleRoot) return;
+		      gambleRoot.innerHTML = '';
+		      if (!gambles.length) {
 	        const empty = document.createElement('div');
 	        empty.className = 'meta';
 	        empty.textContent = 'No Low/N/A gambles captured';
@@ -792,24 +803,40 @@
 	          return String(a.itemId || '').localeCompare(String(b.itemId || ''));
 	        });
 
-	      if (!filtered.length) {
-	        const empty = document.createElement('div');
-	        empty.className = 'meta';
-	        empty.textContent = 'No Low/N/A gambles match the current store filter';
-	        gambleRoot.appendChild(empty);
-	        return;
-	      }
-
-	      filtered.forEach((r) => {
-	        const card = document.createElement('div');
-	        card.className = 'card';
-	        const walmartLink = r.itemId ? 'https://www.walmart.com/ip/' + r.itemId : (r.sourceLink || '#');
-	        const cardHtml = [
-	          '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">',
-          '<h4>' + (r.storeLine || 'Store') + '</h4>',
-          '<span class="tag gamble">Low/N/A gambles</span>',
-          '</div>',
-          '<div class="row"><span>Turbo price</span><span class="price">' + fmt(r.price) + '</span></div>',
+		      if (!filtered.length) {
+		        const empty = document.createElement('div');
+		        empty.className = 'meta';
+		        empty.textContent = 'No Low/N/A gambles match the current store filter';
+		        gambleRoot.appendChild(empty);
+		        return;
+		      }
+		      const storeCounts = new Map();
+		      filtered.forEach((r) => {
+		        const title = String(r.storeLine || r.address || 'Store');
+		        const key = title.toLowerCase();
+		        storeCounts.set(key, (storeCounts.get(key) || 0) + 1);
+		      });
+		      let lastStoreKey = null;
+		      filtered.forEach((r) => {
+		        const card = document.createElement('div');
+		        card.className = 'card';
+		        const walmartLink = r.itemId ? 'https://www.walmart.com/ip/' + r.itemId : (r.sourceLink || '#');
+		        const storeTitle = String(r.storeLine || r.address || 'Store');
+		        const storeKey = storeTitle.toLowerCase();
+		        if (storeKey !== lastStoreKey) {
+		          lastStoreKey = storeKey;
+		          const header = document.createElement('div');
+		          header.style.cssText =
+		            'margin:10px 0 6px;padding:10px 12px;border-radius:12px;border:1px solid #1f2937;background:#0f172a;font-weight:800;';
+		          header.textContent = storeTitle + ' (' + String(storeCounts.get(storeKey) || 0) + ')';
+		          gambleRoot.appendChild(header);
+		        }
+		        const cardHtml = [
+		          '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">',
+	          '<h4>' + (r.storeLine || 'Store') + '</h4>',
+	          '<span class="tag gamble">Low/N/A gambles</span>',
+	          '</div>',
+	          '<div class="row"><span>Turbo price</span><span class="price">' + fmt(r.price) + '</span></div>',
           '<div class="row"><span>Floor stock</span><span class="pill">' + (r.floor ?? '–') + '</span></div>',
           '<div class="row"><span>Back stock</span><span class="pill">' + (r.back ?? '–') + '</span></div>',
           '<div class="row"><span>Aisles</span><span class="pill">' + (r.aisles || 'N/A') + '</span></div>',
@@ -838,18 +865,17 @@
     }
 
     const fulfillmentFilter = document.getElementById('fulfillment-filter');
-    const _applyFilters = applyFilters;
-    applyFilters = function () {
-      _applyFilters();
-      applyFulfillmentUIFilter();
-    };
+		    const _applyFilters = applyFilters;
+		    applyFilters = function () {
+		      _applyFilters();
+		      applyFulfillmentUIFilter();
+		    };
 
-    applyFilters();
-    renderGambles();
-    discountFilter.addEventListener('input', applyFilters);
-    floorFilter.addEventListener('input', applyFilters);
-    backFilter.addEventListener('input', applyFilters);
-    aisleFilter.addEventListener('change', applyFilters);
+		    applyFilters();
+		    discountFilter.addEventListener('input', applyFilters);
+		    floorFilter.addEventListener('input', applyFilters);
+		    backFilter.addEventListener('input', applyFilters);
+		    aisleFilter.addEventListener('change', applyFilters);
     storeFilter.addEventListener('change', applyFilters);
     if (fulfillmentFilter) fulfillmentFilter.addEventListener('change', applyFilters);
   </script>
