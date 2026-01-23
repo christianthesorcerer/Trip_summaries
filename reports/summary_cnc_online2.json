@@ -60,6 +60,34 @@
         "checked_at": "2026-01-23T10:52:56.444Z",
         "reason": "SKIP_WALMART_NAV=1"
       }
+    },
+    {
+      "price": 14.5,
+      "floor": 2,
+      "back": 0,
+      "aisles": "N/A",
+      "storeLine": "#2765 - Los Fresnos (44.9 mi)",
+      "address": "1004 W Ocean Boulevard, 78566",
+      "raw": "Close\nWF3CB Frigidaire Refrigerator Water Filter for Water and Ice, 200 Gallons\nSort by:\nPrice (Low to High)\n$14.50\nFloor:\n2\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$30.00\nFloor:\n15\nBack:\n0\nAisles: F9-4\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$56.00\nFloor:\n3\nBack:\n0\nAisles: I37-6\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$56.00\nFloor:\n7\nBack:\n0\nAisles: I5-1\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$56.00\nFloor:\n3\nBack:\n0\nAisles: I6-4\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$56.00\nFloor:\n3\nBack:\n0\nAisles: L10-5\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$56.00\nFloor:\n2\nBack:\n0\nAisles: L7-4\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$56.00\nFloor:\n1\nBack:\n0\nAisles: L8-1\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$56.00\nFloor:\n3\nBack:\n0\nAisles: I6-1\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$56.00\nFloor:\n8\nBack:\n30\nAisles: I19-1\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$56.00\nFloor:\n1\nBack:\n0\nAisles: I6-1\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$56.00\nFloor:\n2\nBack:\n0\nAisles: P8-3\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$56.00\nFloor:\n2\nBack:\n0\nAisles: L15-12\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$56.00\nFloor:\n2\nBack:\n0\nAisles: O10-1\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$56.00\nFloor:\n3\nBack:\n0\nAisles: I11-1\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$56.00\nFloor:\n2\nBack:\n0\nAisles: I13-3\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$56.00\nFloor:\n3\nBack:\n0\nAisles: L31-8\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$56.00\nFloor:\n11\nBack:\n12\nAisles: I10-11\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$14.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$40.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$40.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$40.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$40.94\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\n$56.00\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\nStore Locations Map\nGo Back",
+      "storeId": "2765",
+      "itemId": "318287785",
+      "sourceLink": "https://www.walmart.com/ip/WF3CB-Frigidaire-Refrigerator-Water-Filter/318287785",
+      "marterPrice": 52.99,
+      "discountPct": 72.64,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "012505467554",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "2765",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T10:53:46.065Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
     }
   ],
   "lowNAGambles": [
