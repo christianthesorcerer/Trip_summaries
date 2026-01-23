@@ -9491,6 +9491,566 @@
         "checked_at": "2026-01-23T23:42:29.364Z",
         "reason": "SKIP_WALMART_NAV=1"
       }
+    },
+    {
+      "price": 10.48,
+      "floor": 11,
+      "back": 4,
+      "aisles": "D26-4",
+      "storeLine": "#1958 - Rio Grande City (39.2 mi)",
+      "address": "4534 E Us Highway 83, 78582",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1958",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "1958",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 12,
+      "back": 10,
+      "aisles": "C28-200, C24-2",
+      "storeLine": "#3886 - Edinburg (8.0 mi)",
+      "address": "4101 S Mccoll Rd, 78539",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3886",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "3886",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 9,
+      "back": 0,
+      "aisles": "D23-5",
+      "storeLine": "#429 - Edinburg (10.4 mi)",
+      "address": "1724 W University Dr, 78539",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "429",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "429",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 3,
+      "back": 14,
+      "aisles": "D25-6",
+      "storeLine": "#456 - Brownsville (44.5 mi)",
+      "address": "3500 W Alton Gloor Blvd, 78520",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "456",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "456",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 14,
+      "back": 2,
+      "aisles": "D19-6",
+      "storeLine": "#2763 - Donna (10.8 mi)",
+      "address": "900 N Salinas Boulevard, 78537",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2763",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "2763",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 21,
+      "back": 0,
+      "aisles": "D18-7",
+      "storeLine": "#3567 - Hidalgo (2.0 mi)",
+      "address": "3000 S Jackson Rd, 78557",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3567",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "3567",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 9,
+      "back": 1,
+      "aisles": "D22-1",
+      "storeLine": "#5809 - Edinburg (9.0 mi)",
+      "address": "2812 S Expressway 281, 78542",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "5809",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "5809",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 12,
+      "back": 3,
+      "aisles": "D26-5",
+      "storeLine": "#5808 - Elsa (16.5 mi)",
+      "address": "411 South Broadway Street, 78543",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "5808",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "5808",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 17,
+      "back": 0,
+      "aisles": "D14-1",
+      "storeLine": "#2765 - Los Fresnos (44.9 mi)",
+      "address": "1004 W Ocean Boulevard, 78566",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "2765",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "2765",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 12,
+      "back": 1,
+      "aisles": "D22-5",
+      "storeLine": "#595 - Harlingen (30.6 mi)",
+      "address": "1801 W Lincoln St, 78552",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "595",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "595",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 12,
+      "back": 8,
+      "aisles": "D8-6",
+      "storeLine": "#452 - Mcallen (6.7 mi)",
+      "address": "2800 W Nolana Ave, 78504",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "452",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "452",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 4,
+      "back": 14,
+      "aisles": "F15-6",
+      "storeLine": "#4508 - Penitas (15.9 mi)",
+      "address": "1705 Expressway 83, 78576",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "4508",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "4508",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 8,
+      "back": 3,
+      "aisles": "D27-7",
+      "storeLine": "#397 - Mcallen (2.5 mi)",
+      "address": "1200 E Jackson Ave, 78503",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "397",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "397",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 14,
+      "back": 0,
+      "aisles": "C24-6",
+      "storeLine": "#395 - Mission (5.6 mi)",
+      "address": "2410 E Expressway 83, 78572",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "395",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "395",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 4,
+      "back": 5,
+      "aisles": "D7-8",
+      "storeLine": "#1041 - Weslaco (13.9 mi)",
+      "address": "1310 N Texas Blvd, 78599",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1041",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "1041",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 14,
+      "back": 0,
+      "aisles": "D14-200, D12-8",
+      "storeLine": "#1296 - San Benito (35.7 mi)",
+      "address": "1126 W Us Highway 77, 78586",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1296",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "1296",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 4,
+      "back": 6,
+      "aisles": "D8-5",
+      "storeLine": "#3320 - Palmhurst (10.0 mi)",
+      "address": "215 E Mile 3 Rd, 78573",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3320",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "3320",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 19,
+      "back": 4,
+      "aisles": "D24-6",
+      "storeLine": "#1000 - Brownsville (48.1 mi)",
+      "address": "2721 Boca Chica Blvd, 78521",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1000",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "1000",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 4,
+      "back": 6,
+      "aisles": "D24-6",
+      "storeLine": "#4112 - Brownsville (47.3 mi)",
+      "address": "2205 Ruben Torres Sr Blvd, 78526",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "4112",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "4112",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10.48,
+      "floor": 12,
+      "back": 1,
+      "aisles": "D24-5",
+      "storeLine": "#5165 - Alamo (5.5 mi)",
+      "address": "1421 Frontage Rd, 78516",
+      "raw": "Close\nWrangler Men's Cushion Crew Socks, Work Socks for Men, Black, 6 Pack\nSort by:\nPrice (Low to High)\n$10.48\nFloor:\n11\nBack:\n4\nAisles: D26-4\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$10.48\nFloor:\n12\nBack:\n10\nAisles: C28-200, C24-2\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$10.48\nFloor:\n9\nBack:\n0\nAisles: D23-5\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$10.48\nFloor:\n3\nBack:\n14\nAisles: D25-6\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$10.48\nFloor:\n14\nBack:\n2\nAisles: D19-6\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$10.48\nFloor:\n21\nBack:\n0\nAisles: D18-7\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$10.48\nFloor:\n9\nBack:\n1\nAisles: D22-1\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.48\nFloor:\n12\nBack:\n3\nAisles: D26-5\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$10.48\nFloor:\n17\nBack:\n0\nAisles: D14-1\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D22-5\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$10.48\nFloor:\n12\nBack:\n8\nAisles: D8-6\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$10.48\nFloor:\n4\nBack:\n14\nAisles: F15-6\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$10.48\nFloor:\n8\nBack:\n3\nAisles: D27-7\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: C24-6\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$10.48\nFloor:\n4\nBack:\n5\nAisles: D7-8\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$10.48\nFloor:\n14\nBack:\n0\nAisles: D14-200, D12-8\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D8-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.48\nFloor:\n19\nBack:\n4\nAisles: D24-6\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$10.48\nFloor:\n4\nBack:\n6\nAisles: D24-6\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\n$10.48\nFloor:\n12\nBack:\n1\nAisles: D24-5\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\nOut of Stock\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$10.48\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "5165",
+      "itemId": "786352918",
+      "sourceLink": "https://www.walmart.com/ip/Wrangler-Men-s-Cushion-Crew-Socks-Work-Socks-for-Men-Black-6-Pack/786352918",
+      "marterPrice": 27.99,
+      "discountPct": 62.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": false
+      },
+      "upc": "190009314625",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "5165",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T23:46:39.024Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
     }
   ],
   "lowNAGambles": [
