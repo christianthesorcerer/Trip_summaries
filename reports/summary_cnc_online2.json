@@ -7856,6 +7856,159 @@
         "checked_at": "2026-01-23T18:36:26.535Z",
         "reason": "SKIP_WALMART_NAV=1"
       }
+    },
+    {
+      "price": 8,
+      "floor": 10,
+      "back": 0,
+      "aisles": "I9-7, I9-3",
+      "storeLine": "#3320 - Palmhurst (10.0 mi)",
+      "address": "215 E Mile 3 Rd, 78573",
+      "raw": "Close\nNinjombie Action Figure - Scorchstrike, Ninja Zombie with Slime, Ages 3+\nSort by:\nPrice (Low to High)\n$8.00\nFloor:\n10\nBack:\n0\nAisles: I9-7, I9-3\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$9.00\nFloor:\n11\nBack:\n0\nAisles: G36-3\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$10.00\nFloor:\n30\nBack:\n0\nAisles: L3-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$13.97\nFloor:\n2\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$14.97\nFloor:\n4\nBack:\n0\nAisles: L15-200\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$14.97\nFloor:\n15\nBack:\n0\nAisles: BK1-21\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$14.97\nFloor:\n10\nBack:\n0\nAisles: GM2-2\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$14.97\nFloor:\n12\nBack:\n0\nAisles: GM2-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$14.97\nFloor:\n8\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$14.97\nFloor:\n8\nBack:\n0\nAisles: L12-100\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$14.97\nFloor:\n8\nBack:\n0\nAisles: L6-100\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$14.97\nFloor:\n16\nBack:\n0\nAisles: I6-200\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$14.97\nFloor:\n16\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$14.97\nFloor:\n10\nBack:\n0\nAisles: I13-9, I12-2\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\nOut of Stock\n\n$14.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$14.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$14.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$14.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$17.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$17.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$17.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$17.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$17.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$17.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3320",
+      "itemId": "16341067482",
+      "sourceLink": "https://www.walmart.com/ip/NINJOBIE-SCORCHSTK/16341067482",
+      "marterPrice": 14.97,
+      "discountPct": 46.56,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B0DLYPNXMZ",
+        "title": "Ninjombie Action Figure - Scorchstrike, Boys Action Ninja Zombie Slime Monster Action Figure, Ages 6 +",
+        "price": 14.97,
+        "data": {
+          "buyBox": 14.97,
+          "amazon": 14.97,
+          "newPrice": 14.97,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 22,
+          "newOos90": 21,
+          "liveOffers": {
+            "fba": 2,
+            "fbm": 0
+          },
+          "newOfferCount": 2,
+          "salesRankCurrent": 79,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": null
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0DLYPNXMZ"
+      },
+      "upc": "035051565789",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "3320",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T18:37:07.213Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 9.5,
+      "floor": 7,
+      "back": 0,
+      "aisles": "I9-8, I9-5",
+      "storeLine": "#3320 - Palmhurst (10.0 mi)",
+      "address": "215 E Mile 3 Rd, 78573",
+      "raw": "Close\nDeluxe Ninjombie Action Figure - Jonin Knight, Ninja Zombie with Slime, Ages 3+\nSort by:\nPrice (Low to High)\n$9.50\nFloor:\n7\nBack:\n0\nAisles: I9-8, I9-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.00\nFloor:\n2\nBack:\n0\nAisles: L3-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.00\nFloor:\n5\nBack:\n0\nAisles: G36-4\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$18.97\nFloor:\n4\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$19.97\nFloor:\n5\nBack:\n0\nAisles: L15-200\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$19.97\nFloor:\n15\nBack:\n0\nAisles: BK1-21\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$19.97\nFloor:\n10\nBack:\n0\nAisles: GM2-2\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$19.97\nFloor:\n9\nBack:\n0\nAisles: GM2-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$19.97\nFloor:\n11\nBack:\n0\nAisles: L12-100\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$19.97\nFloor:\n6\nBack:\n0\nAisles: L6-100\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$19.97\nFloor:\n3\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$19.97\nFloor:\n12\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$19.97\nFloor:\n13\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$19.97\nFloor:\n12\nBack:\n0\nAisles: I12-2\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\nOut of Stock\n\n$19.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$19.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$19.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$19.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "3320",
+      "itemId": "16322409096",
+      "sourceLink": "https://www.walmart.com/ip/NINJOMBIE-JONIN-KNGT/16322409096",
+      "marterPrice": 19.97,
+      "discountPct": 52.43,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B0DLY68FGD",
+        "title": "Ninjombie Deluxe Action Figure - Jonin Knight, Boys Action Ninja Zombie Slime Action Figure, Ages 6 +",
+        "price": 90,
+        "data": {
+          "buyBox": 180,
+          "amazon": 180,
+          "newPrice": 90,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 100,
+          "newOos90": 15,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": 378,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": null
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0DLY68FGD"
+      },
+      "upc": "035051555513",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "3320",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T18:37:40.405Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
+    },
+    {
+      "price": 10,
+      "floor": 2,
+      "back": 0,
+      "aisles": "L3-3",
+      "storeLine": "#1296 - San Benito (35.7 mi)",
+      "address": "1126 W Us Highway 77, 78586",
+      "raw": "Close\nDeluxe Ninjombie Action Figure - Jonin Knight, Ninja Zombie with Slime, Ages 3+\nSort by:\nPrice (Low to High)\n$9.50\nFloor:\n7\nBack:\n0\nAisles: I9-8, I9-5\n\n#3320 - Palmhurst (10.0 mi)\n\n215 E Mile 3 Rd, 78573\n\n$10.00\nFloor:\n2\nBack:\n0\nAisles: L3-3\n\n#1296 - San Benito (35.7 mi)\n\n1126 W Us Highway 77, 78586\n\n$15.00\nFloor:\n5\nBack:\n0\nAisles: G36-4\n\n#5809 - Edinburg (9.0 mi)\n\n2812 S Expressway 281, 78542\n\n$18.97\nFloor:\n4\nBack:\n0\nAisles: N/A\n\n#429 - Edinburg (10.4 mi)\n\n1724 W University Dr, 78539\n\n$19.97\nFloor:\n5\nBack:\n0\nAisles: L15-200\n\n#3886 - Edinburg (8.0 mi)\n\n4101 S Mccoll Rd, 78539\n\n$19.97\nFloor:\n15\nBack:\n0\nAisles: BK1-21\n\n#456 - Brownsville (44.5 mi)\n\n3500 W Alton Gloor Blvd, 78520\n\n$19.97\nFloor:\n10\nBack:\n0\nAisles: GM2-2\n\n#2763 - Donna (10.8 mi)\n\n900 N Salinas Boulevard, 78537\n\n$19.97\nFloor:\n9\nBack:\n0\nAisles: GM2-1\n\n#3567 - Hidalgo (2.0 mi)\n\n3000 S Jackson Rd, 78557\n\n$19.97\nFloor:\n11\nBack:\n0\nAisles: L12-100\n\n#452 - Mcallen (6.7 mi)\n\n2800 W Nolana Ave, 78504\n\n$19.97\nFloor:\n6\nBack:\n0\nAisles: L6-100\n\n#397 - Mcallen (2.5 mi)\n\n1200 E Jackson Ave, 78503\n\n$19.97\nFloor:\n3\nBack:\n0\nAisles: N/A\n\n#595 - Harlingen (30.6 mi)\n\n1801 W Lincoln St, 78552\n\n$19.97\nFloor:\n12\nBack:\n0\nAisles: N/A\n\n#1041 - Weslaco (13.9 mi)\n\n1310 N Texas Blvd, 78599\n\n$19.97\nFloor:\n13\nBack:\n0\nAisles: N/A\n\n#1000 - Brownsville (48.1 mi)\n\n2721 Boca Chica Blvd, 78521\n\n$19.97\nFloor:\n12\nBack:\n0\nAisles: I12-2\n\n#4112 - Brownsville (47.3 mi)\n\n2205 Ruben Torres Sr Blvd, 78526\n\nOut of Stock\n\n$19.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5808 - Elsa (16.5 mi)\n\n411 South Broadway Street, 78543\n\n$19.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#4508 - Penitas (15.9 mi)\n\n1705 Expressway 83, 78576\n\n$19.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#395 - Mission (5.6 mi)\n\n2410 E Expressway 83, 78572\n\n$19.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#5165 - Alamo (5.5 mi)\n\n1421 Frontage Rd, 78516\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#1958 - Rio Grande City (39.2 mi)\n\n4534 E Us Highway 83, 78582\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#2765 - Los Fresnos (44.9 mi)\n\n1004 W Ocean Boulevard, 78566\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6159 - Weslaco (13.6 mi)\n\n1600 S Texas Blvd, 78596\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6786 - Mcallen (7.4 mi)\n\n5700 N 23rd Street, 78504\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6850 - Mission (7.5 mi)\n\n1006 N Bryan Road, 78572\n\n$24.97\nFloor:\n0\nBack:\n0\nAisles: N/A\n\n#6098 - Mcallen (5.8 mi)\n\n800 East Nolana Ave, 78501\n\nStore Locations Map\nGo Back",
+      "storeId": "1296",
+      "itemId": "16322409096",
+      "sourceLink": "https://www.walmart.com/ip/NINJOMBIE-JONIN-KNGT/16322409096",
+      "marterPrice": 19.97,
+      "discountPct": 49.92,
+      "pass": true,
+      "lowNAGamble": false,
+      "keepa": {
+        "found": true,
+        "asin": "B0DLY68FGD",
+        "title": "Ninjombie Deluxe Action Figure - Jonin Knight, Boys Action Ninja Zombie Slime Action Figure, Ages 6 +",
+        "price": 90,
+        "data": {
+          "buyBox": 180,
+          "amazon": 180,
+          "newPrice": 90,
+          "newAvg90": 90,
+          "newFbaAvg90": 3,
+          "newFbmCurrent": 3,
+          "buyBoxOos90": null,
+          "amazonOos90": 100,
+          "newOos90": 15,
+          "liveOffers": {
+            "fba": null,
+            "fbm": null
+          },
+          "newOfferCount": null,
+          "salesRankCurrent": 378,
+          "salesRankAvg30": 30,
+          "boughtInPastMonth": null
+        },
+        "keepaUrl": "https://keepa.com/#!product/1-B0DLY68FGD"
+      },
+      "upc": "035051555513",
+      "fulfillment": {
+        "status": "SKIPPED",
+        "store_id": "1296",
+        "pickup": null,
+        "delivery": null,
+        "checked_at": "2026-01-23T18:37:40.405Z",
+        "reason": "SKIP_WALMART_NAV=1"
+      }
     }
   ],
   "lowNAGambles": [
